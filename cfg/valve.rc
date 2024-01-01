@@ -1,0 +1,16 @@
+// load the base configuration
+//exec default.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+exec config.cfg
+//
+// stuff command line statements
+//
+stuffcmds
+
+// display the startup level
+// UNCOMMENT THIS IF YOU WANT TO SEE THE BACKGROUND MAP
+//startupmenu
+exec required.cfg; exec logo.cfg

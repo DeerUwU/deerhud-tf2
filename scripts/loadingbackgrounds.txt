@@ -1,0 +1,12 @@
+"Images"
+{
+	"normal"
+	{
+		"file"	"../console/dreams_1024x"
+	}
+	
+	"widescreen"
+	{
+		"file"	"../console/dreams_1024x"
+	}
+}

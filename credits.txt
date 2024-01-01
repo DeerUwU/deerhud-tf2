@@ -1,0 +1,14 @@
+﻿- vhs custom font: mix bewtween 
+https://www.dafont.com/de/vcr-osd-mono.font
+https://www.dafont.com/de/easvhs.font
+
+- nodding deer gif:
+sadly i dont know who made it :(
+
+-some UI sounds:
+undertale/deltarune
+
+-vtfpreload.res by niterunx https://github.com/Niterux/
+-some assets taken from xhud by papapeach
+
+all other custom assets were created by me.

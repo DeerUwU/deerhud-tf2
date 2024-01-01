@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\misc\hud_obj_status_sentry_2"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}

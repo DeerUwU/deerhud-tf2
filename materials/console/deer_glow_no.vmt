@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "console/deer_glow_no"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+	"%keywords" "tf"
+}

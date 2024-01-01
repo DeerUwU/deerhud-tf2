@@ -1,0 +1,12 @@
+"chapters"
+{
+	1	"red_night_bg"
+	2	"deer_cherryblossom"
+	3	"pondy"
+}
+"BackgroundMaps"
+{
+	1	"red_night_bg"
+	2	"deer_cherryblossom"
+	3	"pondy"
+}

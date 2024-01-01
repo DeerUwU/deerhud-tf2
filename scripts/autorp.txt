@@ -1,0 +1,914 @@
+"autorp.txt"
+{
+	"prepended_words"
+	{	
+		"meow, " 1
+	}
+	
+	"appended_words"
+	{
+		", meow" 1
+
+
+	}
+	
+	"word_replacements"
+	{
+		"1"
+		{
+			"prev"	"it"
+			"word"	"is"
+			"replacement"	"it is"
+		}
+		
+		"1"
+		{
+			"prev"	"it"
+			"word"	"was"
+			"replacement"	"it was"
+		}
+
+		"1"
+		{
+			"prev"	"it"
+			"word"	"would"
+			"replacement"	"'it would"
+		}
+
+		"1"
+		{
+			"prev"	"it"
+			"word"	"will"
+			"replacement"	"'it will"
+		}
+
+		"1"
+		{
+			"prev"	"it"
+			"word"	"were"
+			"replacement"	"'it were"
+		}
+
+		"1"
+		{
+			"prev"	"shall"
+			"word"	"not"
+			"replacement"	"shall not"
+		}
+
+		"1"
+		{
+			"prev"	"will"
+			"word"	"not"
+			"replacement"	"will not"
+		}
+		
+		"1"
+		{
+			"prev"	"over"
+			"word"  "there"
+			"replacement"	 "over there"
+		}
+		
+		"1"
+		{
+			"prev" "in"
+			word "the"
+			chance 2
+			"replacement"	"in the"
+		}
+		
+		"1"
+		{
+			"prev" "thank"
+			"word" "you"
+			"replacement"	"thx"
+			"replacement"	"thamk"
+
+		}
+
+		"1"
+		{
+			"word"	"you"
+			"word"	"u"
+			chance 2
+			"replacement"	 "u"
+
+		}
+
+		"1"
+		{
+			"word"	"are"
+			"replacement"	 "are"
+
+		}
+
+		"1"
+		{
+			"word"	"god"
+			"replacement"	 "god"
+
+		}
+
+		"1"
+		{
+			"word"	"godadj"
+			"replacement"	 "guh"
+		}
+
+		"1"
+		{
+			"word"	"bodypart"
+			"replacement"	 "bodypart"
+		}
+
+		"1"
+		{
+			"word"	"bodyadj"
+			"replacement"	"Esoteric"
+		}
+
+
+		"1"
+		{
+			"word"	"lol"
+			"replacement"	 "lol"
+
+		}
+
+		"1"
+		{
+			"word"	"killed"
+			"replacement"	 "killed"
+
+		}
+		"1"
+		{
+			"word"	"beaten"
+			"replacement"	 "beaten"
+
+		}
+
+		"1"
+		{
+			"word"	"goodbye"
+			"word"	"bye"
+			"word"	"seeya"
+			"word"	"goodnight"
+			"replacement"	 "bai"
+		}
+
+		"1"
+		{
+			"word"	"idiot"
+			"word"	"fool"
+			"word"	"bastard"
+			"word_plural"	"idiots"
+			"word_plural"	"fools"
+			"word_plural"	"bastards"
+			
+			"prepend_count"	"2"
+			"replacement_prepend"	"silly"
+			"replacement"	 "dummy"
+			"replacement_plural"	"dummies"
+		}
+
+		"1"
+		{
+			"word"	"yes"
+			"replacement"	 "ya"
+			"replacement"	 "yea"
+
+		}
+
+		"1"
+		{
+			"word"	"no"
+			"replacement"	 "naw"
+			"replacement"	 "no"
+
+		}
+
+		"1"
+		{
+			"word"	"hello"
+			"word"	"hi"
+			"replacement"	 "hai"
+			"replacement"	 "hemlo"
+		
+		}
+
+		"1"
+		{
+			"word"	"does"
+			"replacement"	 "does"
+		
+		}
+
+		"1"
+		{
+			"word"	"kill"
+			"replacement"	 "kill"
+		
+		}
+
+		"1"
+		{
+			"word"	"your"
+			"replacement"	 "your"
+		
+		}
+
+		"1"
+		{
+			"word"	"my"
+			"chance"	 2
+			"replacement"	 "my"
+		
+		}
+
+		"1"
+		{
+			"word"	"in"
+			"chance"	 2
+			"replacement"	 "in"
+		
+		}
+
+		"1"
+		{
+			"word"	"it's"
+			"chance"	 2
+			"replacement"	 "its"
+		
+		}
+
+		"1"
+		{
+			"word"	"the"
+			"chance"	 2
+			"replacement"	 "the"
+		
+		}
+
+		"1"
+		{
+			"word"	"joke"
+			"replacement"	 "joke"
+		
+		}
+
+		"1"
+		{
+			"word"	"go"
+			"chance"	 2
+			"replacement"	 ""
+			"replacement"	 "go"
+		
+		}
+
+		"1"
+		{
+			"word"	"will"
+			"chance"	 2
+			"replacement"	 "will"
+		
+		}
+
+		"1"
+		{
+			"word"	"gold"
+			"replacement"	 "gold"
+		
+		}
+		"1"
+		{
+			"word"	"money"
+			"replacement"	 "money"
+		
+		}
+
+		"1"
+		{
+			"word"	"balls"
+			"replacement"	"balls"
+
+		}
+
+
+		"1"
+		{
+			"word"	"water"
+			"replacement"	 "water"
+		}
+
+		"1"
+		{
+			"word"	"food"
+			"replacement"	 "food"
+		
+		}
+
+		"1"
+		{
+			"word"	"afk"
+			"replacement"	 "afk"
+
+		
+		}
+
+		"1"
+		{
+			"word"	"aggro"
+			"replacement"	 "aggro"
+		
+		}
+
+		"1"
+		{
+			"word"	"town"
+			"replacement"	 "town"
+		}
+		"1"
+		{
+			"word"	"village"
+			"replacement"	 "village"
+		}
+		"1"
+		{
+			"word"	"home"
+			"replacement"	 "home"
+		}
+
+		"1"
+		{
+			"word"	"sell"
+			"replacement"	 "sell"
+		
+		}
+
+		"1"
+		{
+			"word"	"buy"
+			"replacement"	 "buy"
+
+		
+		}
+
+		"1"
+		{
+			"word"	"debuff"
+			"replacement"	 "debuff"
+		
+		}
+
+		"1"
+		{
+			"word"	"map"
+			"replacement"	 "map"
+		
+		}
+
+		"1"
+		{
+			"word"	"between"
+			"replacement"	 "betwixt"
+		
+		}
+
+		"1"
+		{
+			"word"	"thank"
+			"word"	"thx"
+			"word_plural"	"thank"
+			"replacement"	"thx"
+		}
+
+		"1"
+		{
+			"word"	"please"
+			"replacement"	 "please"
+		
+		}
+
+		"1"
+		{
+			"word"	"ok"
+			"replacement"	 "as you will"
+			"replacement"	 "agreed"
+			"replacement"	 "well said"
+			"replacement"	 "just so"
+		
+		}
+
+		"1"
+		{
+			"word"	"spy"
+			"word_plural"	"spies"
+			"word_plural"	"spys"
+			"replacement"	 "spy"
+			"replacement_plural"	 "spies"
+		}
+
+		"1"
+		{
+			"word"	"soldier"
+			"word"	"solly"
+			"word_plural"	"soldiers"
+			"replacement"	 "soldier"
+			"replacement_plural"	"solly"
+		}
+		
+		"1"
+		{
+			"word"	"demoman"
+			"word_plural"	"demomen"
+			"word_plural"	"demomens"
+			"word_plural"	"demomans"
+			"replacement"	 "demoman"
+			"replacement_plural"	"demomen"
+		}
+
+		"1"
+		{
+			"word"	"medic"
+			"word_plural"	"medics"
+			"replacement"	 "medic"
+			"replacement_plural"	 "medics"
+		}
+		
+		"1"
+		{
+			"word"	"pyro"
+			"word_plural"	"pyros"
+			"replacement"	 "pyro"
+			"replacement_plural"	 "pyros"
+		}
+
+		"1"
+		{
+			"word"	"sniper"
+			"word_plural"	"snipers"
+			"replacement"	 "sniper"
+			"replacement_plural"	"snipers"
+		}
+
+		"1"
+		{
+			"word"	"scout"
+			"word_plural"	"scouts"
+			"chance"	 2
+			"replacement"	 "scout"
+			"replacement_plural"	 "scouts"
+		}
+		
+		"1"
+		{
+			"word"	"heavy"
+			"word_plural"	"heavies"
+			"replacement_plural"	 "heavies"
+		}
+		
+		"1"
+		{
+			"word"	"engineer"
+			"word"	"engy"
+			"word_plural"	"engineers"
+			"word_plural"	"engys"
+			"word_plural"	"engies"
+			"replacement"	 "engineer"
+			"replacement_plural"	 "engineers"
+		}
+
+		"1"
+		{
+			"word"	"civilian"
+			"word"	"civ"
+			"word"	"vip"
+			"word_plural"	"civilians"
+			"word_plural"	"civs"
+			"word_plural"	"vips"
+			"replacement"	 "civ"
+			"replacement_plural"	 "civs"
+		}
+		
+		"1"
+		{
+			"word"	"is"
+			"chance"	 2
+			"replacement"	 "is"
+		
+		}
+
+		"1"
+		{
+			"word"	"party"
+			"word"	"group"
+			"word_plural"	"parties"
+			"word_plural"	"groups"
+			"replacement"	 "party"
+			"replacement_plural"	"groups"
+		
+		}
+
+		"1"
+		{
+			"word"	"lfg"
+			"replacement_prepend"	"I am seeking"
+			"replacement"	 "lfg"
+		
+		}
+
+		"1"
+		{
+			"word"	"newbie"
+			"word"	"newb"
+			"word"	"noob"
+			"word"	"nub"
+			"word"	"lowbie"
+			"word"	"beginner"
+			"word_plural"	"newbies"
+			"word_plural"	"newbs"
+			"word_plural"	"noobs"
+			"word_plural"	"nubs"
+			"word_plural"	"lowbies"
+			"word_plural"	"beginners"
+			"replacement"	 "noobie"
+			"replacement_plural"	"noobs"
+		
+		}
+
+		"1"
+		{
+			"word"	"level"
+			"word_plural"	"levels"
+			"chance"	 2
+			"replacement"	 "level"
+		
+		}
+
+		"1"
+		{
+			"word"	"rofl"
+			"word"	"roflmao"
+			"word"	"roflol"
+			"replacement"	 "rofl"
+			
+		
+		}
+
+		"1"
+		{
+			"word"	"wait"
+			"word_plural"	"waits"
+			"chance"	 2
+			"replacement"	 "wait"
+			"replacement_plural"	"waits"
+		
+		}
+
+		"1"
+		{
+			"word"	"need"
+			"word_plural"	"needs"
+			"chance"	 2
+			"replacement"	 "need"
+			"replacement_plural"	"needs"
+
+		}
+
+		"1"
+		{
+			"word"	"even"
+			"chance"	 2
+			"replacement"	 "even"
+
+		}
+
+		"1"
+		{
+			"word"	"never"
+			"chance"	 2
+			"replacement"	 "never"
+
+		}
+
+		"1"
+		{
+			"word"	"over"
+			"chance"	 2
+			"replacement"	 "over"
+
+		}
+
+		"1"
+		{
+			"word"	"before"
+			"chance"	 2
+			"replacement"	 "before"
+
+		}
+
+		"1"
+		{
+			"word"	"unless"
+			"chance"	 2
+			"replacement"	 "unless"
+
+		}
+
+		"1"
+		{
+			"word"	"haha"
+			"word"	"hehe"
+			"word"	"heh"
+			"word"	"hah"
+			"replacement"	 "haha"
+
+		}
+
+		"1"
+		{
+			"word"	"shop"
+			"word"	"store"
+			"word_plural"	"shops"
+			"word_plural"	"stores"
+			"replacement"	 "shop"
+			"replacement"	 "store"
+
+
+		}
+
+		"1"
+		{
+			"word"	"vendor"
+			"word"	"seller"
+			"word_plural"	"vendors"
+			"word_plural"	"salesmen"
+			"replacement"	 "vendor"
+			"replacement"	 "seller"
+			"replacement_plural"	"vendors"
+			"replacement_plural"	"salesmen"
+
+		}
+
+		"1"
+		{
+			"word"	"friend"
+			"word"	"buddy"
+			"word"	"pal"
+			"word"	"mate"
+			"word_plural"	"friends"
+			"word_plural"	"buddies"
+			"word_plural"	"pals"
+			"word_plural"	"mates"
+			"replacement"	 "friend"
+			"replacement_plural"	"friends"
+
+		}
+
+		"1"
+		{
+			"word"	"teh"
+			"replacement"	 "teh"
+
+		}
+
+		"1"
+		{
+			"word"	"assist"
+			"replacement"	 "assist"
+
+		}
+
+		"1"
+		{
+			"word"	"could"
+			"chance"	 2
+			"replacement"	 "could"
+
+		}
+
+		"1"
+		{
+			"word"	"would"
+			"chance"	 2
+			"replacement"	 "would"
+
+		}
+
+		"1"
+		{
+			"word"	"sure"
+			"chance"	 3
+			"replacement"	 "sure"
+
+		}
+
+		"1"
+		{
+			"word"	"maybe"
+			"chance"	 3
+			"replacement"	 "maybe"
+			"replacement"	 "perchance"
+
+		}
+
+		"1"
+		{
+			"word"	"girl"
+			"word"	"woman"
+			"word_plural"	"girls"
+			"word_plural"	"women"
+			"replacement"	 "lass"
+			"replacement"	 "lady"
+			"replacement"	 "maid"
+			"replacement"	 "maiden"
+			"replacement"	 "girl
+			"replacement"	 "woman"
+			"replacement_plural"	"girls"
+			"replacement_plural"	"women"
+
+		}
+
+		"1"
+		{
+			"word"	"later"
+			"chance"	 2
+			"replacement"	 "later"
+
+		}
+
+		"1"
+		{
+			"word"	"often"
+			"chance"	 2
+			"replacement"	 "often"
+
+		}
+
+		"1"
+		{
+			"word"	"really"
+			"chance"	 2
+			"replacement"	 "indeed"
+			"replacement"	 "really"
+		}
+		
+		"1"
+		{
+			"word" "those"
+			"chance"  2
+			"replacement" "those"
+		}
+	
+		"1"
+		{
+			"word"  "here"
+			"chance"  4
+			"replacement"  "here"
+		}
+	
+		"1"
+		{
+			"word"  "enough"
+			"chance"  2
+			"replacement"  "enough"
+		}
+	
+		"1"
+		{
+			"word"  "wow"
+			"chance"  2
+			"replacement"	"wow"
+		}
+	
+		"1"
+		{
+			"word"  "child"
+			"chance"  2
+			"replacement"	  "child"
+		}
+	
+		"1"
+		{
+			"word"  "why"
+			"chance"  2
+			"replacement"	  "why"
+		}
+	
+		"1"
+		{
+			"word"  "away"
+			"chance"  2
+			"replacement"	  "away"
+		}
+	
+		"1"
+		{
+			"word"  "being"
+			"chance"  3
+			"replacement"	  "being"
+		}
+	
+		"1"
+		{
+			"word"  "of"
+			"chance"  3
+			"replacement"	  "of"
+		}
+	
+		"1"
+		{
+			"word"  "fucker"
+			"replacement"	  "fucker"
+		}
+	
+		"1"
+		{
+			"word"  "shit"
+			"replacement"	  "shit"
+		}
+	
+		"1"
+		{
+			"word"  "making"
+			"chance"  2
+			"replacement"	  "making"
+		}
+	
+		"1"
+		{
+			"word"  "though"
+			"chance"  2
+			"replacement"	  "though"
+		}
+	
+		"1"
+		{
+			"word"  "until"
+			"chance"  2
+			"replacement"	  "until"
+		}
+	
+		"1"
+		{
+			"word"	  "underneath"
+			"word"	  "beneath"
+			"chance"  2
+			"replacement"	  "beneath"
+		}
+	
+		"1"
+		{
+			"word"  "coming"
+			"chance"  2
+			"replacement"	  "coming"
+		}
+	
+		"1"
+		{
+			"word"  "walking"
+			"chance"  2
+			"replacement"	  "walking"
+		}
+	
+		"1"
+		{
+			"word"  "hunting"
+			"chance"  2
+			"replacement"	  "hunting"
+		}
+	
+		"1"
+		{
+			"word"  "bet"
+			"chance"  2
+			"replacement"	  "bet"
+		}
+
+		"1"
+		{
+			"word"	"!"
+			"chance"	 4
+			"replacement"	 "!"
+		}
+
+		"1"
+		{
+			"word"	"?"
+			"chance"	 4
+			"replacement"	 "?"
+		}
+
+		"1"
+		{
+			"word"	"flag"
+			"replacement"	 "flag"
+
+		}
+
+
+
+	}
+}

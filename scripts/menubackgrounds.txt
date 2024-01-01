@@ -1,0 +1,18 @@
+"Images"
+{
+	"normal"
+	{
+		"file"	"../console/red_night_bg"
+		"file"	"../console/deer_cherryblossom"
+		"file"	"../console/pondy"
+		"file"	"../console/blue_night_square"
+	}
+	
+	"widescreen"
+	{
+		"file"	"console/red_night_bg"
+		"file"	"console/deer_cherryblossom"
+		"file"	"console/pondy"
+		"file"	"console/blue_night_square"
+	}
+}

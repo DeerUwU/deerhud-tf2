@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\replay\thumbnails\panels\matchhud_bg"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}
