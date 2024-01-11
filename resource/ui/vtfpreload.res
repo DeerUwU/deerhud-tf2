@@ -338,6 +338,36 @@
 			"image"	"../sprites/obj_icons/icon_obj_cap_red_up"
 		}
 		
+		"CPArrowRED_Up"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"CPArrowRED_Up"
+			"visible"	"1"
+			"image"	"../sprites/obj_icons/icon_obj_cap_red_up"
+		}
+		"progress_bar"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"progress_bar"
+			"visible"	"1"
+			"image"	"progress_bar"
+		}
+		"progress_bar_blu"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"progress_bar_blu"
+			"visible"	"1"
+			"image"	"progress_bar_blu"
+		}
+		"progress_bar_red"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"progress_bar_red"
+			"visible"	"1"
+			"image"	"progress_bar_red"
+		}
+		
+		
 
 /////////////////////////////////////////////////////////////////////////////////////
 
