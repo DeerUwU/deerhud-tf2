@@ -31,7 +31,7 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"200 80 60 255"
+		"itemcountcolor"			"Deer_Pink"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	
@@ -549,7 +549,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "Deer_Pink"
 	}
 	"NoGCLabel"
 	{
@@ -567,7 +567,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "Deer_Pink"
 	}
 	"SelectLabel"
 	{
@@ -603,7 +603,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		//"fgcolor_override" "Deer_Pink"
+		"fgcolor_override" "Deer_Pink"
 	}
 	
 	"class_loadout_panel"

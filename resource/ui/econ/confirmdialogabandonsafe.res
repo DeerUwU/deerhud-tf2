@@ -1,11 +1,11 @@
-"Resource/UI/ConfirmDialogAbandonSafe.res"
+"Resource/UI/ConfirmDialogAbandonSafe.res" //leave casual
 {	
 
 	"ImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ImageBG"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"0 0 0 254"
 		"wide"			"f0"
 		"tall"			"480"
 		"scaleImage"	"1"
@@ -23,7 +23,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"0"
@@ -37,16 +36,17 @@
 		"fieldName"		"TitleLabel"
 		"font"			"VHS30"
 		"labelText"		"#ConfirmTitle"
-		"textAlignment"	"north"
+		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"324"
-		"tall"			"25"
+		"wide"			"f0"
+		"tall"			"30"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"proportionaltoparent" "0"
 	}
 	
 	"ExplanationLabel"
@@ -56,7 +56,7 @@
 		"font"			"VHS14"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
-		"xpos"			"c-100"
+		"xpos"			"cs-0.5+10" //why is it not centered wahhhh
 		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"250"
@@ -66,15 +66,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
+		"proportionaltoparent" "1"
 		//"fgcolor_override" "200 80 60 255"
 		"fgcolor_override"	"Deer_Pink"
 	}
 		
-	"CancelButton"
+	"CancelButton" //stay
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c20"
+		"xpos"			"c10"
 		"ypos"			"165"
 		"zpos"			"20"
 		"wide"			"120"
@@ -117,11 +118,11 @@
 		"actionName"	"menu_cancel"
 	}		
 
-	"ConfirmButton"
+	"ConfirmButton" //leave
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ConfirmButton"
-		"xpos"			"c-120"
+		"xpos"			"c-130"
 		"ypos"			"165"
 		"zpos"			"20"
 		"wide"			"120"

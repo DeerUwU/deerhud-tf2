@@ -869,7 +869,7 @@
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"2"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -886,7 +886,7 @@
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"Deer_Pink"
 		}
 
 		if_competitive
@@ -897,7 +897,7 @@
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"Deer_Pink"
 		}
 
 		if_readymode
@@ -958,15 +958,15 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"230"
-		"ypos"			"r55"
+		"xpos"			"9999"
+		"ypos"			"130"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../HUD/color_panel_red"
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -1029,7 +1029,7 @@
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
 		"xpos"			"231"
-		"ypos"			"r54"
+		"ypos"			"r50"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -1040,7 +1040,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"Black"
+		"fgcolor"			"Deer_Pink"
 		"proportionaltoparent"	"1"
 
 		if_competitive

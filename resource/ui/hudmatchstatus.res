@@ -340,6 +340,18 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
+		
+		"TimePanelBG"
+		{
+		"fieldName"			"TimePanelBG"
+		"ControlName"		"EditablePanel"
+		"image"					"replay/thumbnails/borders/deer_grey_filled"
+		"src_corner_height"		"20"		
+		"src_corner_width"		"20"
+		"draw_corner_width"		"8"
+		"draw_corner_height" 	"8"	
+		
+		}
 
 		if_match
 		{
@@ -358,9 +370,9 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"VHS14"
+			"font"			"VHS16"
 			"fgcolor"		"Deer_White"
-			"xpos"			"23"
+			"xpos"			"cs-0.5"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
@@ -369,6 +381,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
+			"proportionaltoparent" "1"
 
 			if_match
 			{

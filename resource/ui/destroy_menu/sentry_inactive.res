@@ -17,8 +17,6 @@
 		"labelText"		"#TF_Object_Sentry"
 		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"ItemBackground"	
@@ -30,8 +28,8 @@
 		"zpos"			"0"
 		"wide"			"98"
 		"tall"			"105"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"ProgressOffWhiteTransparent"

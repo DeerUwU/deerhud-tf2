@@ -377,13 +377,13 @@
 			"visible"	"1"
 			"image"	"../hud/cart_point_blue"
 		}
-		"CartPointBluOpaque"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"	"CartPointBluOpaque"
-			"visible"	"1"
-			"image"	"../hud/cart_point_blue_opaque"
-		}
+		// "CartPointBluOpaque"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "fieldName"	"CartPointBluOpaque"
+			// "visible"	"1"
+			// "image"	"../hud/cart_point_blue_opaque"
+		// }
 		"CartPointNeutral"
 		{
 			"ControlName"	"ImagePanel"
@@ -391,13 +391,13 @@
 			"visible"	"1"
 			"image"	"../hud/cart_point_neutral"
 		}
-		"CartPointNeutralOpaque"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"	"CartPointNeutralOpaque"
-			"visible"	"1"
-			"image"	"../hud/cart_point_neutral_opaque"
-		}
+		// "CartPointNeutralOpaque"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "fieldName"	"CartPointNeutralOpaque"
+			// "visible"	"1"
+			// "image"	"../hud/cart_point_neutral_opaque"
+		// }
 		"CartPointRed"
 		{
 			"ControlName"	"ImagePanel"
@@ -405,12 +405,34 @@
 			"visible"	"1"
 			"image"	"../hud/cart_point_red"
 		}
-		"CartPointRedOpaque"
+		// "CartPointRedOpaque"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "fieldName"	"CartPointRedOpaque"
+			// "visible"	"1"
+			// "image"	"../hud/cart_point_red_opaque"
+		// }
+		
+		"cart_home_red"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"	"CartPointRedOpaque"
+			"fieldName"	"cart_home_red"
 			"visible"	"1"
-			"image"	"../hud/cart_point_red_opaque"
+			"image"	"../hud/cart_home_red"
+		}
+		"cart_home_blue"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"cart_home_blue"
+			"visible"	"1"
+			"image"	"../hud/cart_home_blue"
+		}
+		"cart_track"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"cart_track"
+			"visible"	"1"
+			"image"	"../hud/cart_track"
 		}
 
 
@@ -605,159 +627,139 @@
 		"deer_loadingscreen"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../console/dreams_1024x"
+			"visible"		"1"
+			"image"			"../console/dreams_1024x"
 		}
 		"deer_blur"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/refract/refract_basic"
+			"visible"		"1"
+			"image"			"../vgui/replay/thumbnails/refract/refract_basic"
 		}
 		"deer_meter_brackets"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../deer/meter_brackets"
+			"visible"		"1"
+			"image"			"../deer/meter_brackets"
 		}
 		"deer_deernod"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../deernod"
+			"visible"		"1"
+			"image"			"../deernod"
 		}
 		"deer_healsign"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../healsign_deer"
+			"visible"		"1"
+			"image"			"../healsign_deer"
 		}
 		"deer_warning"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../warning_deer"
+			"visible"		"1"
+			"image"			"../warning_deer"
 		}
 		"deer_logo"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../logo/deerhud_new_2"
+			"visible"		"1"
+			"image"			"../logo/deerhud_new_2"
 		}
 		"deer_line_dotted"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/loadout_dotted_line"
+			"visible"		"1"
+			"image"			"../vgui/loadout_dotted_line"
 		}
 		"deer_line_solid"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/loadout_solid_line"
+			"visible"		"1"
+			"image"			"../vgui/loadout_solid_line"
 		}
 		"deer_ico_key"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/misc/ico_key_blank"
+			"visible"		"1"
+			"image"			"../vgui/replay/thumbnails/misc/ico_key_blank"
 		}
 		"deer_ico_sticky"
 		{
 			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/ico_sticky"
+			"visible"		"1"
+			"image"			"../vgui/ico_sticky"
+		}
+		
+		"deer_grey_filled"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"replay/thumbnails/borders/deer_grey_filled"
+		}
+		
+		"deer_underline_blu"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"replay/thumbnails/borders/underline_blu"
+		}
+		"deer_underline_red"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"replay/thumbnails/borders/underline_red"
 		}
 		
 		
-		"deer_glyph_options"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/misc/glyph_options"
-		}
-		"deer_glyph_quit"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/misc/glyph_quit"
-		}
-		"deer_icon_resume"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/misc/icon_resume"
-		}
-		"deer_glyph_items"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/misc/glyph_items"
-		}
-		"deer_glyph_chat"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/misc/glyph_chat"
-		}
-		"deer_glyph_console"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/misc/glyph_console"
-		}
-		"deer_glyph_store"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/misc/glyph_store"
-		}
-		"deer_glyph_achievements"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/replay/thumbnails/misc/glyph_achievements"
-		}
 		
-		
-		//engie buildings
-		"deer_sentry1"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/hud_obj_status_sentry_1"
-		}
-		"deer_sentry2"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/hud_obj_status_sentry_2"
-		}
-		"deer_sentry3"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/hud_obj_status_sentry_3"
-		}
-		"deer_dispenser"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/hud_obj_status_dispenser"
-		}
-		"deer_tele_entrance"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/hud_obj_status_tele_entrance"
-		}
-		"deer_tele_exit"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../vgui/hud_obj_status_tele_exit"
-		}
-		
-		
+		// "deer_glyph_options"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"	"1"
+			// "image"	"../vgui/replay/thumbnails/misc/glyph_options"
+		// }
+		// "deer_glyph_quit"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"	"1"
+			// "image"	"../vgui/replay/thumbnails/misc/glyph_quit"
+		// }
+		// "deer_icon_resume"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"	"1"
+			// "image"	"../vgui/replay/thumbnails/misc/icon_resume"
+		// }
+		// "deer_glyph_items"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"	"1"
+			// "image"	"../vgui/replay/thumbnails/misc/glyph_items"
+		// }
+		// "deer_glyph_chat"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"	"1"
+			// "image"	"../vgui/replay/thumbnails/misc/glyph_chat"
+		// }
+		// "deer_glyph_console"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"	"1"
+			// "image"	"../vgui/replay/thumbnails/misc/glyph_console"
+		// }
+		// "deer_glyph_store"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"	"1"
+			// "image"	"../vgui/replay/thumbnails/misc/glyph_store"
+		// }
+		// "deer_glyph_achievements"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"	"1"
+			// "image"	"../vgui/replay/thumbnails/misc/glyph_achievements"
+		// }
 	}
 }

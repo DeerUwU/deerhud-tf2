@@ -35,7 +35,7 @@
 		"tall"			"338"
 		"ypos"			"87"
 		"scaleImage"	"1"
-		"alpha"			"128"
+		"alpha"			"255"
 		"zpos"			"-200"
 	}
 	"MainBG"
@@ -51,7 +51,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"Deer_White_NoBG"
+		"border"		"Deer_White_Black50"
 	}	
 
 	"ScoreBG_BG"
@@ -720,7 +720,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"Deer_White_Black50"
+		"border"		"Deer_White_Black75"
 	}
 	"PlayerNameLabel"
 	{

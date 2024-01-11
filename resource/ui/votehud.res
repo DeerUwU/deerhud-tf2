@@ -395,7 +395,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"Deer_White_Black75"
 				
 		"FailedIcon"
 		{
@@ -527,8 +527,8 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"Deer_White_Black75"
-		"bgcolor_override"	"0 0 0 0"
+		"border"			"Deer_White_Black90"
+		"bgcolor_override"	"0 0 0 255"
 		"PaintBackground"	"0"
 
 		"header_font"		"ItemFontNameLarge"
@@ -545,7 +545,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"VHS20"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -645,13 +645,14 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"75"
+			//"xpos"		"75"
+			"xpos"		"9999"
 			"ypos"		"275"
 			"wide"		"100"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"0"
 			"tabPosition"	"4"
 			"labelText"		"#TF_call_vote"
@@ -660,9 +661,42 @@
 			"Command"		"CallVote"
 			"font"			"HudFontSmallBold"
 			
-			"paintbackgroundtype"	"0"
+			"paintbackgroundtype"	"2"
 			"paintbackground"		"1" //cant get border to show
-			"paintborder"			"1"
+		
+			"border_default"	"Deer_Button"
+			"border_armed"		"Deer_Button_Pressed"
+			"border_depressed" 	"Deer_Button_Pressed"
+			
+			"defaultFgColor_override"		"Deer_White"//""
+			"disabledFgColor_override" 		"Deer_Menu_Middle"
+			"armedFgColor_override"			"Deer_White"
+			"depressedFgColor_override"		"Deer_White"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_armed"		"UI/buttonrollover.wav"
+		}
+		"CallVoteButtonCustom"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"CallVoteButtonCustom"
+			"xpos"		"75"
+			"ypos"		"275"
+			"wide"		"100"
+			"tall"		"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"4"
+			"labelText"		"#TF_call_vote"
+			"textAlignment"	"center"
+			
+			"Command"		"CallVote"
+			"font"			"HudFontSmallBold"
+			
+			"paintbackgroundtype"	"2"
+			"paintbackground"		"0" //cant get border to show
 		
 			"border_default"	"Deer_Button"
 			"border_armed"		"Deer_Button_Pressed"
@@ -695,7 +729,8 @@
 			"Command"		"Close"
 			"font"			"HudFontSmallBold"
 			
-			"paintbackground"		"1"
+			"paintbackground"		"0"
+			"paintbackgroundtype"	"2"
 			
 			"border_default"	"Deer_Button"
 			"border_armed"		"Deer_Button_Pressed"

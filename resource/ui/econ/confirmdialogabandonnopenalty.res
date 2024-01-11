@@ -4,8 +4,6 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ImageBG"
-		//"image"			"replay\thumbnails\bg\blue_night_dark"
-		//"image"			"../vgui/replay/thumbnails/refract/refract_basic"
 		"fillcolor"		"0 0 0 250"
 		"wide"			"f0"
 		"tall"			"480"
@@ -23,8 +21,8 @@
 		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"border"		"Deer_White_Grey"
 	}
 	"ConfirmDialog"
@@ -57,7 +55,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"324"
+		"wide"			"f0"
 		"tall"			"30"
 		"autoResize"	"1"
 		"pinCorner"		"0"

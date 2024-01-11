@@ -16,8 +16,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Dispenser"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 	}
 	
 	"ItemBackground"	
@@ -29,8 +28,8 @@
 		"zpos"			"0"
 		"wide"			"98"
 		"tall"			"105"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"ProgressOffWhite"
@@ -101,7 +100,5 @@
 		"enabled"		"1"
 		"labelText"		"2"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

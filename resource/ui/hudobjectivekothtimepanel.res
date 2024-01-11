@@ -42,13 +42,20 @@
 			"delta_item_font"		"VHS14"
 		}
 		
+		"TimePanelBG"
+		{
+			"image"					"replay\thumbnails\borders\underline_blu"	
+			"xpos"					"cs-0.5"
+			"proportionaltoparent" 	"1"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"VHS10"
+			"font"			"VHS16"
 			"fgcolor"		"Deer_White"
-			"xpos"			"23"
+			"xpos"			"cs-0.5"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
@@ -57,6 +64,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
+			"proportionaltoparent" "1"
 
 			if_match
 			{
@@ -105,14 +113,20 @@
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
+		"TimePanelBG"
+		{
+			"image"					"replay\thumbnails\borders\underline_red"
+			"xpos"					"cs-0.5"
+			"proportionaltoparent" 	"1"			
+		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"VHS10"
+			"font"			"VHS16"
 			"fgcolor"		"Deer_White"
-			"xpos"			"23"
+			"xpos"			"cs-0.5"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
@@ -121,6 +135,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
+			"proportionaltoparent" 	"1"		
 
 			if_match
 			{

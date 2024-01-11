@@ -73,6 +73,17 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		Deer_White_Black90
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/borders/deer_white_black90"
+			"src_corner_height"		"20"		
+			"src_corner_width"		"20"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
 		
 		Deer_Grey_Filled
 		{
