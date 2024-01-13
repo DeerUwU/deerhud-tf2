@@ -351,6 +351,11 @@
 		"draw_corner_width"		"8"
 		"draw_corner_height" 	"8"	
 		
+			if_match
+			{
+				"visible"	"0"
+			}
+		
 		}
 
 		if_match
