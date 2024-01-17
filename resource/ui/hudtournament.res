@@ -1013,7 +1013,7 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"Deer_White"
 			"font"			"VHS30"
 		}
 
@@ -1028,8 +1028,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"231"
+		"font"			"VHS30"
+		"xpos"			"232"
 		"ypos"			"r50"
 		"wide"			"40"
 		"tall"			"40"
@@ -1048,7 +1048,7 @@
 		{
 			"xpos"			"cs-0.48"
 			"ypos"			"cs-0.08"
-			"font"			"HudFontGiant"
+			"font"			"VHS30"
 		}
 
 		if_readymode
