@@ -341,15 +341,15 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
-		"TimePanelBG"
+		"TimePanelBG" //countdown top before the match starts?
 		{
 		"fieldName"			"TimePanelBG"
 		"ControlName"		"EditablePanel"
-		"image"					"replay/thumbnails/borders/deer_grey_filled"
-		"src_corner_height"		"20"		
-		"src_corner_width"		"20"
-		"draw_corner_width"		"8"
-		"draw_corner_height" 	"8"	
+		"border"			"Deer_Grey_Filled"
+		"paintbackground"	"0"
+		"paintborder"		"1"
+		"visible"			"1"
+		"visible"			"1"
 		
 			if_match
 			{

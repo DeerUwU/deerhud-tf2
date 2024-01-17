@@ -41,18 +41,7 @@
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"VHS14"
 		}
-		
-		"TimePanelBG"
-		{
-			"image"					"replay\thumbnails\borders\underline_blu"	
-			"xpos"					"cs-0.5"
-			"proportionaltoparent" 	"1"
-			
-			if_match
-			{
-				"visible" "0"
-			}
-		}
+
 		
 		"TimePanelValue"
 		{
@@ -63,7 +52,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"11"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"100"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -118,27 +107,18 @@
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
-		"TimePanelBG"
-		{
-			"image"					"replay\thumbnails\borders\underline_red"
-			"xpos"					"cs-0.5"
-			"proportionaltoparent" 	"1"		
-			if_match
-			{
-				"visible" "0"
-			}
-		}
+
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"VHS16"
 			"fgcolor"		"Deer_White"
 			"xpos"			"cs-0.5"
 			"ypos"			"11"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"100"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -161,7 +141,7 @@
 		}	
 	}
 	
-	"ActiveTimerBG"
+	"ActiveTimerBG" //ugly thing highlighting the active timer
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
@@ -169,9 +149,9 @@
 		"ypos"				"9"
 		"zpos"				"1"
 		"wide"				"78"
-		"tall"				"33"
+		"tall"				"0"
 		"visible"			"0"
-		"enabled"			"1"
+		"enabled"			"0"
 		//"image"				"../hud/objectives_timepanel_active_bg"	
 		"image"				"../hud/objectives_timepanel_active_bg"	
 		"scaleImage"		"1"	

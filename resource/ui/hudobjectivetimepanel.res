@@ -2,28 +2,29 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		// "ControlName"	"EditablePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"16"
+		"xpos"			"cs-0.5"
 		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"78"
 		"tall"			"33"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		
-		"image"					"replay/thumbnails/borders/deer_grey_filled"
-		//"src_corner_height"		"20"		
-		//"src_corner_width"		"20"
-		//"draw_corner_width"		"8"
-		//"draw_corner_height" 	"8"		
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+		//"border"		"Deer_Grey_Filled"
+		"image"			"../hud/objectives_timepanel_blue_bg"	
+		//"image"			"../hud/objectives_timepanel_blue_bg"
+		// "image"					"replay/thumbnails/borders/deer_grey_filled"
 
 		if_match
 		{
 			"visible"	"0"
 		}
 	}
+	
 	"TimePanelProgressBar"
 	{
 		"ControlName"		"CTFProgressBar"
@@ -124,25 +125,7 @@
 			"font"					"HudFontSmallestBold"
 		}
 	}			
-	"SuddenDeathBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"
-		"ypos"			"31"
-		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
 
-		if_match
-		{
-			"wide"	"0"
-		}
-	}	
 	"SetupLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -168,25 +151,7 @@
 			"font"					"HudFontSmallestBold"
 		}
 	}	
-	"SetupBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SetupBG"
-		"xpos"			"16"
-		"ypos"			"31"
-		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-
-		if_match
-		{
-			"wide"	"0"
-		}
-	}
+	
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"

@@ -85,7 +85,7 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"0"
+		"xpos"					"1"
 		"ypos"					"rs1+19"
 		"zpos"			"1"
 		"wide"			"f2"
@@ -94,7 +94,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"VHS8"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 
@@ -115,7 +115,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
 		"RoundedCorners"	"0"
-		"border"		"QuickplayBorder"
+		"border"		"Deer_Black75_Edges"
 
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"

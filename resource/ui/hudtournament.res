@@ -994,7 +994,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"VHS30"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -1014,7 +1014,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
 			"fgcolor"		"TanLight"
-			"font"			"HudFontGiant"
+			"font"			"VHS30"
 		}
 
 		if_readymode

@@ -742,6 +742,20 @@
 		}
 		
 		
+		/////////// KOTH Timer backgrounds ///////////////////////
+		
+		"deer_timerbg_red"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"../hud/objectives_timepanel_red_bg"
+		}
+		"deer_timerbg_blu"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"../hud/objectives_timepanel_blue_bg"
+		}
 		
 		// "deer_glyph_options"
 		// {
