@@ -18,7 +18,6 @@
 		//"src_corner_width"		"20"
 		//"draw_corner_width"		"8"
 		//"draw_corner_height" 	"8"		
-		
 
 		if_match
 		{

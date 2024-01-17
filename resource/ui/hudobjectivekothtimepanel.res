@@ -42,12 +42,17 @@
 			"delta_item_font"		"VHS14"
 		}
 		
-		// "TimePanelBG"
-		// {
-			// "image"					"replay\thumbnails\borders\underline_blu"	
-			// "xpos"					"cs-0.5"
-			// "proportionaltoparent" 	"1"
-		// }
+		"TimePanelBG"
+		{
+			"image"					"replay\thumbnails\borders\underline_blu"	
+			"xpos"					"cs-0.5"
+			"proportionaltoparent" 	"1"
+			
+			if_match
+			{
+				"visible" "0"
+			}
+		}
 		
 		"TimePanelValue"
 		{
@@ -113,12 +118,16 @@
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
-		// "TimePanelBG"
-		// {
-			// "image"					"replay\thumbnails\borders\underline_red"
-			// "xpos"					"cs-0.5"
-			// "proportionaltoparent" 	"1"			
-		// }
+		"TimePanelBG"
+		{
+			"image"					"replay\thumbnails\borders\underline_red"
+			"xpos"					"cs-0.5"
+			"proportionaltoparent" 	"1"		
+			if_match
+			{
+				"visible" "0"
+			}
+		}
 		
 		"TimePanelValue"
 		{

@@ -961,13 +961,14 @@
 		"xpos"			"9999"
 		"ypos"			"130"
 		"zpos"			"1"
-		"wide"			"40"
+		"wide"			"0"
 		"tall"			"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../HUD/color_panel_red"
+		//"image"			"../HUD/color_panel_red"
+		"border"			"deer_grey_filled"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
