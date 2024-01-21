@@ -142,7 +142,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CreateServerEntry"
 		"xpos"			"0"
-		"ypos"			"253"
+		"ypos"			"3"
 		"tall"			"54"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
