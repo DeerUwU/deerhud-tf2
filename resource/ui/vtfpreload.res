@@ -407,13 +407,13 @@
 			"visible"	"1"
 			"image"	"../hud/cart_point_blue"
 		}
-		// "CartPointBluOpaque"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "fieldName"	"CartPointBluOpaque"
-			// "visible"	"1"
-			// "image"	"../hud/cart_point_blue_opaque"
-		// }
+		"CartPointBluOpaque"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"CartPointBluOpaque"
+			"visible"	"1"
+			"image"	"../hud/cart_point_blue_opaque"
+		}
 		"CartPointNeutral"
 		{
 			"ControlName"	"ImagePanel"
@@ -421,13 +421,13 @@
 			"visible"	"1"
 			"image"	"../hud/cart_point_neutral"
 		}
-		// "CartPointNeutralOpaque"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "fieldName"	"CartPointNeutralOpaque"
-			// "visible"	"1"
-			// "image"	"../hud/cart_point_neutral_opaque"
-		// }
+		"CartPointNeutralOpaque"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"CartPointNeutralOpaque"
+			"visible"	"1"
+			"image"	"../hud/cart_point_neutral_opaque"
+		}
 		"CartPointRed"
 		{
 			"ControlName"	"ImagePanel"
@@ -435,13 +435,13 @@
 			"visible"	"1"
 			"image"	"../hud/cart_point_red"
 		}
-		// "CartPointRedOpaque"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "fieldName"	"CartPointRedOpaque"
-			// "visible"	"1"
-			// "image"	"../hud/cart_point_red_opaque"
-		// }
+		"CartPointRedOpaque"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"CartPointRedOpaque"
+			"visible"	"1"
+			"image"	"../hud/cart_point_red_opaque"
+		}
 		
 		"cart_home_red"
 		{
@@ -464,7 +464,42 @@
 			"visible"	"1"
 			"image"	"../hud/cart_track"
 		}
-
+		"cart_track_neutral_opaque.vmt"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"cart_track"
+			"visible"	"1"
+			"image"	"../hud/cart_track_neutral_opaque.vmt"
+		}
+		"cart_track_red"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"cart_track_red"
+			"visible"	"1"
+			"image"	"../hud/cart_track_red"
+		}
+		cart_track_red_opaque"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"cart_track_red_opaque"
+			"visible"	"1"
+			"image"	"../hud/cart_track_red_opaque"
+		}
+		"cart_track_blue"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"cart_track_red"
+			"visible"	"1"
+			"image"	"../hud/cart_track_blue"
+		}
+		cart_track_red_opaque"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"cart_track_blue_opaque"
+			"visible"	"1"
+			"image"	"../hud/cart_track_blue_opaque"
+		}
+		
 
 /////////////////////////////////////////////////////////////////////////////////////
 

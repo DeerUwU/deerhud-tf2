@@ -26,10 +26,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
 		"xpos"			"73"
-		"ypos"			"123"
+		"ypos"			"119"
 		"zpos"			"0"
 		"wide"			"254"
-		"tall"			"4"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
@@ -38,19 +38,17 @@
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
-			"zpos"			"3"
-			"tall"			"12"
-			"image"			"../hud/cart_track"
+			// "ypos"			"114"
+			// "zpos"			"3"
+			// "tall"			"12"
+			// "image"			"../hud/cart_track"
 		}
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"116"
-			"ypos_minmode"	"120"
-			"tall"			"18"
-			"tall_minmode"	"10"
-			"image"			"../hud/cart_track"
+			// "ypos"			"114"
+			// "tall"			"18"
+			// "image"			"../hud/cart_track"
 		}		
 	}	
 	
@@ -59,7 +57,7 @@
 		"ControlName"	"CTFHudEscortProgressBar"
 		"fieldName"		"ProgressBar"	
 		"xpos"			"73"
-		"ypos"			"123"
+		"ypos"			"113"
 		"zpos"			"4"
 		"wide"			"254"
 		"tall"			"4"

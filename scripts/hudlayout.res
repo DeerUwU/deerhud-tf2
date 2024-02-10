@@ -86,6 +86,18 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
+	HudBowCharge //cant delete bc itll bug out
+	{
+		"fieldName"		"HudBowCharge"
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"9999"
+		"ypos"			"9999"			// draw in front of ammo
+		"wide"			"200"
+		"tall"			"20"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
 
 
 	HudFlameRocketCharge
