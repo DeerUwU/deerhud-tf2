@@ -2438,7 +2438,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2447,7 +2448,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2456,7 +2458,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2469,7 +2472,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2478,7 +2482,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2487,7 +2492,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2500,7 +2506,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2920,72 +2927,6 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
-			}
-		}
-
-		"QuestMap_Small_Blur"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended"
-				"name"		"ocra"
-				"tall"		"7"
-				"weight"	"0"
-				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
-			}
-		}
-
-		"QuestMap_Small"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended"
-				"name"		"ocra"		
-				"tall"		"7"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"QuestMap_Medium"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended"
-				"name"		"ocra"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"QuestMap_Large"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended"
-				"name"		"ocra"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"QuestMap_Huge"
-		{
-			"1"
-			{
-				"name"		"OCR A Extended"
-				"name"		"ocra"
-				"tall"		"30"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		/////////////////// INSTRUCTOR FONTS ///////////////////////
@@ -5728,7 +5669,6 @@ Scheme
 				}
 			}
 		}
-	}
 		////////////////////////////////////////////////////////////////////////////////////////////
 		
 
