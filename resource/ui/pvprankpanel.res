@@ -245,7 +245,7 @@
 			if_mini
 			{
 				"xpos"	"67"
-				"ypos"	"4"
+				"ypos"	"2"
 			}
 
 			"fonts"
@@ -320,7 +320,12 @@
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-	
+				"if_mini"
+				{
+					"xpos"		"cs-0.5"
+					"ypos"		"rs1+11"
+					"wide"		"p1"
+				}
 
 				"CurrentXPLabel"
 				{
@@ -367,7 +372,7 @@
 					"wide"			"p1"
 					"tall"			"10"
 					"proportionaltoparent"	"1"
-
+				
 					"ProgressBar"	//divider lines
 					{
 						"ControlName"	"ProgressBar"

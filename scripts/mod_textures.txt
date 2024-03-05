@@ -1762,8 +1762,8 @@
 			"file"		"HUD/hud_obj_status_sapper"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"width"		"128"
+			"height"	"128"
 		}
 		"progress_bar_blu"
 		{
