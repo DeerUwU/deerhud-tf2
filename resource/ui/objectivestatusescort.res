@@ -35,6 +35,7 @@
 		"labelText"		""
 		"image"			"../hud/cart_track"
 		"scaleImage"	"1"
+		"alpha"			"160"
 		
 		"if_multiple_trains"
 		{
@@ -57,17 +58,17 @@
 		"ControlName"	"CTFHudEscortProgressBar"
 		"fieldName"		"ProgressBar"	
 		"xpos"			"73"
-		"ypos"			"113"
+		"ypos"			"119"
 		"zpos"			"4"
 		"wide"			"254"
-		"tall"			"4"
-		"visible"		"0"
+		"tall"			"12"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
+			"ypos"			"119"
 			"zpos"			"6"
 			"tall"			"12"
 			"visible"		"1"
@@ -78,15 +79,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"			"59"
-		"xpos_minmode"		"64"		
+		"xpos"			"59"	
 		"ypos"			"111"
-		"ypos_minmode"		"116"
 		"zpos"			"1"
 		"wide"			"28"
-		"wide_minmode"		"18"
 		"tall"			"28"
-		"tall_minmode"		"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -122,12 +119,12 @@
 		
 		"if_multiple_trains_top"
 		{
-			"ypos"			"113"
+			"ypos"			"118"
 		}
 		
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"113"
+			"ypos"			"118"
 		}
 		
 		"if_multiple_trains_red"
@@ -162,10 +159,10 @@
 		"if_multiple_trains"
 		{
 			"xpos"			"61"
-			"ypos"			"114"
+			"ypos"			"118"
 			"zpos"			"5"	
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"14"
+			"tall"			"14"
 		}
 	}
 
@@ -258,7 +255,7 @@
 				"ypos"			"43"
 				"wide"			"30"
 				"tall"			"30"
-			}						
+			}
 		}
 		
 		"EscortItemImageBottom"
@@ -292,7 +289,7 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
-				"ypos"			"71"
+				"ypos"			"81"
 				"wide"			"30"
 				"tall"			"30"
 			}			

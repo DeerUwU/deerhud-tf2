@@ -492,7 +492,7 @@
 			"visible"	"1"
 			"image"	"../hud/cart_track_blue"
 		}
-		cart_track_red_opaque"
+		cart_track_blue_opaque"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"	"cart_track_blue_opaque"
