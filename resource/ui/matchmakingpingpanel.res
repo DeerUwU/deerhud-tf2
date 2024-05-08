@@ -80,7 +80,8 @@
 		"mouseinputenabled"	"0"
 		"alpha"		"180"
 
-		"image"		"replay/thumbnails/misc/loadout_solid_line"
+		"image"			"replay\thumbnails\misc\loadout_solid_line"
+		"drawcolor"		"Deer_Primary"
 	}
 
 	"InviteModeLabel"
@@ -298,11 +299,9 @@
 		"zpos"			"100"
 		"wide"			"f37"
 		"tall"			"f220"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"proportionaltoparent"	"1"
 
 		"DataCenterList"

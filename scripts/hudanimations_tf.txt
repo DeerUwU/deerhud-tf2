@@ -211,14 +211,14 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthImage			Alpha		"255"			Linear 0.0 0.2
 	Animate PlayerStatusHealthImage			Alpha		"0"				Linear 0.2 0.4
 	
-	Animate	PlayerStatusHealthValue 		fgcolor		"Deer_Pink"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValue 		fgcolor		"Deer_Primary"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthValue 		fgcolor		"Deer_White"	Linear 0.2 0.4
 	
 	Animate	PlayerStatusHealthValueShadow 	fgcolor		"Deer_White"	Linear 0.0 0.2
-	Animate	PlayerStatusHealthValueShadow 	fgcolor		"Deer_Pink"		Linear 0.2 0.4
+	Animate	PlayerStatusHealthValueShadow 	fgcolor		"Deer_Primary"		Linear 0.2 0.4
 	
-	//Animate	PlayerStatusOverhealCustom 		fgcolor		"Deer_Pink_Dark"			Linear 0.0 0.2
-	//Animate	PlayerStatusOverhealCustom 		fgcolor		"Deer_Pink"		Linear 0.6 0.8
+	//Animate	PlayerStatusOverhealCustom 		fgcolor		"Deer_Primary_Dark"			Linear 0.0 0.2
+	//Animate	PlayerStatusOverhealCustom 		fgcolor		"Deer_Primary"		Linear 0.6 0.8
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -235,10 +235,10 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
 	Animate PlayerStatusHealthvalue				Fgcolor		"Deer_White"	linear 0.0 0.0
-	Animate PlayerStatusHealthvalueShadow		Fgcolor		"Deer_Pink"		linear 0.0 0.0
+	Animate PlayerStatusHealthvalueShadow		Fgcolor		"Deer_Primary"		linear 0.0 0.0
 	Animate PlayerStatusHealthValueTargetID		FgColor		"Deer_White"	linear 0.0 0.0
 	Animate PlayerStatusHealthImage				Alpha		"255"			Linear 0.0 0.0
-	Animate	PlayerStatusOverhealCustom 			FgColor		"Deer_Pink"				Linear 0.2 0.4
+	Animate	PlayerStatusOverhealCustom 			FgColor		"Deer_Primary"				Linear 0.2 0.4
 }
 
 //===========================================
@@ -441,8 +441,8 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeMeter 	FgColor		"Deer_Pink_Dark"	Linear 0.0 0.2
-	Animate	ChargeMeter 	FgColor		"Deer_Pink"			Linear 0.2 0.4
+	Animate	ChargeMeter 	FgColor		"Deer_Primary_Dark"	Linear 0.0 0.2
+	Animate	ChargeMeter 	FgColor		"Deer_Primary"			Linear 0.2 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -458,7 +458,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeMeter 	FgColor		"Deer_Pink"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"Deer_Primary"		Linear 0.0 0.0001
 }
 
 //====================================

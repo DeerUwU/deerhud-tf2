@@ -10,7 +10,7 @@
 		"zpos"			"-200"
 		"wide"			"200"
 		"tall"			"20"
-		"MeterFG"		"Deer_Pink"
+		"MeterFG"		"Deer_Primary"
 		"MeterBG"		"Black"
 	}
 

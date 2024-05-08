@@ -8,11 +8,9 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
@@ -31,7 +29,7 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"Deer_Pink"
+		"itemcountcolor"			"Deer_Primary"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	
@@ -300,8 +298,6 @@
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -346,8 +342,6 @@
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -392,8 +386,6 @@
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -438,8 +430,6 @@
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -485,8 +475,6 @@
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -508,8 +496,6 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 	}
@@ -525,8 +511,6 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"117 107 94 255"
@@ -545,11 +529,9 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "Deer_Pink"
+		"fgcolor_override" "Deer_Primary"
 	}
 	"NoGCLabel"
 	{
@@ -563,11 +545,9 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "Deer_Pink"
+		"fgcolor_override" "Deer_Primary"
 	}
 	"SelectLabel"
 	{
@@ -581,8 +561,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "117 107 94 255"
@@ -599,12 +577,10 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//"fgcolor_override" "Deer_Pink"
-		"fgcolor_override" "Deer_Pink"
+		//"fgcolor_override" "Deer_Primary"
+		"fgcolor_override" "Deer_Primary"
 	}
 	
 	"class_loadout_panel"

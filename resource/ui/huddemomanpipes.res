@@ -14,7 +14,8 @@
 		"tall"			"6"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/loadout_dotted_line"
+		"image"			"replay/thumbnails/misc/dotted_line_col"
+		"drawcolor"		"Deer_Primary"
 		"scaleImage"		"0"	
 		"tileImage"			"1"
 		"tileVertically"	"0"
@@ -99,7 +100,7 @@
 			"pinCorner"		"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
 			"font"			"VHS20"
@@ -146,7 +147,7 @@
 			"pinCorner"		"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
 			"font"			"VHS20"

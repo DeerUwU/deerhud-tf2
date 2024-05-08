@@ -9,8 +9,6 @@
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/borders/deer_white_black50"

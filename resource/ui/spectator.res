@@ -5,8 +5,6 @@
 		"ControlName"		"Frame"
 		"fieldName"		"Spectator"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
@@ -22,11 +20,9 @@
 		"ypos"			"-9999"
 		"tall"			"0"
 		"wide"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+		
 	}
 	"BottomBar"
 	{
@@ -35,8 +31,6 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
@@ -51,8 +45,6 @@
 		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
 		"tall_minmode"	"0"			
 		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -64,13 +56,13 @@
 		"ypos"			"50"
 		"wide"			"600"
 		"tall"			"18"
-		"autoResize"	"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"				"VHS16"
-		"fgcolor_override"	"Deer_Pink"
+		"fgcolor_override"	"Deer_Primary"
 	}
 	"BuyBackLabel"
 	{
@@ -80,8 +72,6 @@
 		"ypos"			"0"
 		"wide"			"400"
 		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
@@ -117,10 +107,8 @@
 		"wide"			"170"
 		"tall"			"15"
 		"zpos"			"2"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
+
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
@@ -258,14 +246,13 @@
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+						"brighttext"	"0"
 		}
 	}	
 	"spectator_extras"
@@ -276,8 +263,6 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}		

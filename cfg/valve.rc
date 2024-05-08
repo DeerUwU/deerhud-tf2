@@ -1,16 +1,18 @@
-// load the base configuration
-//exec default.cfg
-
 // run a user script file if present
 exec autoexec.cfg
-
 exec config.cfg
-//
+
 // stuff command line statements
-//
 stuffcmds
 
-// display the startup level
-// UNCOMMENT THIS IF YOU WANT TO SEE THE BACKGROUND MAP
-//startupmenu
-exec required.cfg; exec logo.cfg
+
+exec required.cfg
+
+
+alias deerhud_initial "exec deerhud_initialize"
+exec #deerhud_initial.txt
+deerhud_initial
+
+
+//run all the alias commands
+exec deerhud.cfg

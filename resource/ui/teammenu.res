@@ -1,15 +1,6 @@
 "Resource/UI/TeamMenu.res"
 {	
-	"BlurBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BlurBG"
-		"image"			"../vgui/replay/thumbnails/refract/refract_basic"
-		"wide"			"860"
-		"tall"			"480"
-		"scaleImage"	"1"
-		"alpha"			"255"
-	}
+
 	
 	"team"
 	{
@@ -19,11 +10,9 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 	}
 
 	"SysMenu"
@@ -34,11 +23,9 @@
 		"ypos"			"0"
 		"wide"			"64"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+		
 	}
 
 	"MapInfo"
@@ -53,7 +40,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+		
 	}
 
 	"mapname"
@@ -64,14 +51,11 @@
 		"ypos"			"50"
 		"wide"			"90"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		""
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"1"
+				"brighttext"	"1"
 	}
 	"teambutton0"
 	{
@@ -127,8 +111,7 @@
 		"labelText"			"Team RED"	//&4
 		"textAlignment"		"south-west"
 		"dulltext"			"0"
-		"brighttext"		"0"
-		"paintborder"		"0"
+				"paintborder"		"0"
 		"command"			"jointeam red"
 		"team"				"2"		// team red
 		//"associated_model"	"reddoor"	
@@ -165,14 +148,13 @@
 		"labelText"			"Random"	//&1
 		"textAlignment"		"center"	//south-west
 		"dulltext"			"0"
-		"brighttext"		"0"
-		"paintborder"		"0"
+				"paintborder"		"0"
 		"command"			"jointeam auto"
 		"associated_model"	"team_random"
 		
 		"font"				"VHS30"
 		"fgcolor"				"Deer_White"
-		"armedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -196,14 +178,13 @@
 		"labelText"			"Spectate"	//&2
 		"textAlignment"		"center"	//south-west
 		"dulltext"			"0"
-		"brighttext"		"0"
-		"paintborder"		"1"
+				"paintborder"		"1"
 		"command"			"jointeam spectate"
 		"associated_model"	"spectate"	
 		
 		"font"				"VHS30"
 		"fgcolor"			"255 255 255 255"
-		"armedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -219,24 +200,23 @@
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"> back" //#TF_Cancel
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"command"		"cancelmenu"
 		
 		"font"			"VHS20"	
 		"paintbackground"	"0"
 		
-		"fgcolor"					"Deer_Pink"
+		"fgcolor"					"Deer_Primary"
 		"defaultFgColor_override" 	"Deer_White"
-		"armedFgColor_override" 	"Deer_Pink"
-		"depressedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" 	"Deer_Primary"
+		"depressedFgColor_override" "Deer_Primary"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -260,8 +240,7 @@
 		"labelText"			"#TF_SelectATeam"
 		"textAlignment"		"center"
 		"dulltext"			"0"
-		"brighttext"		"0"
-		"font"				"VHS40"
+				"font"				"VHS40"
 		"fgcolor"			"Deer_White"
 	}
 	
@@ -274,14 +253,11 @@
 		"zpos"			"1"
 		"wide"			"102"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"#TF_Random"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"wrap"			"0"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"black"
@@ -297,14 +273,11 @@
 		"wide"			"44"
 		"wide_lodef"	"70"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"wrap"			"0"
 		"font"			"MenuSmallestFont"
 		"font_lodef"	"MenuSmallFont"
@@ -323,14 +296,11 @@
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%bluecount%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"1"
+				"brighttext"	"1"
 		"font"			"VHS30"
 		"fgcolor"		"Deer_White"
 	}		
@@ -347,14 +317,11 @@
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%redcount%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"1"
+				"brighttext"	"1"
 		"font"			"VHS30"
 		"fgcolor"		"Deer_White"
 	}	
@@ -369,14 +336,11 @@
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Highlander_Mode"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"font"			"CapPlayerFont"
 		"fgcolor"		"HudOffWhite"
 		"centerwrap"	"1"
@@ -391,14 +355,11 @@
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Highlander_Mode"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"font"			"CapPlayerFont"
 		"fgcolor"		"black"
 		"centerwrap"	"1"
@@ -413,14 +374,11 @@
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Teams_Full"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"font"			"CapPlayerFont"
 		"fgcolor"		"HudOffWhite"
 		"centerwrap"	"1"
@@ -435,14 +393,11 @@
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Teams_Full"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"font"			"CapPlayerFont"
 		"fgcolor"		"white"
 		"centerwrap"	"1"

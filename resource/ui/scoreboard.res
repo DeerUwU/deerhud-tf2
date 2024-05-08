@@ -1,3 +1,5 @@
+#base "../../cfg/#deerhud_custom.txt"
+
 "Resource/UI/Scoreboard.res"
 {	
 	//the scoreboard stats have duplicate elements to make the text white
@@ -9,8 +11,6 @@
 		"ypos"			"31"
 		"wide"			"640"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
@@ -35,9 +35,21 @@
 		"tall"			"338"
 		"ypos"			"87"
 		"scaleImage"	"1"
-		"alpha"			"255"
 		"zpos"			"-200"
 	}
+	"DarkBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"darkBG"
+		"fillcolor"		"0 0 0 196"
+		"wide"			"f0"
+		"tall"			"338"
+		"ypos"			"87"
+		"scaleImage"	"1"
+		"zpos"			"-200"
+	}
+	
+	
 	"MainBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -47,12 +59,15 @@
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"			"350"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"Deer_White_Black50"
 	}	
+	"Classimage"
+	{
+		"xpos"			"9999"
+		"visible"		"0"
+	}
 
 	"ScoreBG_BG"
 	{
@@ -63,8 +78,6 @@
 		"zpos"			"1"
 		"wide"			"641"
 		"tall"			"42"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"			"Deer_Grey_Filled"
@@ -81,8 +94,6 @@
 		"zpos"			"3"
 		"wide"			"290"
 		"tall"			"5"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"Deer_Team_BLU"
@@ -101,8 +112,6 @@
 		"zpos"			"3"
 		"wide"			"290"
 		"tall"			"5"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
@@ -127,8 +136,6 @@
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		if_mvm
@@ -149,8 +156,6 @@
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"pin_to_sibling" "BlueTeamScore"
@@ -173,8 +178,6 @@
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		if_mvm
@@ -195,8 +198,6 @@
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"pin_to_sibling" "RedTeamScore"
@@ -219,8 +220,6 @@
 		"zpos"			"4"
 		"wide"			"160"
 		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		if_mvm
@@ -241,8 +240,6 @@
 		"zpos"			"4"
 		"wide"			"160"
 		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		if_mvm
@@ -262,8 +259,6 @@
 		"ypos"			"60"
 		"wide"			"300"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -276,8 +271,6 @@
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"43"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"Deer_Grey_Filled"
@@ -295,8 +288,6 @@
 		"zpos"			"1"
 		"wide"			"68"
 		"tall"			"23"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"border"		"Deer_White_Black50"
@@ -314,8 +305,6 @@
 		"zpos"			"2"
 		"wide"			"72"
 		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		if_mvm
@@ -335,11 +324,9 @@
 		"zpos"			"2"
 		"wide"			"72"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor"		"Deer_Pink"	//BrightYellow
+		"fgcolor"		"Deer_Primary"	//BrightYellow
 		"centerwrap"	"1"
 		if_mvm
 		{
@@ -358,11 +345,9 @@
 		"zpos"			"2"
 		"wide"			"72"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Deer_Pink"	//BrightYellow
+		"fgcolor"		"Deer_Primary"	//BrightYellow
 		"centerwrap"	"1"
 		if_mvm
 		{
@@ -380,8 +365,6 @@
 		"ypos"			"72"
 		"wide"			"300"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		if_mvm
@@ -401,7 +384,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"autoresize"	"3"
 		"linespacing"	"17"
 		"linegap"		"0"
@@ -425,7 +408,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"autoresize"	"3"
 		"linespacing"	"17"
 		"linegap"		"0"
@@ -445,11 +428,9 @@
 		"zpos"			"2"
 		"wide"			"2"
 		"tall"			"292"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+			
 		"fillcolor"		"0 0 0 96"
 		"PaintBackgroundType"	"0"
 		if_mvm
@@ -469,8 +450,6 @@
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}	
@@ -486,8 +465,6 @@
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}							
@@ -500,11 +477,9 @@
 		"zpos"			"-2"
 		"wide"			"633"
 		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+			
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 	}
@@ -519,7 +494,7 @@
 		"zpos"			"10"		
 		"wide"			"130"
 		"tall"			"260"
-		"autoResize"	"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -716,8 +691,6 @@
 		"zpos"			"-1"
 		"wide"			"485"
 		"tall"			"29"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"Deer_White_Black75"
@@ -734,8 +707,6 @@
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -751,11 +722,9 @@
 		"zpos"			"3"
 		"wide"			"265"
 		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}
 	"MapName"
 	{
@@ -769,8 +738,6 @@
 		"zpos"			"3"
 		"wide"			"265"
 		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Deer_White"
@@ -784,11 +751,9 @@
 		"zpos"			"3"
 		"wide"			"465"
 		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+			
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 	}
@@ -804,8 +769,6 @@
 		"zpos"			"3"
 		"wide"			"140"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -819,8 +782,6 @@
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -841,8 +802,7 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -870,8 +830,7 @@
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
 	
@@ -913,7 +872,7 @@
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -933,7 +892,7 @@
 				"zpos"			"3"
 				"wide"			"100"
 				"tall"			"20"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -949,8 +908,7 @@
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
 	
@@ -992,7 +950,7 @@
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -1012,7 +970,7 @@
 				"zpos"			"3"
 				"wide"			"200"
 				"tall"			"20"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -1030,8 +988,6 @@
 		"zpos"			"3"
 		"wide"			"660"
 		"tall"			"400"	//
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -1039,16 +995,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"#TF_ScoreBoard_KillsLabel"
-			"textAlignment"	"east"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
 		}						
@@ -1056,72 +1002,16 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"#TF_ScoreBoard_DeathsLabel"
-			"textAlignment"	"east"
-			"xpos"			"0"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
-		"AssistsLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"AssistsLabel"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"#TF_ScoreBoard_AssistsLabel"
-			"textAlignment"	"east"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
-		"DestructionLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DestructionLabel"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"#TF_ScoreBoard_DestructionLabel"
-			"textAlignment"	"east"
-			"xpos"			"100"
-			"ypos"			"30"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}												
+		}				
 		"Kills"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"VHS40"
-			"labelText"		"%kills%"
-			"textAlignment"	"east"
-			"xpos"			"210"
-			"ypos"			"7"
-			"zpos"			"2"
-			"wide"			"100"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"font"			"VHS40"		
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"Deer_Pink"
 		}	
 		"KillsPink"
 		{
@@ -1135,11 +1025,9 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"Deer_Pink"
+			"fgcolor"		"Deer_Primary"
 		}	
 		"KDColon"
 		{
@@ -1149,15 +1037,15 @@
 			"fgcolor"		"Deer_White"
 			"labelText"		":"
 			"textAlignment"	"west"
-			"xpos"			"310"
+			"xpos"			"cs-0.5-10"
 			"ypos"			"7"
 			"zpos"			"3"
-			"wide"			"60"
+			"wide"			"10"
 			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			"proportionaltoparent"	"1"
 		}		
 		"Deaths"
 		{
@@ -1172,11 +1060,10 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"Deer_Pink"
+			"fgcolor"		"Deer_Primary"
 		}	
 		"DeathsPink"
 		{
@@ -1190,48 +1077,27 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"Deer_Pink"
-		}	
-		"GameType"
+			"fgcolor"		"Deer_Primary"
+		}			
+		"AssistsLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
+			"fieldName"		"AssistsLabel"
 			"font"			"VHS11"
 			"fgcolor"		"Deer_White"
-			"labelText"		"%gametype%"
+			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"	"east"
-			"xpos"			"435"
-			"ypos"			"50"
 			"zpos"			"3"
-			"wide"			"145"
+			"wide"			"100"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"fgcolor"		"185 177 153 255"
-		}							
-		"Assists"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Assists"
-			"font"			"VHS11"
-			"labelText"		"%assists%"
-			"textAlignment"	"west"
-			"xpos"			"100"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}	
+			 
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		
 		"AssistsWhite"
 		{
 			"ControlName"	"CExLabel"
@@ -1240,33 +1106,36 @@
 			"font"			"VHS11"
 			"labelText"		"%assists%"
 			"textAlignment"	"west"
-			"xpos"			"100"
-			"ypos"			"0"
+			"xpos"			"5"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-		}					
-		"Destruction"
+			
+			"pin_to_sibling"		"AssistsLabel"
+			"pin_to_sibling_corner"	"1"
+		}		
+		
+		"DestructionLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Destruction"
+			"fieldName"		"DestructionLabel"
 			"font"			"VHS11"
-			"labelText"		"%destruction%"
-			"textAlignment"	"west"
-			"xpos"			"205"
+			"fgcolor"		"Deer_White"
+			"labelText"		"#TF_ScoreBoard_DestructionLabel"
+			"textAlignment"	"east"
+			"xpos"			"100"
 			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"35"
+			"zpos"			"3"
+			"wide"			"100"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}						
+			 
+			"visible"		"1"
+			"enabled"		"1"
+		}																	
+				
 		"DestructionWhite"
 		{
 			"ControlName"	"CExLabel"
@@ -1275,15 +1144,17 @@
 			"font"			"VHS11"
 			"labelText"		"%destruction%"
 			"textAlignment"	"west"
-			"xpos"			"205"
-			"ypos"			"30"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
+			
+			"pin_to_sibling"		"DestructionLabel"
+			"pin_to_sibling_corner"	"1"
 		}						
 		"CapturesLabel"
 		{
@@ -1298,10 +1169,29 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
+		}					
+
+		"CapturesWhite"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CapturesWhite"
+			"font"			"VHS11"
+			"fgcolor"		"Deer_White"
+			"labelText"		"%captures%"
+			"textAlignment"	"west"
+			"xpos"			"5"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			 
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling"		"CapturesLabel"
+			"pin_to_sibling_corner"	"1"
 		}						
 		"DefensesLabel"
 		{
@@ -1316,11 +1206,30 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}			
+		"DefensesWhite"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DefensesWhite"
+			"font"			"VHS11"
+			"fgcolor"		"Deer_White"
+			"labelText"		"%defenses%"
+			"textAlignment"	"west"
+			"xpos"			"5"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			 
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"pin_to_sibling"		"DefensesLabel"
+			"pin_to_sibling_corner"	"1"
+		}					
 		"DominationLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1334,11 +1243,31 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}
+		"DominationWhite"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DominationWhite"
+			"font"			"VHS11"
+			"fgcolor"		"Deer_White"
+			"labelText"		"%dominations%"
+			"textAlignment"	"west"
+			"xpos"			"5"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			 
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"pin_to_sibling"		"DominationLabel"
+			"pin_to_sibling_corner"	"1"
+		}		
+		
 		"RevengeLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1352,133 +1281,10 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}						
-		"Captures"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Captures"
-			"font"			"VHS11"
-			"labelText"		"%captures%"
-			"textAlignment"	"west"
-			"xpos"			"205"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}		
-		"CapturesWhite"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CapturesWhite"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"%captures%"
-			"textAlignment"	"west"
-			"xpos"			"205"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}				
-		"Defenses"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Defenses"
-			"font"			"VHS11"
-			"labelText"		"%defenses%"
-			"textAlignment"	"west"
-			"xpos"			"205"
-			"ypos"			"15"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}			
-		"DefensesWhite"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DefensesWhite"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"%defenses%"
-			"textAlignment"	"west"
-			"xpos"			"205"
-			"ypos"			"15"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}				
-		"Domination"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Domination"
-			"font"			"VHS11"
-			"labelText"		"%dominations%"
-			"textAlignment"	"west"
-			"xpos"			"100"
-			"ypos"			"15"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}					
-		"DominationWhite"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DominationWhite"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"%dominations%"
-			"textAlignment"	"west"
-			"xpos"			"100"
-			"ypos"			"15"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
 		}			
-		"Revenge"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Revenge"
-			"font"			"VHS11"
-			"labelText"		"%Revenge%"
-			"textAlignment"	"west"
-			"xpos"			"100"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}	
 		"RevengeWhite"
 		{
 			"ControlName"	"CExLabel"
@@ -1487,34 +1293,19 @@
 			"fgcolor"		"Deer_White"
 			"labelText"		"%Revenge%"
 			"textAlignment"	"west"
-			"xpos"			"100"
-			"ypos"			"30"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-		}	
-		"HealingLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"HealingLabel"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"#TF_ScoreBoard_HealingLabel"
-			"textAlignment"	"east"
-			"xpos"			"366"
-			"ypos"			"30"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}						
+			
+			"pin_to_sibling"		"RevengeLabel"
+			"pin_to_sibling_corner"	"1"
+		}
+					
 		"InvulnLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1528,28 +1319,9 @@
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"0"
 			"enabled"		"0"
-		}						
-		"TeleportsLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TeleportsLabel"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
-			"textAlignment"	"east"
-			"xpos"			"366"
-			"ypos"			"15"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
 		}							
 				
 		"HeadshotsLabel"
@@ -1565,116 +1337,11 @@
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-		}						
-		"Healing"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"Healing"
-			"font"			"VHS11"
-			"labelText"		"%healing%"
-			"textAlignment"		"west"
-			"xpos"			"465"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}	
-		"HealingWhite"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"Healing"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"%healing%"
-			"textAlignment"		"west"
-			"xpos"			"465"
-			"ypos"			"30"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
-		"Invuln"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"Invuln"
-			"font"			"VHS11"
-			"labelText"		"%invulns%"
-			"textAlignment"		"west"
-			"xpos"			"425"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}						
-		"Teleports"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"Teleports"
-			"font"			"VHS11"
-			"labelText"		"%teleports%"
-			"textAlignment"		"west"
-			"xpos"			"465"
-			"ypos"			"15"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}	
-		"TeleportsWhite"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"Teleports"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"%teleports%"
-			"textAlignment"		"west"
-			"xpos"			"465"
-			"ypos"			"15"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}	
-	
-		"Headshots"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"Headshots"
-			"font"			"VHS11"
-			"labelText"		"%headshots%"
-			"textAlignment"		"west"
-			"xpos"			"465"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}	
+		}		
+
 		"HeadshotsWhite"
 		{
 			"ControlName"		"CExLabel"
@@ -1683,51 +1350,121 @@
 			"fgcolor"		"Deer_White"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"465"
+			"xpos"			"5"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-		}
-		"BackstabsLabel"
+			
+			"pin_to_sibling"		"HeadshotsLabel"
+			"pin_to_sibling_corner"	"1"
+		}		
+							
+		"TeleportsLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TeleportsLabel"
+			"font"			"VHS11"
+			"fgcolor"		"Deer_White"
+			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
+			"textAlignment"	"east"
+			"xpos"			"366"
+			"ypos"			"15"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			 
+			"visible"		"1"
+			"enabled"		"1"
+		}	
+		"TeleportsWhite"
 		{
 			"ControlName"		"CExLabel"
+			"fieldName"		"TeleportsWhite"
+			"font"			"VHS11"
+			"fgcolor"		"Deer_White"
+			"labelText"		"%teleports%"
+			"textAlignment"		"west"
+			"xpos"			"5"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			 
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"pin_to_sibling"		"TeleportsLabel"
+			"pin_to_sibling_corner"	"1"
+		}		
+		
+		"HealingLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"HealingLabel"
+			"font"			"VHS11"
+			"fgcolor"		"Deer_White"
+			"labelText"		"#TF_ScoreBoard_HealingLabel"
+			"textAlignment"	"east"
+			"xpos"			"366"
+			"ypos"			"30"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			 
+			"visible"		"1"
+			"enabled"		"1"
+		}	
+		"Healing"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Healing"
+			"xpos"			"9999"
+			 
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"HealingWhite"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"HealingWhite"
+			"font"			"VHS11"
+			"fgcolor"		"Deer_White"
+			"labelText"		"%healing%"
+			"textAlignment"		"west"
+			"xpos"			"5"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			 
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"pin_to_sibling"		"HealingLabel"
+			"pin_to_sibling_corner"	"1"
+		}
+	
+		"BackstabsLabel"
+		{
+			"ControlName"	"CExLabel"
 			"fieldName"		"BackstabsLabel"
 			"font"			"VHS11"
 			"fgcolor"		"Deer_White"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
-			"textAlignment"		"east"
+			"textAlignment"	"east"
 			"xpos"			"485"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-		}
-		"Backstabs"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Backstabs"
-			"font"			"VHS11"
-			"labelText"		"%backstabs%"
-			"textAlignment"	"west"
-			"xpos"			"585"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}		
+		}	
 		"BackstabsWhite"
 		{
 			"ControlName"	"CExLabel"
@@ -1736,52 +1473,19 @@
 			"fgcolor"		"Deer_White"
 			"labelText"		"%backstabs%"
 			"textAlignment"	"west"
-			"xpos"			"585"
+			"xpos"			"5"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
+			
+			"pin_to_sibling"		"BackstabsLabel"
+			"pin_to_sibling_corner"	"1"
 		}
-		"BonusLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"BonusLabel"
-			"font"			"VHS11"
-			"fgcolor"		"Deer_White"
-			"labelText"		"#TF_ScoreBoard_BonusLabel"
-			"textAlignment"	"east"
-			"xpos"			"505"
-			"ypos"			"10"
-			"zpos"			"3"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}
-		"Bonus"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Bonus"
-			"font"			"VHS11"
-			"labelText"		"%bonus%"
-			"textAlignment"	"west"
-			"xpos"			"605"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}
+
 		"SupportLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1795,27 +1499,9 @@
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-		}
-		"Support"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Support"
-			"font"			"VHS11"
-			"labelText"		"%support%"
-			"textAlignment"	"west"
-			"xpos"			"585"
-			"ypos"			"15"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
 		}
 		"SupportWhite"
 		{
@@ -1825,15 +1511,17 @@
 			"fgcolor"		"Deer_White"
 			"labelText"		"%support%"
 			"textAlignment"	"west"
-			"xpos"			"585"
-			"ypos"			"15"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
+			
+			"pin_to_sibling"		"SupportLabel"
+			"pin_to_sibling_corner"	"1"
 		}
 		"DamageLabel"
 		{
@@ -1848,27 +1536,9 @@
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
-		}
-		"Damage"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Damage"
-			"font"			"VHS11"
-			"labelText"		"%damage%"
-			"textAlignment"	"west"
-			"xpos"			"585"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"55"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
 		}
 		"DamageWhite"
 		{
@@ -1878,15 +1548,17 @@
 			"fgcolor"		"Deer_White"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"
-			"xpos"			"585"
-			"ypos"			"30"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"55"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			 
 			"visible"		"1"
 			"enabled"		"1"
+			
+			"pin_to_sibling"		"DamageLabel"
+			"pin_to_sibling_corner"	"1"
 		}
 	}
 
@@ -1894,18 +1566,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonLegendBG"
-		"xpos"			"10"
-		"ypos"			"373"
-		"zpos"			"0"
-		"wide"			"539"
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
-		"PaintBackgroundType"	"0"
 	}
 	"MvMScoreboard"
 	{

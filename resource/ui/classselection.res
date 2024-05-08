@@ -1,15 +1,14 @@
 "Resource/UI/ClassSelection.res"
 {
 
-	"BlurBG"
+	"darkBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BlurBG"
-		"image"			"../vgui/replay/thumbnails/refract/refract_basic"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"darkBG"
+		"fillcolor"		"0 0 0 196"
 		"wide"			"f0"
 		"tall"			"480"
 		"scaleImage"	"1"
-		"alpha"			"255"
 	}
 	
 	
@@ -22,11 +21,9 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 	}
 	
 	"SysMenu"
@@ -37,11 +34,9 @@
 		"ypos"			"0"
 		"wide"			"64"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+		
 	}
 	
 	"ClassMenuSelect" //title
@@ -53,8 +48,6 @@
 		"zpos"			"5"
 		"wide"			"450"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
@@ -86,8 +79,8 @@
 		
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -123,8 +116,8 @@
 		
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -160,8 +153,8 @@
 
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -197,8 +190,8 @@
 		
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -234,8 +227,8 @@
 		
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -268,12 +261,12 @@
 		"Command"			"select 9"
 		"Default"			"0"
 		"font"				"VHS20"
-		"textcolor"			"Deer_Pink"
+		"textcolor"			"Deer_Primary"
 		
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -308,8 +301,8 @@
 		
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -345,8 +338,8 @@
 		
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -381,8 +374,8 @@
 		
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -418,8 +411,8 @@
 		
 		"fgcolor"			"Deer_White"
 		"defaultFgColor_override" "Deer_White"
-		"armedFgColor_override" "Deer_Pink"
-		"selectedFgColor_override" "Deer_Pink"
+		"armedFgColor_override" "Deer_Primary"
+		"selectedFgColor_override" "Deer_Primary"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -442,11 +435,11 @@
 		"zpos"			"6"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"> back"	//#TF_ClassMenu_Cancel
 		"textAlignment"	"west"
 		"Command"		"vguicancel"
@@ -454,9 +447,9 @@
 		
 		"paintbackground"	"0"
 		
-		"fgcolor"					"Deer_Pink"
+		"fgcolor"					"Deer_Primary"
 		"defaultFgColor_override" 	"Deer_White"
-		"armedFgColor_override" 	"Deer_Pink"
+		"armedFgColor_override" 	"Deer_Primary"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -472,11 +465,11 @@
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+		
 		"labelText"		">Loadout" //#EditLoadout
 		"paintbackground"	"0"
 		"textAlignment"	"south-west"
@@ -493,11 +486,11 @@
 		"zpos"			"6"
 		"wide"			"110"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"#TF_ClassMenu_Reset"
 		"textAlignment"	"center"
 		"Command"		"resetclass"
@@ -515,8 +508,6 @@
 		"zpos"			"0"		
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"fov"			"16"
@@ -564,8 +555,6 @@
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"80"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/color_panel_clear"
@@ -595,11 +584,11 @@
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+		
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
 		"font"				"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}
 	
 	"numScout"
@@ -615,11 +604,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
 		"font"			"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}	
 	
 	"numSoldier"
@@ -635,11 +624,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
 		"font"			"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}		
 	
 	"numPyro"
@@ -655,11 +644,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
 		"font"			"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}			
 	
 	"numDemoman"
@@ -675,11 +664,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
 		"font"			"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}				
 	
 	"numHeavy"
@@ -695,11 +684,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
 		"font"			"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}					
 	
 	"numEngineer"
@@ -715,11 +704,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
 		"font"			"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}						
 	
 	"numMedic"
@@ -735,11 +724,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
 		"font"			"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}							
 	
 	"numSniper"
@@ -755,11 +744,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
 		"font"			"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}						
 	
 	"numSpy"
@@ -775,11 +764,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
 		"font"			"VHS20"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}
 	
 	
@@ -794,8 +783,6 @@
 		"wide"			"480"
 		"tall"			"480"
 		
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -890,11 +877,9 @@
 		"zpos"			"7"
 		"wide"			"235"
 		"tall"			"165"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+		
 	}
 	
 	"ClassHighlightPanel" //idk what this is
@@ -934,8 +919,6 @@
 			"ypos"			"10"
 			"wide"			"210"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -953,8 +936,6 @@
 			"ypos"			"30"
 			"wide"			"210"
 			"tall"			"115"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
 			"wrap"			"1"
@@ -970,16 +951,12 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"labeltext"		""
 			"font"			"OB20"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

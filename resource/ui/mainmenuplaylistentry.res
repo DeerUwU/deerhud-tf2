@@ -113,8 +113,8 @@
 
 			
 		"defaultFgColor_override"		"Deer_White"
-		"armedFgColor_override"			"Deer_Pink"
-		"depressedFgColor_override"		"Deer_Pink"
+		"armedFgColor_override"			"Deer_Primary"
+		"depressedFgColor_override"		"Deer_Primary"
 	}	
 
 
@@ -168,8 +168,6 @@
 		"zpos"			"2"
 		"wide"			"125"
 		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"

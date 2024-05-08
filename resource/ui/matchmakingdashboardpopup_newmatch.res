@@ -107,16 +107,15 @@
 				"zpos"			"100"
 				"wide"			"75"
 				"tall"			"15"
-				"autoResize"	"0"
+				
 				"pinCorner"		"3"
 				"visible"		"1"
 
 				"enabled"		"1"
-				"tabPosition"	"0"
+				
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+								"brighttext"	"0"
 				"Command"		"abandon_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_MM_Rejoin_Abandon"
@@ -145,15 +144,14 @@
 					"wide"			"150"
 				}
 				
-				"autoResize"	"0"
+				
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
+				
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+								"brighttext"	"0"
 				"Command"		"join_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
@@ -161,8 +159,8 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 
-				"armedBgColor_override"		"Deer_Pink_Dark"//"CreditsGreen"
-				"defaultBgColor_override"	"Deer_Pink"//"SaleGreen"
+				"armedBgColor_override"		"Deer_Primary_Dark"//"CreditsGreen"
+				"defaultBgColor_override"	"Deer_Primary"//"SaleGreen"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_armed"		"UI/buttonrollover.wav"
@@ -178,15 +176,14 @@
 				"zpos"			"100"
 				"tall"			"15"
 				
-				"autoResize"	"0"
+				
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
+				
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+								"brighttext"	"0"
 				"Command"		"join_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
@@ -194,8 +191,8 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 
-				"armedBgColor_override"		"Deer_Pink_Dark"
-				"defaultBgColor_override"	"Deer_Pink"
+				"armedBgColor_override"		"Deer_Primary_Dark"
+				"defaultBgColor_override"	"Deer_Primary"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_armed"		"UI/buttonrollover.wav"
@@ -237,7 +234,7 @@
 
 				"radius"		"10"
 				"velocity"		"250"
-				"fgcolor_override"	"Deer_Pink"
+				"fgcolor_override"	"Deer_Primary"
 			}
 		}
 	}

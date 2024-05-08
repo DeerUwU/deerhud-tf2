@@ -9,8 +9,6 @@
 		"zpos"			"-1"
 		"wide"			"270"
 		"tall"			"120"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"alpha"			"128"

@@ -212,9 +212,9 @@
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" 	"TanDark"
+					"armedFgColor_override"		"Deer_Primary"
+					"selectedFgColor_override" 	"TanLight"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -246,9 +246,9 @@
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" 	"TanDark"
+					"armedFgColor_override"		"Deer_Primary"
+					"selectedFgColor_override" 	"TanLight"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -280,9 +280,9 @@
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" 	"TanDark"
+					"armedFgColor_override"		"Deer_Primary"
+					"selectedFgColor_override" 	"TanLight"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -312,9 +312,9 @@
 					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" 	"TanDark"
+					"armedFgColor_override"		"Deer_Primary"	
+					"selectedFgColor_override" 	"TanLight"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"

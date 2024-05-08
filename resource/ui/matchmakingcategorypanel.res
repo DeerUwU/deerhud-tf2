@@ -83,8 +83,8 @@
 			"defaultBgColor_override"	"235 226 202 20"
 
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"Deer_Pink"
-			"selectedBGColor_override" "Orange"
+			"armedBgColor_override"	"Deer_Primary"
+			"selectedBGColor_override" "Deer_Primary"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -159,8 +159,7 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
+						"brighttext"	"0"
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
@@ -202,7 +201,7 @@
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"40"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -226,7 +225,7 @@
 			"zpos"			"1"
 			"wide"			"120"
 			"tall"			"40"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"

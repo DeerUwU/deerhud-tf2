@@ -9,11 +9,9 @@
 		"zpos"			"500"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"settitlebarvisible"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		
@@ -82,7 +80,7 @@
 			"wide"			"20"
 			"tall"			"15"
 			"zpos"			"1"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"enabled"		"1"
 			"fgcolor"		"153 204 255 255"
@@ -119,8 +117,6 @@
 		"zpos"			"1"
 		"wide"			"480"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -140,7 +136,7 @@
 		"autoResize"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Deer_Menu_Grey"
+		"fgcolor"		"Deer_Menu_White"
 	}
 
 	"NameFilterTextEntry"
@@ -152,15 +148,16 @@
 		"zpos"		"2"
 		"wide"		"90"
 		"tall"		"19"
-		"autoResize"	"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"Deer_White"//"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"//"Deer_Menu_Grey"
-		"paintbackgroundtype" "2"
+		"fgcolor_override"	"Deer_Menu_Dark"//"117 107 94 255"
+		"bgcolor_override"	"Deer_Menu_White"//"Deer_Menu_Grey"
+		"paintbackgroundtype" 	"0"
+		"roundedcorners"		"0"
 		"font"		"HudFontSmallest"
 	}
 	
@@ -175,7 +172,8 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_dotted_line"
+		"image"			"replay/thumbnails/misc/loadout_solid_line"
+		"drawcolor"		"Deer_Primary"
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
@@ -190,7 +188,8 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_dotted_line"
+		"image"			"replay/thumbnails/misc/loadout_solid_line"
+		"drawcolor"		"Deer_Primary"
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
@@ -207,8 +206,6 @@
 		"zpos"			"1"
 		"wide"			"375"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -225,8 +222,6 @@
 		"zpos"			"10"
 		"wide"			"600"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -241,16 +236,15 @@
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"Command"		"vguicancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -268,12 +262,9 @@
 		"zpos"			"1"
 		"wide"			"290"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 	}	
 	
 	"ShowBackpack"
@@ -285,7 +276,7 @@
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Selection_ShowBackpack"
@@ -315,11 +306,9 @@
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"#Selection_ShowSelection"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
@@ -339,11 +328,9 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
@@ -356,7 +343,29 @@
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-	}		
+	}	
+	"PrevPagehotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPagehotkey"
+		"xpos"			"20"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"labelText"		"&A"
+		"font"			"VHS12"
+		"textAlignment"	"center"
+		"Command"		"prevpage"
+		"paintbackground"	"0"
+		"mouseinputenabled"	"0"
+		"pin_to_sibling"	"PrevPageButton"
+
+	}	
+	
 	
 	"CurPageLabel"
 	{
@@ -374,7 +383,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Deer_Pink"//"200 80 60 255"
+		"fgcolor_override" "Deer_Primary"//"200 80 60 255"
 	}
 	
 	"NextPageButton"
@@ -386,7 +395,7 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		">"
@@ -402,6 +411,27 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 	}		
+	"NextPagehotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPagehotkey"
+		"xpos"			"-20"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"labelText"		"&D"
+		"font"			"VHS12"
+		"textAlignment"	"center"
+		"Command"		"nextpage"
+		"paintbackground"	"0"
+		"mouseinputenabled"	"0"
+		"pin_to_sibling"	"NextPageButton"
+
+	}	
 	
 	"mouseoveritempanel"
 	{
@@ -432,7 +462,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"

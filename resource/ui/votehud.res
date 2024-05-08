@@ -89,9 +89,7 @@
 			"enabled"		"1"
 			"labelText"		"%header%"
 			"textAlignment"		"north-west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"font"			"ScoreboardVerySmall"
+									"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
 		}
@@ -532,7 +530,7 @@
 		"PaintBackground"	"0"
 
 		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"Orange"
+		"header_fgcolor"	"Deer_Primary"
 
 		"issue_width"		"180"		
 		"issue_font"		"ItemFontNameSmall"
@@ -552,7 +550,7 @@
 			"ypos"			"10"
 			"wide"			"400"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -571,8 +569,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"autoresize"	"0"
+			
+			
 			
 			"linespacing"	"16"
 		}
@@ -589,8 +587,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"autoresize"	"0"
+			
+			
 			"linespacing"	"16"
 		}
 
@@ -650,7 +648,7 @@
 			"ypos"		"275"
 			"wide"		"100"
 			"tall"		"24"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"0"
@@ -684,7 +682,7 @@
 			"ypos"		"275"
 			"wide"		"100"
 			"tall"		"24"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
@@ -718,7 +716,7 @@
 			"ypos"		"275"
 			"wide"		"80"
 			"tall"		"24"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"

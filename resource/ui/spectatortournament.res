@@ -6,8 +6,6 @@
 		"fieldName"		"specgui"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"enabled"		"1"
 				
 		"team1_player_base_offset_x"		"-75"
@@ -39,7 +37,7 @@
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
@@ -127,7 +125,7 @@
 				"zpos"			"-1"
 				"wide"			"16"
 				"tall"			"16"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
@@ -154,7 +152,7 @@
 				"zpos"			"0"
 				"wide"			"12"
 				"tall"			"12"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
@@ -177,7 +175,7 @@
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"10"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
@@ -200,7 +198,7 @@
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
@@ -218,7 +216,7 @@
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%specindex%"
@@ -298,8 +296,6 @@
 		"ypos"			"16"
 		"wide"			"380"
 		"tall"			"14"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
@@ -431,14 +427,13 @@
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+						"brighttext"	"0"
 		}
 		
 		"attriblabel"
@@ -451,7 +446,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -469,8 +464,6 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}		

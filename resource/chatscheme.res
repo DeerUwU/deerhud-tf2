@@ -1,4 +1,6 @@
-#base "colors.res"
+#base "scheme/colors.res"
+#base "scheme/borders.res"
+#base "scheme/fonts.res" 
 ///////////////////////////////////////////////////////////
 // Tracker scheme resource file
 //
@@ -20,7 +22,7 @@ Scheme
 		"White"				"255 255 255 255"
 		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"0 0 0 255"
-		"Orange"			"255 155 0 255"
+		"Orange"			"255 0 0 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"0 0 0 255"
 		//vvvvv same value as deer_pink (this is the ingame party chat color)
@@ -101,14 +103,14 @@ Scheme
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"Deer_Pink"//"Orange"
-		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
+		ListPanel.SelectedBgColor			"Deer_Primary"
+		ListPanel.SelectedOutOfFocusBgColor	"Deer_Primary_Dark"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
 		Menu.BgColor					"0 0 0 64"
 		Menu.ArmedTextColor				"Black"
-		Menu.ArmedBgColor				"Deer_Pink"//"Orange"
+		Menu.ArmedBgColor				"Deer_Primary"
 		Menu.TextInset					"6"
 
 		Panel.FgColor					"Blank"
@@ -127,25 +129,20 @@ Scheme
 		RichText.TextColor				"OffWhite"
 		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"Deer_Pink"//"Orange"
+		RichText.SelectedBgColor		"Deer_Primary"
 
-		ScrollBar.Wide					8
-		
+
 		ScrollBarButton.FgColor				"Deer_White"
 		ScrollBarButton.BgColor				"Deer_Menu_Medium"
 		ScrollBarButton.ArmedFgColor		"Deer_White"
-		ScrollBarButton.ArmedBgColor		"Deer_Pink"
-		ScrollBarButton.DepressedFgColor	"Deer_Pink_Dark"
-		ScrollBarButton.DepressedBgColor	"Deer_Pink"
-		// ScrollBarButton.FgColor				"White"
-		// ScrollBarButton.BgColor				"Blank"
-		// ScrollBarButton.ArmedFgColor		"White"
-		// ScrollBarButton.ArmedBgColor		"Blank"
-		// ScrollBarButton.DepressedFgColor	"White"
-		// ScrollBarButton.DepressedBgColor	"Blank"
+		ScrollBarButton.ArmedBgColor		"Deer_Primary"
+		ScrollBarButton.DepressedFgColor	"Deer_Primary_Dark"
+		ScrollBarButton.DepressedBgColor	"Deer_Primary"
 
 		ScrollBarSlider.FgColor				"60 60 60 128"			// nob color
 		ScrollBarSlider.BgColor				"0 0 0 64"	// slider background color
+		
+		ScrollBar.Wide				"6"
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -154,15 +151,10 @@ Scheme
 		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"Deer_Pink"//"Orange"
+		SectionedListPanel.SelectedBgColor				"Deer_Primary"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"Deer_Primary_Dark"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"180 180 180 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
 
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.BgColor			"TransparentBlack"
@@ -170,14 +162,14 @@ Scheme
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"Deer_Pink"//"Orange"
-		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
+		TextEntry.SelectedBgColor	"Deer_Primary"
+		TextEntry.OutOfFocusSelectedBgColor	"Deer_Primary_Dark"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 
 		ToggleButton.SelectedTextColor	"White"
 
 		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.BgColor				"Deer_Pink"//"Orange"
+		Tooltip.BgColor				"Deer_Primary"
 
 		TreeView.BgColor			"TransparentBlack"
 
@@ -196,7 +188,7 @@ Scheme
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"Deer_Pink"//"Orange"	[$WIN32]
+		NewGame.SelectionColor		"Deer_Primary"
 		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
@@ -803,26 +795,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-		}
-	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
-	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
-		
-		"8"
-		{
-			"font"	"resource/fonts/Hack-Regular.ttf"
-			"name"	"Hack"
-		}
-		"9"
-		{
-			"font"	"resource/fonts/VHS-Custom.ttf"
-			"name"	"VHS-Custom"
 		}
 	}
 }

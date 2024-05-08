@@ -10,7 +10,7 @@
 		"ypos"			"r115"
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"Deer_Pink"
+		"MeterFG"		"Deer_Primary"
 		"MeterBG"		"Black"
 	}
 

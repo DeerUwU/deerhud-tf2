@@ -44,7 +44,8 @@
 		"proportionaltoparent"	"1"
 		"scaleImage"	"1"
 		"textAlignment"	"center"
-		"image"		"replay/thumbnails/misc/loadout_solid_line"
+		"image"			"replay\thumbnails\misc\loadout_solid_line"
+		"drawcolor"		"Deer_Primary"
 		
 		"mouseinputenabled"	"0"
 		

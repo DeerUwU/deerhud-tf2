@@ -10,15 +10,13 @@
 		"zpos"			"-10"
 		"wide"			"150"
 		"tall"			"5"				
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"vertical_offset_special"	"-100"
 		"horizontal_offset_special"	"15"
 		
-		"fgcolor_override"				"Deer_Pink"	//actually has influence
+		"fgcolor_override"				"Deer_Primary"	//actually has influence
 		"bgcolor_override"				"Black"	//actually has influence
 	}					
 	

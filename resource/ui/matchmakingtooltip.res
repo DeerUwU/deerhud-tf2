@@ -42,7 +42,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"

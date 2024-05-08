@@ -31,7 +31,7 @@
 		"radius"		"8"
 		"velocity"		"2000"
 
-		"fgcolor_override"	"Deer_Pink"
+		"fgcolor_override"	"Deer_Primary"
 	}
 
 	"QueueText"

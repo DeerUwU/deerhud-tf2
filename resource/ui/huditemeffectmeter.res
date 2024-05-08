@@ -10,7 +10,7 @@
 		"zpos"			"-200"
 		"wide"			"150"
 		"tall"			"20"
-		"MeterFG"		"Deer_Pink"
+		"MeterFG"		"Deer_Primary"
 		"MeterBG"		"Black"
 	}
 
@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/modulatetest"
-		"drawcolor"		"Deer_Pink"
+		"drawcolor"		"Deer_Primary"
 		"alpha"			"255"
 		//"border"		"Deer_Meter_Border"
 		"pin_to_sibling" "ItemEffectMeter"

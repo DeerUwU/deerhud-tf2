@@ -25,8 +25,6 @@
 		"zpos"			"0"
 		"wide"			"420"
 		"tall"			"130"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"Deer_White_Black50"
@@ -89,15 +87,12 @@
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Title"
 		"fgcolor"		"Deer_White"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 	}
 
 	"TitleLabelDropshadow"
@@ -105,14 +100,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"VHS30"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 		"xpos"			"51" // align me to the left edge of the first selection
 		"ypos"			"7"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Title"
@@ -146,14 +139,11 @@
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 	}
 	
 	"active_item_1"

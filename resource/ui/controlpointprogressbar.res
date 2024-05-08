@@ -28,7 +28,7 @@
 		"wide_minmode"		"29"
 		"tall"		"45"
 		"tall_minmode"		"29"
-		"autoResize"	"0"
+		
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
@@ -96,9 +96,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"progress"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"centerwrap"	"1"
+						"centerwrap"	"1"
 	}
 
 	"Blocked"

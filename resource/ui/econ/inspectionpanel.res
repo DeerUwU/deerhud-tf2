@@ -275,16 +275,15 @@
 			"zpos"			"1005"
 			"wide"			"8"
 			"tall"			"8"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+						"brighttext"	"0"
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -366,7 +365,7 @@
 			"ypos"			"10"
 			"wide"			"80"
 			"tall"			"15"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -436,7 +435,7 @@
 			}
 			"wide"			"80"
 			"tall"			"15"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -500,7 +499,7 @@
 			}
 			"wide"			"80"
 			"tall"			"15"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -534,16 +533,15 @@
 			"zpos"			"10"
 			"wide"			"70"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
 			"actionsignallevel" "2"
 			"use_proportional_insets" "1"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+						"brighttext"	"0"
 			"keyboardinputenabled"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -574,10 +572,10 @@
 			"zpos"			"10"
 			"wide"			"115"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"

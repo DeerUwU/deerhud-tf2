@@ -8,11 +8,9 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"46 43 42 0"
@@ -70,7 +68,8 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"image"			"replay\thumbnails\misc\loadout_solid_line"
+		"drawcolor"		"Deer_Primary"
 		"scaleImage"	"1"
 	}				
 	
@@ -96,7 +95,8 @@
 			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
+			"image"			"replay\thumbnails\misc\loadout_solid_line"
+			"drawcolor"		"Deer_Primary"
 			"scaleImage"	"1"
 		}				
 		
@@ -127,7 +127,7 @@
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -143,7 +143,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 				
 		"border_default"	"Deer_Button"
-		"border_armed"		"Deer_Button_Hover"
+		"border_armed"		"Deer_Button_Pressed"
 		"border_depressed"	"Deer_Button_Pressed"
 			
 		"defaultFgColor_override"		"TanDarker"

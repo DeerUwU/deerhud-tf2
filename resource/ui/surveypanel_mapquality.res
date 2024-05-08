@@ -18,7 +18,7 @@
 				"zpos"			"1000"
 				"wide"			"p0.85"
 				"tall"			"30"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -39,13 +39,13 @@
 				"zpos"			"1000"
 				"wide"			"p1"
 				"tall"			"30"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"wrap"			"0"
 				"centerwrap"	"1"
-				"fgcolor_override" "Orange"
+				"fgcolor_override" "Deer_Primary"
 				"proportionaltoparent"	"1"
 			}
 

@@ -36,9 +36,7 @@
 		"tabPosition"		"3"
 		"labelText"		"#GameUI_MuteIngameVoice"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Command"		"Mute"
+						"Command"		"Mute"
 		"Default"		"1"
 	}
 	"PlayerList"
@@ -70,9 +68,7 @@
 		"tabPosition"		"4"
 		"labelText"		"#GameUI_Close"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Command"		"Close"
+						"Command"		"Close"
 		"Default"		"0"
 	}
 }

@@ -21,8 +21,6 @@
 		"xpos"			"50"
 		"ypos"			"0"
 		"wide"			"f0"//offset to leave room for class buttons
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
@@ -93,7 +91,7 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"				"+"
@@ -123,16 +121,14 @@
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
 
-	"TopLine"
+	"Classname_underline"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"TopLine"
+		"fieldName"		"Classname_underline"
 		"xpos"			"c-280"
 		"ypos"			"40"
 		"zpos"			"0"
@@ -140,7 +136,8 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_dotted_line"
+		"image"			"replay/thumbnails/misc/dotted_line_col"
+		"drawcolor"		"Deer_Primary"
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
@@ -156,8 +153,6 @@
 		"zpos"			"-1"		
 		"wide"			"450"
 		"tall"			"380"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -214,7 +209,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -235,8 +230,6 @@
 		"zpos"			"0"	
 		"wide"			"270"
 		"tall"			"240"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
@@ -253,11 +246,9 @@
 		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"f100"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"paintbackground"	"0"
 	}
 	
@@ -288,8 +279,6 @@
 		"zpos"			"1"	
 		"wide"			"250"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"24"
@@ -310,11 +299,11 @@
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"paintbackground"	"0"
 		
 		"Command"			"characterloadout"
@@ -352,7 +341,7 @@
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"

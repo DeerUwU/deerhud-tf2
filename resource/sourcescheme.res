@@ -1,6 +1,7 @@
 #base "SourceSchemeBase.res"
-#base "colors.res"
-
+#base "scheme/colors.res"
+#base "scheme/borders.res"
+#base "scheme/fonts.res" 
 Scheme
 {
     //////////////////////// COLORS ///////////////////////////
@@ -37,8 +38,10 @@ Scheme
 		"ControlBG"			"76 88 68 255"		// background color of controls
 		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"0 0 0 128"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
+		// "SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
+		 "SelectionBG"		"255 0 0 255"	// background color of any selected text or menu item
+		// "SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
+		"SelectionBG2"		"255 0 0 255"		// selection background in window w/o focus
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
@@ -51,20 +54,20 @@ Scheme
 		Button.TextColor				"Deer_Menu_White"
 		Button.BgColor					"Deer_Menu_Middle"
 		Button.ArmedTextColor			"Deer_Menu_Dark"
-		Button.ArmedBgColor				"Deer_Pink"
+		Button.ArmedBgColor				"Deer_Primary"
 		Button.DepressedTextColor		"Deer_Menu_White"
-		Button.DepressedBgColor			"Deer_Pink_Dark"	
+		Button.DepressedBgColor			"Deer_Primary_Dark"	
 		Button.FocusBorderColor			"Blank"
 		
 		CheckButton.TextColor			"Deer_Menu_White"
 		CheckButton.SelectedTextColor	"Deer_Menu_White"
 		CheckButton.BgColor				"Deer_Menu_Dark"
-		CheckButton.HighlightFgColor	"Deer_Pink"
+		CheckButton.HighlightFgColor	"Deer_Primary"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.Border1  			"Deer_Menu_Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Deer_Menu_Dark"		// the right checkbutton border
-		CheckButton.Check				"Deer_Pink"	// color of the check itself
+		CheckButton.Check				"Deer_Primary"	// color of the check itself
 		CheckButton.DisabledBgColor	    "Deer_Menu_Dark"
 
 		ToggleButton.SelectedTextColor	"Deer_Menu_White"
@@ -83,7 +86,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"Deer_Menu_Middle"//"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font				"VHS30"
+		FrameTitleBar.Font				"VHS16"			//VGUI PANEL TITLE THING
 		FrameTitleBar.TextColor			"Deer_Menu_White"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
 		
@@ -97,8 +100,8 @@ Scheme
 		
 		ListPanel.TextColor					"Deer_Menu_White"
 		ListPanel.BgColor					"31 31 31 255"
-		ListPanel.SelectedBgColor			"Deer_Pink_Dark"
-		ListPanel.SelectedOutOfFocusBgColor	"Deer_Pink_Dark"
+		ListPanel.SelectedBgColor			"Deer_Primary_Dark"
+		ListPanel.SelectedOutOfFocusBgColor	"Deer_Primary_Dark"
 		
 		MainMenu.TextColor			"Deer_White"			[$WIN32]
 		MainMenu.ArmedTextColor		"Deer_White"//"117 107 94 255"	[$WIN32]
@@ -108,28 +111,52 @@ Scheme
 		Menu.FgColor			"Deer_Menu_Grey"
 		Menu.BgColor			"Deer_Menu_Medium"
 		Menu.ArmedFgColor		"Deer_Menu_White"
-		Menu.ArmedBgColor		"Deer_Pink_Dark"
+		Menu.ArmedBgColor		"Deer_Primary_Dark"
 		Menu.DividerColor		"BorderDark"
 		
 		ScrollBarButton.FgColor				"Deer_White"
 		ScrollBarButton.BgColor				"Deer_Menu_Medium"
 		ScrollBarButton.ArmedFgColor		"Deer_White"
-		ScrollBarButton.ArmedBgColor		"Deer_Pink"
-		ScrollBarButton.DepressedFgColor	"Deer_Pink_Dark"
-		ScrollBarButton.DepressedBgColor	"Deer_Pink"
+		ScrollBarButton.ArmedBgColor		"Deer_Primary"
+		ScrollBarButton.DepressedFgColor	"Deer_Primary_Dark"
+		ScrollBarButton.DepressedBgColor	"Deer_Primary"
+		
+		ScrollBar.Wide				"20"
 
 		ScrollBarSlider.BgColor				"Deer_Black"		// this isn't really used
 		ScrollBarSlider.FgColor				"Deer_Menu_Middle"		// handle with which the slider is grabbed
 		
-		Slider.NobColor				"TFTanLight"		
+		Slider.NobColor				"Deer_Primary"		
+		Slider.TrackColor			"Deer_Primary_Dark"
 		Slider.TextColor			"Deer_Menu_White"
-		Slider.TrackColor			"Deer_Menu_Medium"
-		Slider.DisabledTextColor1	"TFTextMediumDark"
+		Slider.DisabledTextColor1	"Deer_Menu_Dark"
         Slider.DisabledTextColor2	"Blank"
 		
 		TextEntry.TextColor			        "Deer_Menu_White"
 		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "Deer_Pink_Dark"
+		TextEntry.SelectedBgColor	        "Deer_Primary_Dark"
+		
+		SectionedListPanel.SelectedBgColor				"Deer_Primary"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"Deer_Primary_Dark"
+		
+		Console.TextColor			"Deer_White"
+		Console.DevTextColor		"Deer_White"
+		
+		Tooltip.TextColor			"Deer_White"
+		Tooltip.BgColor				"Deer_Primary_Dark"
+		
+		TextEntry.TextColor			"Deer_White"
+		TextEntry.BgColor			"Deer_Black_128"
+		TextEntry.CursorColor		"Deer_White"
+		TextEntry.DisabledTextColor	"Deer_Menu_Dark"
+		TextEntry.DisabledBgColor	"Blank"
+		TextEntry.SelectedTextColor	"Black"
+		TextEntry.SelectedBgColor	"Deer_Primary"
+		// TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
+		// TextEntry.FocusEdgeColor	"0 0 0 196"
+		
+		NewGame.SelectionColor		"Deer_Primary"
+		RichText.SelectedBgColor	"Deer_Primary"
 	}
 	
 	Borders
@@ -144,21 +171,11 @@ Scheme
 
 	Fonts
 	{
+
 	
-		VHS30
+		"MainMenuFont" //what is this for
 		{
 			"1"
-			{
-				"name"			"VHS-Custom"
-				"tall"			"30"
-				"antialias"		"1"
-				"range"			"0x0000 0x00FF"
-			}
-		}
-	
-		"MainMenuFont"
-		{
-			"1"	[$WIN32]
 			{
 				"name"		"VHS-Custom"
 				"tall"		"18"
@@ -172,7 +189,7 @@ Scheme
 			"1"
 			{
 				"name" "Hack"
-				"tall" "15"
+				"tall" "12"
 				"weight" "900"
 				"antialias" "1"
 				"yres"			"480 1079"
@@ -180,7 +197,7 @@ Scheme
 			"2"
 			{
 				"name" "Hack" //.... (Font Type) Comic Sans MS
-				"tall" "20" //"10" //............. (Font Size)
+				"tall" "18" //"10" //............. (Font Size)
 				"weight" "900" //..................... (For adjusting bold, 900 is bold, 0 - 200 regular)
 				"antialias" "1"
 			}
@@ -207,15 +224,7 @@ Scheme
 			}
 		}
 
-		"Default" [$OSX]
-		{
-			"1"
-			{
-				"name"		"VHS-Custom"
-				"tall"		"14"
-				"weight"	"500"
-			}
-		}
+
 
 		"ServerBrowserSmall"
 		{
@@ -271,6 +280,68 @@ Scheme
 			// }
 		}
 		
+		
+		DefaultLarge
+		{
+			"1"
+			{
+				"name"		"VHS-Custom"//"Verdana"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"VHS-Custom"//"Verdana"
+				"tall"		"17"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"VHS-Custom"//"Verdana"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"VHS-Custom"//"Verdana"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"VHS-Custom"//"Verdana"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"VHS-Custom"//"Verdana"
+				"tall"		"16"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"VHS-Custom"//"Arial"
+				"tall"		"16"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		
 				
 		AchievementItemTitle	[$WIN32]
 		{
@@ -311,81 +382,5 @@ Scheme
 			}
 		}
 
-	}
-	
-	CustomFontFiles
-	{
-		"6" 
-		{
-			"font" "resource/TF2CBuild.ttf"
-			"name" "TF2C Build"
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}	
-		}
-		
-		"8"
-		{
-			"font"	"resource/fonts/Hack-Regular.ttf"
-			"name"	"Hack"
-		}
-		"9"
-		{
-			"font"	"resource/fonts/VHS-Custom.ttf"
-			"name"	"VHS-Custom"
-		}
 	}
 }

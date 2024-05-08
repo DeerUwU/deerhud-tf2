@@ -1,15 +1,15 @@
 "Resource/UI/TextWindow.res"
 {
-	"BlurBG"
+	"darkBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BlurBG"
-		"image"			"../vgui/replay/thumbnails/refract/refract_basic"
-		"wide"			"860"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"darkBG"
+		"fillcolor"		"0 0 0 196"
+		"wide"			"f0"
 		"tall"			"480"
 		"scaleImage"	"1"
-		"alpha"			"255"
 	}
+	
 
 	"info"
 	{
@@ -36,14 +36,11 @@
 		"zpos"			"1"
 		"wide"			"420"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"font"			"VHS30"
 		"fgcolor"		"Deer_White"
 	}	
@@ -101,16 +98,15 @@
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+		
 		"labelText"		"#TF_Continue"
 		"textAlignment"	"bottom"
 		"command"		"okay"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"wrap"			"0"
 		
 		"default"		"0"
@@ -125,17 +121,16 @@
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
 		"textinsety"	"6"
 		"command"		"okay"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"wrap"			"0"
 		
 		"default"		"0"
@@ -166,11 +161,9 @@
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+			
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"

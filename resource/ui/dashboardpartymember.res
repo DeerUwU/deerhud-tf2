@@ -123,15 +123,14 @@
 		"zpos"			"200"
 		"wide"			"f1"
 		"tall"			"f1"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"font"			"PlayerPanelPlayerName"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"Command"		"interact"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
@@ -165,6 +164,6 @@
 
 		"radius"		"26"
 		"velocity"		"60"
-		"fgcolor_override"	"Orange"
+		"fgcolor_override"	"Deer_Primary"
 	}
 }

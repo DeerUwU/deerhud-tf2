@@ -28,7 +28,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		//"image"			"../hud/health_bg"
-		"fillcolor"		"Deer_Pink_Dark"
+		"fillcolor"		"Deer_Primary_Dark"
 		"scaleImage"	"1"	
 	}	
 	"HealthbarBG"
@@ -58,8 +58,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"alpha"			"255"	
-		"drawcolor"		"255 105 199 255" //lighter deerpink
+		// "alpha"			"255"	
+		// "drawcolor"		"255 105 199 255" //lighter deerpink
+		"drawcolor"		"Deer_Primary" //lighter deerpink
 		"image"			"replay/thumbnails/modulatetest"
 	}
 	"BuildingStatusHealthImageBG"

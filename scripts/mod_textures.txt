@@ -1618,13 +1618,13 @@
 			"file"	"vgui/replay/thumbnails/misc/hud_obj_status_sapper"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"width"		"128"
+			"height"	"128"
 		}
 		
 		"cappoint_progressbar_teardrop"
 		{
-			"file"		"vgui/progress_bar_pointer"
+			"file"		"vgui\replay\thumbnails\cp_icons\progress_bar_pointer"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1633,7 +1633,7 @@
 
 		"cappoint_progressbar_teardrop_left"
 		{
-			"file"		"vgui/progress_bar_pointer_left"
+			"file"		"vgui\replay\thumbnails\cp_icons\progress_bar_pointer_left"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1642,7 +1642,7 @@
 
 		"cappoint_progressbar_teardrop_right"
 		{
-			"file"		"vgui/progress_bar_pointer_right"
+			"file"		"vgui\replay\thumbnails\cp_icons\progress_bar_pointer_right"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1705,7 +1705,7 @@
 		
 		"cappoint_progressbar_blocked"
 		{
-			"file"		"vgui/progress_bar_noCap"
+			"file"		"vgui/replay/thumbnails/cp_icons/progress_bar_noCap"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1759,7 +1759,7 @@
 			
 		"obj_status_icon_sapper"
 		{
-			"file"		"HUD/hud_obj_status_sapper"
+			"file"		"vgui/replay/thumbnails/misc/hud_obj_status_sapper"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1767,7 +1767,7 @@
 		}
 		"progress_bar_blu"
 		{
-			"file"		"vgui/progress_bar_blu"
+			"file"		"vgui/replay/thumbnails/cp_icons/progress_bar_blu"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1775,7 +1775,7 @@
 		}				
 		"progress_bar_red"
 		{
-			"file"		"vgui/progress_bar_red"
+			"file"		"vgui/replay/thumbnails/cp_icons/progress_bar_red"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -2137,7 +2137,7 @@
 		
 		"ico_notify_flag_dropped"
 		{
-			"file"		"hud/objectives_flagpanel_ico_flag_dropped"
+			"file"		"hud/replay/thumbnails/ctf_icons/objectives_flagpanel_ico_flag_dropped"
 			"x"		"0"
 			"y"		"0"
 			"width"	"256"
@@ -2146,7 +2146,7 @@
 		
 		"ico_notify_flag_home"
 		{
-			"file"		"hud/objectives_flagpanel_ico_flag_home"
+			"file"		"hud/replay/thumbnails/ctf_icons/objectives_flagpanel_ico_flag_home"
 			"x"		"0"
 			"y"		"0"
 			"width"	"256"
@@ -2155,7 +2155,7 @@
 
 		"ico_notify_flag_home_alt"
 		{
-			"file"		"hud/objectives_flagpanel_ico_flag_home_alt"
+			"file"		"hud/replay/thumbnails/ctf_icons/objectives_flagpanel_ico_flag_home_alt"
 			"x"		"0"
 			"y"		"0"
 			"width"	"256"
@@ -2164,7 +2164,7 @@
 		
 		"ico_notify_flag_moving"
 		{
-			"file"		"hud/objectives_flagpanel_ico_flag_moving"
+			"file"		"vgui/replay/thumbnails/ctf_icons/objectives_flagpanel_ico_flag_moving"
 			"x"		"0"
 			"y"		"0"
 			"width"	"256"
@@ -2173,7 +2173,7 @@
 
 		"ico_notify_flag_moving_alt"
 		{
-			"file"		"hud/objectives_flagpanel_ico_flag_moving_alt"
+			"file"		"hud/replay/thumbnails/ctf_icons/objectives_flagpanel_ico_flag_moving_alt"
 			"x"		"0"
 			"y"		"0"
 			"width"	"256"

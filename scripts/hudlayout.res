@@ -1,5 +1,7 @@
+#base "../cfg/#deerhud_custom.txt"
 "Resource/HudLayout.res"
 {
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -18,6 +20,7 @@
 		"enabled" "1"
 		"xpos"	"c80"
 		"ypos"	"r205"
+		"zpos"	"-1"
 		"wide"	"350"
 		"tall"	"90"
 	}
@@ -79,7 +82,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"r134"
+		"ypos"			"r124"
 		"zpos"			"-10"			// draw in front of ammo
 		"wide"			"200"
 		"tall"			"20"
@@ -207,7 +210,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-8"
+		"xpos"		"0"
 		"ypos"		"r62"
 		"wide"		"500"
 		"tall"		"200"
@@ -1433,5 +1436,22 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+	
+		
+	"TransparentViewmodelMask"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-999"
+		"wide"			"f0"
+		"tall"			"480"
+		"enabled"		"1"
+		"scaleImage"	"1"
+	}
+
+	
+	
 }
 

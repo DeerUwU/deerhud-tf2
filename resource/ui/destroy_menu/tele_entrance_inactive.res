@@ -10,14 +10,11 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_tele_entrance_360"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 	}
 	
 	"ItemBackground"	
@@ -46,14 +43,11 @@
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 	}	
 
 	"UnavailableLabel"
@@ -66,14 +60,11 @@
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 	}	
 			
 	"NumberBg"	
@@ -103,8 +94,6 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"3"

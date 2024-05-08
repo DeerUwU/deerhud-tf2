@@ -88,7 +88,7 @@
 		"zpos"			"100"
 		"wide"			"200"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"VHS20"

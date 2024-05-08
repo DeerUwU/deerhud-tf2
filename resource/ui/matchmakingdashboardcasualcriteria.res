@@ -39,11 +39,12 @@
 		"ypos"		"-2"
 		"zpos"		"99"
 		"wide"		"140"
-		"tall"		"20"
+		"tall"		"10"
 		"proportionaltoparent"	"1"
 		"scaleImage"	"1"
 		"textAlignment"	"center"
 		"image"		"replay/thumbnails/misc/loadout_solid_line"
+		"drawcolor"	"Deer_Primary"
 		
 		"mouseinputenabled"	"0"
 		
@@ -91,7 +92,7 @@
 		"zpos"			"100"
 		"wide"			"200"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"VHS20"

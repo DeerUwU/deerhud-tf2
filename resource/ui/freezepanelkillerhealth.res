@@ -28,7 +28,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		//"image"			"../hud/health_bg"
-		"fillcolor"		"Deer_Pink_Dark"
+		"fillcolor"		"Deer_Primary_Dark"
 		"scaleImage"	"1"	
 	}	
 	"HealthbarBG"

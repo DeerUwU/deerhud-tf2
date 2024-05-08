@@ -1,3 +1,4 @@
+#base "../../cfg/#deerhud_custom.txt"
 "Resource/UI/BaseChat.res"
 {
 	"HudChat"
@@ -6,8 +7,6 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"
-		"ypos"			"265"
 		"wide"	 		"300"
 		"tall"	 		"140"
 		"PaintBackgroundType"	"0"
@@ -41,9 +40,7 @@
 		"tabPosition"		"0"
 		"labelText"		"#chat_filterbutton"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
+						"Default"		"0"		
 	}
 
 	"HudChatHistory"

@@ -22,7 +22,7 @@
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"
 		"chat_color_chat_text"		"255 255 255 255"
-		"chat_color_party_event"	"Orange"
+		"chat_color_party_event"	"Deer_Primary"
 
 		"collapsed_height"		"0"
 		"expanded_height"		"200"

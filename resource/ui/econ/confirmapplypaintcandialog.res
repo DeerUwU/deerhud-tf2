@@ -44,7 +44,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -277,16 +277,15 @@
 		"zpos"			"1"
 		"wide"			"130"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"default"		"0"
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -302,16 +301,15 @@
 		"zpos"			"1"
 		"wide"			"130"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"#CraftNameConfirm"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"default"		"1"
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"

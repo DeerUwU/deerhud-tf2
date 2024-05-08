@@ -1,15 +1,16 @@
 "Resource/UI/MapInfoMenu.res"
 {
-	"BlurBGscore"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BlurBGscore"
-		"image"			"../vgui/replay/thumbnails/refract/refract_basic"
-		"wide"			"860"
-		"tall"			"480"
-		"scaleImage"	"1"
-		"alpha"			"255"
-	}
+
+	// "darkBG"
+	// {
+		// "ControlName"	"ImagePanel"
+		// "fieldName"		"darkBG"
+		// "fillcolor"		"0 0 0 196"
+		// "wide"			"f0"
+		// "tall"			"480"
+		// "scaleImage"	"1"
+	// }
+	
 	
 	"mapinfo"
 	{
@@ -35,8 +36,6 @@
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%mapname%"
@@ -57,8 +56,6 @@
 		"zpos"			"1"
 		"wide"			"225"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
@@ -110,7 +107,7 @@
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -146,7 +143,7 @@
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"#TF_WatchIntro"
@@ -167,7 +164,7 @@
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"

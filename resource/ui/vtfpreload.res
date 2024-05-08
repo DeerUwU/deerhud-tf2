@@ -731,18 +731,18 @@
 			"visible"		"1"
 			"image"			"../logo/deerhud_new_2"
 		}
-		"deer_line_dotted"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"		"1"
-			"image"			"../vgui/loadout_dotted_line"
-		}
-		"deer_line_solid"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"		"1"
-			"image"			"../vgui/loadout_solid_line"
-		}
+		// "deer_line_dotted"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"		"1"
+			// "image"			"../vgui/loadout_dotted_line"
+		// }
+		// "deer_line_solid"
+		// {
+			// "ControlName"	"ImagePanel"
+			// "visible"		"1"
+			// "image"			"../vgui/loadout_solid_line"
+		// }
 		"deer_ico_key"
 		{
 			"ControlName"	"ImagePanel"
@@ -791,54 +791,20 @@
 			"visible"		"1"
 			"image"			"../hud/objectives_timepanel_blue_bg"
 		}
-		
-		// "deer_glyph_options"
+		// "deer_underline_blu"
 		// {
 			// "ControlName"	"ImagePanel"
-			// "visible"	"1"
-			// "image"	"../vgui/replay/thumbnails/misc/glyph_options"
+			// "visible"		"1"
+			// "image"			"replay/thumbnails/borders/underline_blu"
 		// }
-		// "deer_glyph_quit"
+		// "deer_underline_red"
 		// {
 			// "ControlName"	"ImagePanel"
-			// "visible"	"1"
-			// "image"	"../vgui/replay/thumbnails/misc/glyph_quit"
+			// "visible"		"1"
+			// "image"			"replay/thumbnails/borders/underline_red"
 		// }
-		// "deer_icon_resume"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"	"1"
-			// "image"	"../vgui/replay/thumbnails/misc/icon_resume"
-		// }
-		// "deer_glyph_items"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"	"1"
-			// "image"	"../vgui/replay/thumbnails/misc/glyph_items"
-		// }
-		// "deer_glyph_chat"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"	"1"
-			// "image"	"../vgui/replay/thumbnails/misc/glyph_chat"
-		// }
-		// "deer_glyph_console"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"	"1"
-			// "image"	"../vgui/replay/thumbnails/misc/glyph_console"
-		// }
-		// "deer_glyph_store"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"	"1"
-			// "image"	"../vgui/replay/thumbnails/misc/glyph_store"
-		// }
-		// "deer_glyph_achievements"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"	"1"
-			// "image"	"../vgui/replay/thumbnails/misc/glyph_achievements"
-		// }
+			
+			
+
 	}
 }

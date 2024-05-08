@@ -21,8 +21,6 @@
 		"xpos"			"50"
 		"ypos"			"0"
 		"wide"			"f0"//offset to leave room for class buttons
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
@@ -92,7 +90,7 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"				"+"
@@ -122,8 +120,6 @@
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -139,7 +135,8 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_dotted_line"
+		"image"			"replay/thumbnails/misc/dotted_line_col"
+		"drawcolor"		"Deer_Primary"
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
@@ -155,7 +152,7 @@
 		"zpos"			"-1"		
 		"wide"			"300"
 		"tall"			"340"
-		"autoResize"	"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -212,7 +209,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -233,8 +230,6 @@
 		"zpos"			"0"	
 		"wide"			"270"
 		"tall"			"240"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
@@ -251,7 +246,7 @@
 		"ypos"			"0"
 		"wide"			"120"
 		"tall"			"f100"
-		"autoResize"	"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
@@ -284,8 +279,6 @@
 		"zpos"			"1"	
 		"wide"			"250"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"24"
@@ -306,16 +299,19 @@
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"paintbackground"	"0"
 		
 		"Command"			"characterloadout"
 		
 		"border_default"	"Deer_Grey_Filled"
+		
+		"image_drawcolor"	"255 255 255 255" //tandarker
+		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 		
 		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -346,16 +342,19 @@
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"paintbackground"	"0"
 		
 		"Command"			"tauntloadout"
 		
 		"border_default"	"Deer_Grey_Filled"
+		
+		"image_drawcolor"	"255 255 255 255" //tandarker
+		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 		
 		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -376,8 +375,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image_drawcolor"	"255 255 255 255"
-			"image"			"../hud/ico_reel"
+			"image"				"replay\thumbnails\misc\glyph_taunts"
 		}
 	}
 	"Red"

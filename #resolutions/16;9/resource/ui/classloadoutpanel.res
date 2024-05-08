@@ -21,8 +21,6 @@
 		"xpos"			"50"
 		"ypos"			"0"
 		"wide"			"f0"//offset to leave room for class buttons
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
@@ -81,6 +79,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" 	"1"
 			}
 		}
 
@@ -92,7 +91,7 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"				"+"
@@ -122,16 +121,14 @@
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
 
-	"TopLine"
+	"Classname_underline"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"TopLine"
+		"fieldName"		"Classname_underline"
 		"xpos"			"c-280"
 		"ypos"			"40"
 		"zpos"			"0"
@@ -139,7 +136,8 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_dotted_line"
+		"image"			"replay/thumbnails/misc/dotted_line_col"
+		"drawcolor"		"Deer_Primary"
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
@@ -150,13 +148,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"100"
-		"ypos"			"20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"		
-		"wide"			"350"
-		"tall"			"340"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"wide"			"450"
+		"tall"			"380"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -171,9 +167,9 @@
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
-			"origin_x" "190"
-			"origin_y" "0"
-			"origin_z" "-48"
+			"origin_x" "240" //distance to camera
+			"origin_y" "-15"
+			"origin_z" "-44" //height (higher is down)
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
@@ -213,7 +209,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -234,8 +230,6 @@
 		"zpos"			"0"	
 		"wide"			"270"
 		"tall"			"240"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
@@ -252,11 +246,9 @@
 		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"f100"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"paintbackground"	"0"
 	}
 	
@@ -287,8 +279,6 @@
 		"zpos"			"1"	
 		"wide"			"250"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"24"
@@ -309,16 +299,18 @@
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"paintbackground"	"0"
 		
 		"Command"			"characterloadout"
-		
 		"border_default"	"Deer_Grey_Filled"
+		
+		"image_drawcolor"	"255 255 255 255" //tandarker
+		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 		
 		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -335,7 +327,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"glyph_items"
+			"image"			"replay\thumbnails\misc\glyph_loadout"
 		}
 	}
 
@@ -349,16 +341,16 @@
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"paintbackground"	"0"
-		
 		"Command"			"tauntloadout"
-		
 		"border_default"	"Deer_Grey_Filled"
+		
+		"image_drawcolor"	"255 255 255 255" //tandarker
+		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 		
 		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -379,7 +371,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"../hud/ico_reel"
+			"image"			"replay\thumbnails\misc\glyph_taunts"
 		}
 	}
 	"Red"

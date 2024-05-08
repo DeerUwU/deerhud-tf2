@@ -44,8 +44,7 @@
 		"labelText"		"#GameUI_ParseBaseline"
 		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
-	}
+			}
 	"progress"
 	{
 		"ControlName"		"ProgressBar"
@@ -75,9 +74,7 @@
 		"tabPosition"		"0"
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"command"		"Cancel"
+						"command"		"Cancel"
 		"Default"		"0"
 	}
 	"Divider1"
@@ -110,8 +107,7 @@
 		"labelText"		"#GameUI_LoadingDialog_ContentHosting"
 		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
-	}
+			}
 	"BannerAd"
 	{
 		"ControlName"		"HTML"

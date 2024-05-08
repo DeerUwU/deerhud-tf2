@@ -22,8 +22,10 @@
 		"tall"			"6"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/loadout_dotted_line"
-		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/misc/dotted_line_col"
+		"drawcolor"		"Deer_Primary"
+		"tileImage"		"1"
+		"tileVertically" "0"
 	}
 	
 	"MetalIcon"	
@@ -55,11 +57,10 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"font"			"VHS20"
 		"fgcolor"		"Deer_White"
 	}

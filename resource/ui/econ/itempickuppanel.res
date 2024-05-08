@@ -92,8 +92,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -110,8 +108,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -128,8 +124,6 @@
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -145,8 +139,6 @@
 		"zpos"			"5"
 		"wide"			"120"
 		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -160,11 +152,11 @@
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"#NextItem"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
@@ -181,16 +173,15 @@
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		"#PreviousItem"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"Command"		"previtem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -205,7 +196,7 @@
 		"zpos"			"6"
 		"wide"			"200"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -237,7 +228,7 @@
 		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -270,16 +261,13 @@
 		"zpos"			"10"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"Command"		"discarditem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -332,7 +320,7 @@
 			"ypos"			"0"
 			"wide"			"80"
 			"tall"			"50"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -353,8 +341,6 @@
 		"zpos"			"5"
 		"wide"			"420"
 		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"

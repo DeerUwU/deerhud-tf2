@@ -38,20 +38,21 @@
 		"zpos"			"100"
 		"wide"			"90"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"Command"		"back"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_Back"
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
+		"paintbackgroundtype"	"0"
+		"roundedcorners"		"0"
 		//"actionsignallevel"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -84,24 +85,25 @@
 		"zpos"			"100"
 		"wide"			"170"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"Command"		"start_search"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_StartSearch"
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"paintbackgroundtype"	"0"
+		"roundedcorners"		"0"
 
+		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
@@ -133,24 +135,25 @@
 		"zpos"			"100"
 		"wide"			"270"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"Command"		"start_search"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_StartSearch"
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"paintbackgroundtype"	"0"
+		"roundedcorners"		"0"
 
+		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
@@ -165,15 +168,14 @@
 		"zpos"			"100"
 		"wide"			"f20"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 		"Command"		"select_tour"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MvM_SelectChallenge"

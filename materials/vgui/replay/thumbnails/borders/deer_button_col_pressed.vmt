@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$baseTexture" 	"vgui\replay\thumbnails\borders\deer_button_col_pressed"
+	"$detail"		"vgui\replay\thumbnails\borders\backpack_rect_color"
+	
+	"$detailscale"			"1"
+	"$detailblendfactor"	"1"
+	"$detailblendmode"		"5"
+	
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+	
+}

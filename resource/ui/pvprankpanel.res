@@ -54,7 +54,7 @@
 			"zpos"			"0"		
 			"wide"			"o1"
 			"tall"			"p0.12"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -401,7 +401,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"248 90 165 255"//"CreditsGreen" //xp bar color
+						"fgcolor_override"	"Deer_Primary"//"CreditsGreen" //xp bar color
 					}
 					"ContinuousProgressBar2"
 					{
@@ -415,7 +415,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"228 67 143 255"//"CreditsGreen" //xp bar color
+						"fgcolor_override"	"Deer_Primary"//"CreditsGreen" //xp bar color
 						
 					}
 

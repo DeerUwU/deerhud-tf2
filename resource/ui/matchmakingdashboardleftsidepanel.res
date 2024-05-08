@@ -94,7 +94,7 @@
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"armedFgColor_override"	"Deer_Primary"
 	}
 
 	"ReturnButton"
@@ -116,7 +116,7 @@
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"armedFgColor_override"	"Deer_Primary"
 	}
 	
 	"BGPanel"

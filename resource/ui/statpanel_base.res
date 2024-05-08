@@ -41,9 +41,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"titleLable"
 		"font"			"TFFontSmall"
-		"font_lodef"	"HudFontSmall"
 		"xpos"			"72"
-		"xpos_lodef"	"100"
 		"ypos"			"29"
 		"ypos_lodef"	"30"
 		"zpos"			"2"
@@ -51,14 +49,11 @@
 		"wide_lodef"	"250"
 		"tall"			"10"
 		"tall_lodef"	"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%title%"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		
 	}
 	"summaryLabel"
 	{	
@@ -81,9 +76,7 @@
 		"enabled"		"1"
 		"labelText"		"%statdesc%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"1"
+						"wrap"			"1"
 	}
 	"StatLabelLarge"
 	{	
@@ -105,9 +98,7 @@
 		"enabled"		"1"
 		"labelText"		"%stattextlarge%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-	}
+					}
 	"StatLabelSmall"
 	{	
 		"ControlName"		"Label"
@@ -127,9 +118,7 @@
 		"enabled"		"1"
 		"labelText"		"%stattextsmall%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-	}
+					}
 	StatBox
 	{
 		"ControlName"		"Panel"		

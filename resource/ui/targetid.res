@@ -35,8 +35,6 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\borders\black75_edges"
@@ -56,8 +54,6 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\borders\black75_edges"
@@ -96,8 +92,6 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
@@ -226,9 +220,7 @@
 			"enabled"		"1"
 			"labelText"		"%movekey%"
 			"textAlignment"		"North"
-			"dulltext"		"0"
-			"brighttext"		"0"
-		}	
+								}	
 	}
 	"AvatarImage"
 	{

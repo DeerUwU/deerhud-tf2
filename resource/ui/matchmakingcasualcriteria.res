@@ -62,7 +62,7 @@
 			"zpos"			"100"
 			"wide"			"p0.5"
 			"tall"			"15"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -108,7 +108,7 @@
 			"zpos"			"100"
 			"wide"			"p0.5"
 			"tall"			"15"
-			"autoResize"	"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
@@ -177,7 +177,7 @@
 			"labeltext"			"%selected_maps_count%"
 			"textAlignment"		"center"
 			"font"				"VHS10"
-			"fgcolor_override"	"Deer_Pink"
+			"fgcolor_override"	"Deer_Primary"
 		
 			"mouseinputenabled"	"1"
 		}
@@ -226,7 +226,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"Deer_Pink"
+					"fgcolor_override"	"Deer_Primary"
 				}
 		
 				"UpButton"

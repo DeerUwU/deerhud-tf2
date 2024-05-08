@@ -26,7 +26,7 @@
 		"ypos"			"53"
 		"wide"			"290"
 		"tall"			"14"
-		"fgcolor"		"Deer_Pink"
+		"fgcolor"		"Deer_Primary"
 	}
 
 	"DifficultyContainer"
@@ -102,7 +102,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"White"
@@ -127,7 +127,7 @@
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"enabled"		"1"
 			//"image"			"../HUD/tournament_panel_brown"
@@ -146,7 +146,7 @@
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"

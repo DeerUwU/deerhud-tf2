@@ -72,7 +72,7 @@
 			"zpos"			"0"
 			"wide"			"60"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -124,7 +124,7 @@
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
@@ -274,7 +274,7 @@
 				"zpos"			"-1"
 				"wide"			"16"
 				"tall"			"16"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
@@ -316,7 +316,7 @@
 				"zpos"			"0"
 				"wide"			"12"
 				"tall"			"12"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
@@ -354,7 +354,7 @@
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"10"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
@@ -382,7 +382,7 @@
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
@@ -414,7 +414,7 @@
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%specindex%"
@@ -869,8 +869,6 @@
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -886,7 +884,7 @@
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
-			"fgcolor"		"Deer_Pink"
+			"fgcolor"		"Deer_Primary"
 		}
 
 		if_competitive
@@ -897,7 +895,7 @@
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
-			"fgcolor"		"Deer_Pink"
+			"fgcolor"		"Deer_Primary"
 		}
 
 		if_readymode
@@ -922,8 +920,6 @@
 		"zpos"			"3"
 		"wide"			"40"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"Y"
@@ -1041,7 +1037,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"			"Deer_Pink"
+		"fgcolor"			"Deer_Primary"
 		"proportionaltoparent"	"1"
 
 		if_competitive

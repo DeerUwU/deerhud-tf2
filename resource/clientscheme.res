@@ -1,7 +1,7 @@
 //these contain my custom colors, custom borders and custom font definitions
-#base "../resource/colors.res"
-#base "../resource/deerschemes/borderscheme.res"
-#base "../resource/deerschemes/fontscheme.res" 
+#base "scheme/colors.res"
+#base "scheme/borders.res"
+#base "scheme/fonts.res" 
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -26,7 +26,7 @@ Scheme
 		"Orange"			"251 129 173 255"//"178 82 22 255"
 		"OrangeDim"			"150 66 97 255"//"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0"
+		"GoalOrange"		"255 0 0"
 		"TFOrange"			"145 73 59 255"
 		"Purple"			"137 69 99 255"
 
@@ -214,6 +214,8 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		ScrollBar.Wide			"6"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -237,10 +239,10 @@ Scheme
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"Black"
 		Econ.Button.FgColor									"Deer_White"
-		Econ.Button.ArmedBgColor							"Deer_Pink"
+		Econ.Button.ArmedBgColor							"Deer_Primary"
 		Econ.Button.ArmedFgColor							"Deer_White"
 		
-		Econ.Button.DepressedBgColor						"Deer_Pink_Dark"
+		Econ.Button.DepressedBgColor						"Deer_Primary_Dark"
 		Econ.Button.DepressedFgColor						"Deer_White"
 		
 		Econ.Button.PresetDefaultColorFg					"Deer_White"
@@ -258,11 +260,11 @@ Scheme
 		Button.TextColor				"Deer_White"
 		Button.BgColor					"Black"
 		Button.ArmedTextColor			"Deer_White"
-		Button.ArmedBgColor				"Deer_Pink"
+		Button.ArmedBgColor				"Deer_Primary"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Deer_White"
-		Button.DepressedBgColor			"Deer_Pink_Dark"
+		Button.DepressedBgColor			"Deer_Primary_Dark"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -292,12 +294,12 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Deer_Pink_Dark"
+		FrameTitleBar.TextColor			"Deer_Primary_Dark"
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Deer_Pink_Dark"
+		FrameTitleBar.DisabledTextColor	"Deer_Primary_Dark"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
-		GraphPanel.FgColor				"Deer_Pink_Dark"
+		GraphPanel.FgColor				"Deer_Primary_Dark"
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"TanDark"
@@ -308,12 +310,18 @@ Scheme
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
 
-		ListPanel.TextColor					"Orange"
+		ListPanel.TextColor					"Deer_Primary"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.EmptyListInfoTextColor	"Deer_Primary"
+		
+		Slider.NobColor				"Deer_Primary"		
+		Slider.TrackColor			"Deer_Primary_Dark"
+		Slider.TextColor			"Deer_Menu_White"
+		Slider.DisabledTextColor1	"Deer_Menu_Dark"
+        Slider.DisabledTextColor2	"Blank"
 
 		Menu.TextColor					"TanLight"
 		Menu.BgColor					"TransparentBlack"
@@ -321,7 +329,7 @@ Scheme
 		Menu.ArmedBgColor				"TanLight"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Deer_Pink_Dark"
+		Chat.TypingText					"Deer_Primary_Dark"
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"
@@ -338,12 +346,12 @@ Scheme
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"	"LowHealthRed"
 
-		PropertySheet.TextColor			"Deer_Pink_Dark"
-		PropertySheet.SelectedTextColor	"Deer_Pink_Dark"
+		PropertySheet.TextColor			"Deer_Primary_Dark"
+		PropertySheet.SelectedTextColor	"Deer_Primary_Dark"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Deer_Pink_Dark"
-		RadioButton.SelectedTextColor	"Deer_Pink_Dark"
+		RadioButton.TextColor			"Deer_Primary_Dark"
+		RadioButton.SelectedTextColor	"Deer_Primary_Dark"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -360,22 +368,17 @@ Scheme
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor	"Orange"
+		SectionedListPanel.HeaderTextColor	"Deer_Primary"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Deer_Pink_Dark"
-		SectionedListPanel.BrightTextColor	"Deer_Pink_Dark"
+		SectionedListPanel.TextColor		"Deer_Primary_Dark"
+		SectionedListPanel.BrightTextColor	"Deer_Primary_Dark"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"127 140 127 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
 
 		TextEntry.TextColor			"Gray"
 		TextEntry.BgColor			"Blank"
@@ -387,7 +390,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
 
-		ToggleButton.SelectedTextColor	"Deer_Pink_Dark"
+		ToggleButton.SelectedTextColor	"Deer_Primary_Dark"
 
 		Tooltip.TextColor			"TransparentBlack"
 		Tooltip.BgColor				"Red"
@@ -413,7 +416,7 @@ Scheme
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"Deer_Pink_Dark"
+		"FgColor"		"Deer_Primary_Dark"
 		"BgColor"		"TransparentBlack"
 
 		"ViewportBG"		"Blank"
@@ -660,7 +663,7 @@ Scheme
 			"1"
 			{
 				"name"		"VHS-Custom"//"Verdana"
-				"tall"		"18"
+				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -668,7 +671,7 @@ Scheme
 			"2"
 			{
 				"name"		"VHS-Custom"//"Verdana"
-				"tall"		"21"
+				"tall"		"17"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
@@ -676,7 +679,7 @@ Scheme
 			"3"
 			{
 				"name"		"VHS-Custom"//"Verdana"
-				"tall"		"22"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -685,7 +688,7 @@ Scheme
 			"4"
 			{
 				"name"		"VHS-Custom"//"Verdana"
-				"tall"		"28"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -694,7 +697,7 @@ Scheme
 			"5"
 			{
 				"name"		"VHS-Custom"//"Verdana"
-				"tall"		"30"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -703,14 +706,14 @@ Scheme
 			"6"
 			{
 				"name"		"VHS-Custom"//"Verdana"
-				"tall"		"20"
+				"tall"		"16"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
 				"name"		"VHS-Custom"//"Arial"
-				"tall"		"20"
+				"tall"		"16"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -2438,8 +2441,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"VHS-Custom"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2448,8 +2450,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"VHS-Custom"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2458,8 +2459,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"VHS-Custom"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2472,8 +2472,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"VHS-Custom"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2482,8 +2481,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"VHS-Custom"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2492,8 +2490,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"VHS-Custom"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2506,8 +2503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"
+				"name"		"VHS-Custom"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2522,7 +2518,6 @@ Scheme
 				"name"		"VHS-Custom"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}
@@ -2929,6 +2924,69 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
+		
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"VHS-Custom"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"VHS-Custom"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"VHS-Custom"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"VHS-Custom"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"VHS-Custom"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		/////////////////// INSTRUCTOR FONTS ///////////////////////
         "InstructorTitle"
 		{

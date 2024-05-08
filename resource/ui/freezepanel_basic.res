@@ -71,7 +71,7 @@
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -143,7 +143,7 @@
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"12"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
@@ -179,7 +179,7 @@
 			"zpos"			"5"
 			"wide"			"250"
 			"tall"			"18"
-			"autoResize"	"0"
+			
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"

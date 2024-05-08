@@ -3,7 +3,7 @@
 //Charge meter for: Flying Guillotine
 {
 	HudItemEffectMeter
-	{"ypos"				"r135"}
+	{"ypos"				"r125"}
 	
 	"MeterLabelCustom"
 	{"labelText"		"#TF_ENERGYDRINK"}

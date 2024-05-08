@@ -91,11 +91,11 @@
 			"zpos"			"100"
 			"wide"			"40"
 			"tall"			"f6"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			
@@ -113,7 +113,7 @@
 			"image_drawcolor"	"Deer_white"
 			"image_armedcolor"	"Deer_white"
 			
-			"bg_armedcolor_override"		"Deer_Pink"
+			"bg_armedcolor_override"		"Deer_Primary"
 			"fgcolor_default"			"Black"
 
 			"SubImage"
@@ -142,11 +142,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
@@ -163,11 +163,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
@@ -184,11 +184,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
@@ -205,11 +205,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
@@ -226,11 +226,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
@@ -247,11 +247,11 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
@@ -310,16 +310,15 @@
 				"zpos"			"10"
 				"wide"			"o1"
 				"tall"			"f0"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
+				
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+								"brighttext"	"0"
 				"default"		"1"
 				"Command"		"queue_logo_clicked"
 				"proportionaltoparent"	"1"
@@ -345,7 +344,7 @@
 				"radius"		"10"
 				"velocity"		"400"
 
-				"fgcolor_override"	"Deer_Pink"
+				"fgcolor_override"	"Deer_Primary"
 			}
 
 			"QueueText"
@@ -392,11 +391,11 @@
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
+				
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
@@ -439,11 +438,11 @@
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
-				"autoResize"	"0"
+				
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
+				
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
@@ -555,7 +554,7 @@
 					"wide"			"150"
 				}
 				
-				"autoResize"	"0"
+				
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -585,11 +584,11 @@
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"f6"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"textinsetx"	"0"
@@ -641,11 +640,11 @@
 			"zpos"			"100"
 			"wide"			"110"
 			"tall"			"f6"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			
@@ -699,11 +698,11 @@
 			"zpos"			"100"
 			"wide"			"90"
 			"tall"			"f6"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			
@@ -756,11 +755,11 @@
 			"zpos"			"100"
 			"wide"			"115"
 			"tall"			"f6"
-			"autoResize"	"0"
+			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			

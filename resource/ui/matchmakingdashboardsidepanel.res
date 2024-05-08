@@ -32,7 +32,8 @@
 		"mouseinputenabled"	"0"
 		"alpha"		"180"
 
-		"image"		"replay/thumbnails/misc/loadout_solid_line"
+		"image"			"replay\thumbnails\misc\loadout_solid_line"
+		"drawcolor"		"Deer_Primary"
 	}
 
 	"TitleGradient"
@@ -138,7 +139,7 @@
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"armedFgColor_override"	"Deer_Primary"
 	}
 
 	"ReturnButton"
@@ -169,7 +170,7 @@
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"armedFgColor_override"	"Deer_Primary"
 	}
 	
 	"BGPanel"
