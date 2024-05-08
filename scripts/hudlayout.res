@@ -20,7 +20,6 @@
 		"enabled" "1"
 		"xpos"	"c80"
 		"ypos"	"r205"
-		"zpos"	"-1"
 		"wide"	"350"
 		"tall"	"90"
 	}
@@ -665,6 +664,7 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
+		"zpos"	"-1"
 	}
 	
 	HudScopeCharge
