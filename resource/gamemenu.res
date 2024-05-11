@@ -27,14 +27,14 @@
 	"DisconnectButton"
 	{
 		"label" 		"Leave" //"#MMenu_ResumeGame" 
-		"command" 		"disconnect"//"engine cancelselect"
+		"command" 		"engine disconnect"//"engine cancelselect"
 		"OnlyInGame" 	"1"
 		"tooltip" 		""
 	}
 	"QuitButton"
 	{
 		"label" 		"Quit" //"#MMenu_ResumeGame" 
-		"command" 		"quit"//"engine cancelselect"
+		"command" 		"engine quit"//"engine cancelselect"
 		"OnlyAtMenu" 	"1"
 		"tooltip" 		""
 	}
