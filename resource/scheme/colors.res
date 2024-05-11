@@ -6,8 +6,8 @@ Scheme
 		//NOTE: changing colors requires a game restart
 		//change these to your own colors
 		//feel free to copy values from Deerhud_colorname below
-		"Deer_Primary"				"129 237 251 255" //pink light
-		"Deer_Primary_Dark"			"24  80  84  255" //pink dark
+		"Deer_Primary"				"251 129 173 255" //pink light
+		"Deer_Primary_Dark"			"87  24  60  255" //pink dark
 
 	
 	
