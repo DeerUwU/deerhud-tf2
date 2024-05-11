@@ -5,8 +5,11 @@
 
 
 Contributors:
+
 [Kruphixx](https://github.com/Kruphixx) for various bugfixes and improvements.
+
 [Niterux](https://github.com/Niterux) for 4K support.
+
 [Revan](https://github.com/cooolbros) correction of syntax error.
 
 
