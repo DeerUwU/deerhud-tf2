@@ -254,7 +254,16 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"	"1200 2000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"VHS-Custom"
+				"tall"		"32"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"2000 6000"
 				"antialias"	"1"
 			}
 		}
@@ -300,7 +309,15 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"22"
 				"weight"	"0"
-				"yres"		"1200 10000"
+				"yres"		"1200 2000"
+				"symbol"	"1"
+			}
+			"6"
+			{
+				"name"		"Marlett"
+				"tall"		"34"
+				"weight"	"0"
+				"yres"		"2000 10000"
 				"symbol"	"1"
 			}
 		}
@@ -344,7 +361,15 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"17"
 				"weight"	"0"
-				"yres"		"1200 10000"
+				"yres"		"1200 2000"
+				"symbol"	"1"
+			}
+			"6"
+			{
+				"name"		"Marlett"
+				"tall"		"26"
+				"weight"	"0"
+				"yres"		"2000 10000"
 				"symbol"	"1"
 			}
 		}
@@ -354,7 +379,7 @@ Scheme
 			"1"
 			{
 				"name"		"VHS-Custom"
-				"tall"		"12"	[$WIN32]
+				"tall"		"12"
 				"weight"	"500"
 				"yres"		"480 599"
 				"dropshadow"	"0"
@@ -363,7 +388,7 @@ Scheme
 			"2"
 			{
 				"name"		"VHS-Custom"
-				"tall"		"14"	[$WIN32]
+				"tall"		"14"
 				"weight"	"500"
 				"yres"		"600 767"
 				"dropshadow"	"0"
@@ -372,7 +397,7 @@ Scheme
 			"3"
 			{
 				"name"		"VHS-Custom"
-				"tall"		"15"	[$WIN32]
+				"tall"		"15"
 				"weight"	"500"
 				"yres"		"768 1023"
 				"dropshadow"	"0"
@@ -381,7 +406,7 @@ Scheme
 			"4"
 			{
 				"name"		"VHS-Custom"
-				"tall"		"17"	[$WIN32]
+				"tall"		"17"
 				"weight"	"500"
 				"yres"		"1024 1199"
 				"dropshadow"	"0"
@@ -390,9 +415,18 @@ Scheme
 			"5"
 			{
 				"name"		"VHS-Custom"
-				"tall"		"22"	[$WIN32]
+				"tall"		"22"
 				"weight"	"500"
-				"yres"		"1200 10000"
+				"yres"		"1200 2000"
+				"dropshadow"	"0"
+				"antialias"		"1"
+			}
+			"6"
+			{
+				"name"		"VHS-Custom"
+				"tall"		"34"
+				"weight"	"500"
+				"yres"		"2000 10000"
 				"dropshadow"	"0"
 				"antialias"		"1"
 			}

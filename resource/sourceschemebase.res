@@ -257,15 +257,20 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Default"
+		"Default"	//Server Browser title / text boxes
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"16"
-				"weight"	"500"
-				"antialias" "1"
+				"name"		"Verdana"
+				"tall"		"14"
+				"yres"		"480 1999"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"18"
+				"weight"	"700"
+				"yres"		"2000 6000"
 			}
 		}
 		"DefaultBold"
@@ -291,16 +296,20 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"DefaultSmall"
+		"DefaultSmall"	//Server browser list categories (not tabs) / console suggestion box
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"12" [!$POSIX]
-				"tall"		"15" [$POSIX]
-				"weight"	"0"
-				"antialias" "1"
+				"name"		"Verdana"
+				"tall"		"14"
+				"yres"		"480 1999"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"17"
+				"weight"	"700"
+				"yres"		"2000 6000"
 			}
 		}
 		"DefaultSmallDropShadow"
