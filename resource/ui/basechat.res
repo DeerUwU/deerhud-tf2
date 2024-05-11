@@ -1,4 +1,6 @@
-#base "../../cfg/#deerhud_custom.txt"
+#base "../../cfg/#deerhud_custom.txt"		//windows
+#base "../../../../cfg/#deerhud_custom.txt"	//linux
+
 "Resource/UI/BaseChat.res"
 {
 	"HudChat"

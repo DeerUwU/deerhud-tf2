@@ -1,4 +1,6 @@
-#base "../cfg/#deerhud_custom.txt"
+#base "../../cfg/#deerhud_custom.txt"		//windows
+#base "../../../../cfg/#deerhud_custom.txt"	//linux
+
 "Resource/HudLayout.res"
 {
 
@@ -182,10 +184,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"ypos"					"r152"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"180"
+		"ypos"					"r200"
+		"wide"					"100"
+		"tall"  				"100"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"

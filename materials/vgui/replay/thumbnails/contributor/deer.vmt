@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\replay\thumbnails\contributor\deer"
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+}
