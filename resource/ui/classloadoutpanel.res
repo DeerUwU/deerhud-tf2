@@ -4,5 +4,5 @@
 #base "../../customizations/resolutions/16x9/classloadoutpanel.res"
 #base "../../customizations/resolutions/16x10/classloadoutpanel.res"
 
-// use this one to edit things
+// base content
 #base "classloadoutpanel_base.res"

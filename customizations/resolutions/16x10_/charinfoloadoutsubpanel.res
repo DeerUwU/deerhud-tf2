@@ -21,7 +21,7 @@
 		"selectlabely_onchanges"	"15"
 
 		"class_ypos"				"40"
-		"class_xdelta"				"2"
+		"class_xdelta"				"3"
 		"class_wide_min"			"60"
 		"class_wide_max"			"100"
 		"class_tall_min"			"120"

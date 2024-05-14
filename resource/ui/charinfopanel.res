@@ -4,5 +4,5 @@
 #base "../../customizations/resolutions/16x9/charinfopanel.res"
 #base "../../customizations/resolutions/16x10/charinfopanel.res"
 
-// use this one to edit things
+// base content
 #base "charinfopanel_base.res"
