@@ -176,4 +176,18 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}		
+	
+	
+	
+	"Back"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Back"
+		"xpos"			"9999"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"0"
+		"font"			"MenuSmallFont"
+	}
 }

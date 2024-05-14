@@ -191,5 +191,18 @@
 		"sound_released"				"UI/buttonclickrelease.wav"
 		"sound_armed"					"snd_squeak.wav"
 	}
+	
+	
+	"MapInfoBack"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoBack"
+		"xpos"			"9999"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"0"
+		"font"			"MenuSmallFont"
+	}
 
 }
