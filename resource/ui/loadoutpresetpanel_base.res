@@ -29,7 +29,7 @@
         "A"
         {
             "ControlName"		"CExButton"
-            "xpos"				"15"
+            "xpos"				"5"
             "ypos"				"114"
             "tall"				"25"
             "wide"				"25"
