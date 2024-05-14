@@ -29,7 +29,7 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"200 80 60 255"
+		"itemcountcolor"			"Deer_Primary"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 
