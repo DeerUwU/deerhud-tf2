@@ -413,19 +413,105 @@
 				"auto_wide_tocontents" "1"
 			}
 		}	
-		"AlertImageShadow"
+		
+		"ContrackerIconBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"ContrackerIconBG"
+			"xpos"			"c140"
+			"ypos"			"90"
+			"zpos"			"1"
+			"wide"			"128"
+			"tall"			"35"
+			"visible"		"1"
+
+			"border"		"Deer_White_Black75"
+		}
+		
+		"QuestLogButton"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"QuestLogButton"
+			"xpos"			"c147"
+			"ypos"			"96"
+			"zpos"			"5"
+			"wide"			"24"
+			"tall"			"24"
+			
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				
+				"textinsetx"	"25"
+				"labelText"		""
+				"use_proportional_insets" "1"
+				"font"			"HudFontSmallBold"
+				"command"		"questlog"
+				"textAlignment"	"west"
+				
+				"sound_armed"		"UI/buttonrollover.wav"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"actionsignallevel" "2"
+				"proportionaltoparent"	"1"
+
+				"paintbackground"	"0"
+				"paintborder"		"0"
+				"image_drawcolor"	"Deer_White"
+				"image_armedcolor"	"251 129 173 255" //Deer_Pink; why does this NEED to be rgb...
+
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
+					"zpos"			"1"
+					"wide"			"f0"
+					"tall"			"f0"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"			"replay/thumbnails/misc/glyph_contracts"
+
+					"proportionaltoparent"	"1"
+					"mouseinputenabled"	"0"
+					"keyboardinputenabled" "0"
+				}		
+			}
+		}
+		
+		
+		"AlertImageShadow" //notification icon bg
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"AlertImageShadow"
-			"xpos"			"c174"
-			"ypos"			"96"
-			"zpos"			"-10"
+			"xpos"			"5"
+			"ypos"			"0"
+			"zpos"			"6"
 			"wide"			"24"
 			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/misc/glyph_alert"
 			"scaleImage"	"1"
+			
+			"drawcolor" "128 128 128 255"
+			
+			"pin_to_sibling"		"QuestLogButton"
+			"pin_corner_to_sibling"	"7"
+			"pin_to_sibling_corner"	"5"
 			
 		}
 		"Notifications_ShowButtonPanel"
@@ -434,13 +520,17 @@
 			"fieldName"		"Notifications_ShowButtonPanel"
 			"xpos"			"c174"
 			"ypos"			"96"
-			"zpos"			"10"
+			"zpos"			"7"
 			"wide"			"32"
 			"tall"			"32"
 			
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			"pin_to_sibling"		"QuestLogButton"
+			"pin_corner_to_sibling"	"7"
+			"pin_to_sibling_corner"	"5"
 
 			
 			"SubImage"
@@ -501,10 +591,10 @@
 
 				"Command"		"noti_show"
 
+				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 				"paintbackground" "0"
-				"image_drawcolor"	"255 255 255 255"
+				"image_drawcolor"	"128 128 128 255"
 				"image_armedcolor"	"251 129 173 255" //Deer_Pink
 				
 				"SubImage"
@@ -524,96 +614,21 @@
 				
 			}
 		}
-		"ContrackerIconBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"ContrackerIconBG"
-			"xpos"			"c140"
-			"ypos"			"90"
-			"zpos"			"1"
-			"wide"			"128"
-			"tall"			"35"
-			"visible"		"1"
-
-			"border"		"Deer_White_Black75"
-		}
 		
-		"QuestLogButton"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"QuestLogButton"
-			"xpos"			"c147"
-			"ypos"			"96"
-			"zpos"			"5"
-			"wide"			"24"
-			"tall"			"24"
-			
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"SubButton"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"SubButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				
-				"textinsetx"	"25"
-				"labelText"		""
-				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
-				"command"		"questlog"
-				"textAlignment"	"west"
-				
-				"sound_armed"		"UI/buttonrollover.wav"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"vo/null.mp3"
-				"actionsignallevel" "2"
-				"proportionaltoparent"	"1"
-
-				"paintbackground"	"0"
-				"paintborder"		"0"
-				"image_drawcolor"	"Deer_White"
-				"image_armedcolor"	"251 129 173 255" //Deer_Pink; why does this NEED to be rgb...
-
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"cs-0.5"
-					"ypos"			"cs-0.5"
-					"zpos"			"1"
-					"wide"			"f0"
-					"tall"			"f0"
-					"visible"		"1"
-					"enabled"		"1"
-					"scaleImage"	"1"
-					"image"			"replay/thumbnails/misc/glyph_contracts"
-
-					"proportionaltoparent"	"1"
-					"mouseinputenabled"	"0"
-					"keyboardinputenabled" "0"
-				}		
-			}
-		}
+		
+		
+		
 		
 		"MOTD_ShowButtonPanel"	//letter button
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_ShowButtonPanel"
-			"xpos"			"9999"//"c268"
-			"ypos"			"28"
+			"xpos"			"c200"//"c268"
+			"ypos"			"96"
 			"zpos"			"6"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"24"
+			"tall"			"24"
 			
-			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"0"
 
@@ -630,8 +645,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"24"
+				"tall"			"24"
 				
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -646,11 +661,11 @@
 				"Command"		"motd_show"
 				"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
 
+				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				"paintbackground" "0"
-				"image_drawcolor"	"235 226 202 255"
-				"image_armedcolor"	"255 255 255 255"
+				"paintbackground" 	"0"
+				"image_drawcolor"	"Deer_White"
+				"image_armedcolor"	"251 129 173 255"
 
 				"SubImage"
 				{
@@ -659,8 +674,8 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"1"
-					"wide"			"32"
-					"tall"			"32"
+					"wide"			"24"
+					"tall"			"24"
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"replay/thumbnails/misc/glyph_letter"//"button_MOTD"
@@ -673,9 +688,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_Panel"
-			"xpos"			"c5"
-			"ypos"			"65"
-			"zpos"			"6"
+			"xpos"			"rs1"
+			"ypos"			"rs1"
+			"zpos"			"13"
 			"wide"			"300"
 			"tall"			"350"
 			"visible"		"0"
@@ -742,8 +757,8 @@
 				"navDown"			"MOTD_URLButton"
 				"navActivate"		"<QuickplayButton"
 
+				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 				"Command"		"motd_hide"
 				
 				"paintbackground"	"0"
