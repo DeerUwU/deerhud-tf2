@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\misc\healsign_deer"
+	"$basetexture" "vgui\replay\thumbnails\deer\healsign"
 	"$nolod" 1
 	"$translucent" 1
 	"$vertexalpha" 1

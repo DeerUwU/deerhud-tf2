@@ -256,7 +256,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderBlueBGOpaque"
+					"border"		"Deer_Underline_Blu"
 
 					if_large
 					{
@@ -526,7 +526,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderRedBGOpaque"
+					"border"		"Deer_Underline_Red"
 
 					if_large
 					{

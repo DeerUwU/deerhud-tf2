@@ -55,7 +55,7 @@
 		"tall"			"55"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../healsign_deer" //hud/health_over_bg
+		"image"			"replay/thumbnails/deer/healsign"
 		"scaleImage"	"1"	
 	}
 	

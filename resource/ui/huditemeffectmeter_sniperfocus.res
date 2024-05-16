@@ -15,10 +15,10 @@
 	}
 
 	
-	"BGCustom"
+	"MeterBrackets"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BGCustom"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MeterBrackets"
 		"xpos"			"0"
 		"ypos"			"26"
 		"zpos"			"0"
@@ -26,7 +26,7 @@
 		"tall"			"9"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../deer/meter_brackets"
+		"image"			"replay/thumbnails/deer/meter_brackets"
 		"scaleImage"	"1"	
 	}
 	"ItemEffectMeterLabel"

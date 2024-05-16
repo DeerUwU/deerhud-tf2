@@ -14,7 +14,7 @@
 		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../warning_deer"
+		"image"			"replay/thumbnails/deer/warning"
 		"scaleImage"	"1"
 	}
 	"WeaponBucket"

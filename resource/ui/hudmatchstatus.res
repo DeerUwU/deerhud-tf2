@@ -141,7 +141,7 @@
 		"fieldName"		"MatchDoors"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"		
+		"zpos"			"10"		
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
@@ -324,8 +324,8 @@
 		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
+		"PositiveColor"			"0 255 136 255"
+		"NegativeColor"			"255 46 125 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
@@ -447,12 +447,11 @@
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
 				"xpos"			"5"
-				"ypos"			"24"
+				"ypos"			"22"
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
 				
-				"pinCorner"		"0"
 				"visible"		"0"
 			}
 			"classimage" //other team icons

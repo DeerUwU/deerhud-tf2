@@ -40,10 +40,10 @@
 		"fgcolor"					"Deer_White"
 		"defaultFgColor_override"	"Deer_White"
 	}
-	"BGCustom"
+	"MeterBrackets"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BGCustom"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MeterBrackets"
 		"xpos"			"25"
 		"ypos"			"0"
 		"zpos"			"-11"
@@ -51,7 +51,7 @@
 		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../deer/meter_brackets"
+		"image"			"replay/thumbnails/deer/meter_brackets"
 		"scaleImage"	"1"	
 	}
 }

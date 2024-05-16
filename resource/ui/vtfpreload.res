@@ -563,7 +563,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"	"MenuThumbMissing"
 			"visible"	"1"
-			"image"	"../vgui/maps/menu_thumb_missing"
+			"image"	"maps/menu_thumb_missing"
 		}
 		"health_dead"
 		{
@@ -689,71 +689,17 @@
 /////////////////////////////////////////////////////////////////////////////////////
 		
 		//Deer's assets
-		"deer_loadingscreen"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"		"1"
-			"image"			"../console/dreams_1024x"
-		}
-		"deer_blur"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"		"1"
-			"image"			"../vgui/replay/thumbnails/refract/refract_basic"
-		}
-		"deer_meter_brackets"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"		"1"
-			"image"			"../deer/meter_brackets"
-		}
-		"deer_deernod"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"		"1"
-			"image"			"../deernod"
-		}
-		"deer_healsign"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"		"1"
-			"image"			"../healsign_deer"
-		}
-		"deer_warning"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"		"1"
-			"image"			"../warning_deer"
-		}
-		"deer_logo"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"		"1"
-			"image"			"../logo/deerhud_new_2"
-		}
-		// "deer_line_dotted"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"		"1"
-			// "image"			"../vgui/loadout_dotted_line"
-		// }
-		// "deer_line_solid"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"		"1"
-			// "image"			"../vgui/loadout_solid_line"
-		// }
 		"deer_ico_key"
 		{
 			"ControlName"	"ImagePanel"
 			"visible"		"1"
-			"image"			"../vgui/replay/thumbnails/misc/ico_key_blank"
+			"image"			"replay/thumbnails/misc/ico_key_blank"
 		}
 		"deer_ico_sticky"
 		{
 			"ControlName"	"ImagePanel"
 			"visible"		"1"
-			"image"			"../vgui/ico_sticky"
+			"image"			"../hud/ico_sticky"
 		}
 		
 		"deer_grey_filled"
@@ -791,20 +737,45 @@
 			"visible"		"1"
 			"image"			"../hud/objectives_timepanel_blue_bg"
 		}
-		// "deer_underline_blu"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"		"1"
-			// "image"			"replay/thumbnails/borders/underline_blu"
-		// }
-		// "deer_underline_red"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "visible"		"1"
-			// "image"			"replay/thumbnails/borders/underline_red"
-		// }
-			
-			
-
+		
+		
+		
+		"deer_speech_mediccall"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"../effects/speech_mediccall"
+		}
+		"deer_speech_mediccall_attention"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"../effects/speech_mediccall_attention"
+		}
+		"deer_speech_mediccall_hurt"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"../effects/speech_mediccall_hurt"
+		}
+		
+		"deer_speech_voice"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"../effects/speech_voice"
+		}
+		"deer_speech_voice_blue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"../effects/speech_voice_blue"
+		}
+		"deer_speech_voice_red"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"		"1"
+			"image"			"../effects/speech_voice_red"
+		}
 	}
 }

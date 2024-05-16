@@ -1,9 +1,9 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-	"BackgroundCustom"
+	"MeterBrackets"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BackgroundCustom"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MeterBrackets"
 		"xpos"			"cs-0.5"
 		"ypos"			"47"
 		"zpos"			"-5"
@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"proportionaltoparent"	"1"
-		"image"			"../deer/meter_brackets"
+		"image"			"replay/thumbnails/deer/meter_brackets"
 	}
 	
 	"ChargeLabel"

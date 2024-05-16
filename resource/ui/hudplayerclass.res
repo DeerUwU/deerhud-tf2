@@ -28,7 +28,7 @@
 		"wide"			"75"
 		"tall"			"75"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/deernod"
+		"image"			"replay/thumbnails/deer/deernod"
 		"scaleImage"	"1"	
 	}
 	
