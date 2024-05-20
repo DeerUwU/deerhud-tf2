@@ -497,15 +497,16 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"AlertImageShadow"
-			"xpos"			"5"
+			"xpos"			"3"
 			"ypos"			"0"
-			"zpos"			"6"
+			"zpos"			"2"
 			"wide"			"24"
 			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/misc/glyph_alert"
 			"scaleImage"	"1"
+			"mouseinputenabled"	"0"
 			
 			"drawcolor" "128 128 128 255"
 			
@@ -518,11 +519,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"Notifications_ShowButtonPanel"
-			"xpos"			"c174"
-			"ypos"			"96"
+			"xpos"			"3"
+			"ypos"			"0"
 			"zpos"			"7"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"24"
+			"tall"			"24"
 			
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -530,26 +531,7 @@
 			
 			"pin_to_sibling"		"QuestLogButton"
 			"pin_corner_to_sibling"	"7"
-			"pin_to_sibling_corner"	"5"
-
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"16"
-				"ypos"			"0"
-				"zpos"			"6"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"paintbackground"	"1"
-				"bgColor"	"210 125 33 255"
-				"image"			""//"glyph_achievements"
-				"scaleImage"	"1"
-				"drawcolor" "210 125 33 255"
-			}				
+			"pin_to_sibling_corner"	"5"		
 			
 			"Notifications_CountLabel"
 			{
@@ -594,15 +576,15 @@
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"paintbackground" "0"
-				"image_drawcolor"	"128 128 128 255"
+				"image_drawcolor"	"255 255 255 255"
 				"image_armedcolor"	"251 129 173 255" //Deer_Pink
 				
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
 					"zpos"			"1"
 					"wide"			"24"
 					"tall"			"24"
@@ -610,6 +592,8 @@
 					"enabled"		"1"
 					"image"			"replay/thumbnails/misc/glyph_alert"
 					"scaleImage"	"1"
+					
+					"proportionaltoparent"	"1"
 				}
 				
 			}
@@ -623,20 +607,24 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_ShowButtonPanel"
-			"xpos"			"c200"//"c268"
-			"ypos"			"96"
+			"xpos"			"3"//"c268"
+			"ypos"			"0"
 			"zpos"			"6"
 			"wide"			"24"
 			"tall"			"24"
 			
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 
 			"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
 			"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
 			"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
 			"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
 			"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
+			
+			"pin_to_sibling"		"Notifications_ShowButtonPanel"
+			"pin_corner_to_sibling"	"7"
+			"pin_to_sibling_corner"	"5"		
 			
 			"MOTD_ShowButtonPanel_SB"
 			{
