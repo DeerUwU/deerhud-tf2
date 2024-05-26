@@ -52,7 +52,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"10"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 			}
 		}
@@ -102,7 +102,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"16"
-				"antialias"		"0"
+				"antialias"		"1"
 				"outline"		"1"
 				//"dropshadow"	"1"
 				"range"			"0x0000 0x00FF"
@@ -114,7 +114,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"20"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 			}
 		}
@@ -124,7 +124,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"20"
-				"antialias"		"0"
+				"antialias"		"1"
 				"outline"		"1"
 				//"dropshadow"	"1"
 				"range"			"0x0000 0x00FF"
@@ -136,7 +136,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"24"
-				"antialias"			"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 			}
 		}
@@ -146,7 +146,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"40"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 				"yres"			"480 1079"
 			}
@@ -154,7 +154,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"60"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 				"yres"			"1080 1439"
 			}
@@ -163,7 +163,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"30"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 			}
 		}
@@ -173,7 +173,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"40"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 			}
 		}
@@ -183,7 +183,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"50"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 			}
 		}
@@ -193,7 +193,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"62"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 				"yres"			"480 1079"
 			}
@@ -201,7 +201,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"86"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 				"yres"			"1080 1439"
 			}
@@ -209,7 +209,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"60"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 			}
 		}
@@ -219,7 +219,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"70"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 				"yres"			"480 1079"
 			}
@@ -227,7 +227,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"82"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 				"yres"			"1080 1439"
 			}
@@ -236,7 +236,7 @@ Scheme
 			{
 				"name"			"VHS-Custom"
 				"tall"			"80"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 			}
 		}
@@ -247,7 +247,7 @@ Scheme
 			{
 				"name"			"deerhud_icons"
 				"tall"			"12"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x005A"
 			}
 		}
@@ -257,7 +257,7 @@ Scheme
 			{
 				"name"			"deerhud_icons"
 				"tall"			"14"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x005A"
 			}
 		}
@@ -267,7 +267,7 @@ Scheme
 			{
 				"name"			"deerhud_icons"
 				"tall"			"16"
-				"antialias"		"0"
+				"antialias"		"1"
 				"range"			"0x0000 0x005A"
 			}
 		}

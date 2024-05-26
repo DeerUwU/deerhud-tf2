@@ -254,7 +254,7 @@ Scheme
 				"tall"		 "10"
 				"weight"	 "0"
 				"outline"	 "1"
-				"antialias" "1"
+				"antialias"  "1"
 			}
 		}
 		"Default"	//Server Browser title / text boxes

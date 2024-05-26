@@ -5,7 +5,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ImageBG"
 		//"image"			"replay\thumbnails\bg\blue_night_dark"
-		//"image"			"../vgui/replay/thumbnails/refract/refract_basic"
+		//"image"			"replay/thumbnails/refract/refract_basic"
 		"fillcolor"		"0 0 0 250"
 		"wide"			"f0"
 		"tall"			"480"

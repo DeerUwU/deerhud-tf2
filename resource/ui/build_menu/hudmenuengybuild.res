@@ -37,7 +37,7 @@
 		"xpos"			"15"
 		"ypos"			"44"
 		"zpos"			"-1"
-		"image"			"../vgui/replay/thumbnails/refract/refract_basic"
+		"image"			"replay/thumbnails/refract/refract_basic"
 		"wide"			"420"
 		"tall"			"124"
 		"scaleImage"	"1"

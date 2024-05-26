@@ -71,7 +71,7 @@
 		"zpos"			"-10"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"drawcolor"		"Deer_White"
 		"PipeIcon"
 		{

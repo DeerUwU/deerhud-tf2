@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BlurBG"
-		"image"			"../vgui/replay/thumbnails/refract/refract_basic"
+		"image"			"replay/thumbnails/refract/refract_basic"
 		"wide"			"860"
 		"tall"			"338"
 		"ypos"			"87"

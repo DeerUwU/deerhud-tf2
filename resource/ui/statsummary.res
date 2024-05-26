@@ -35,7 +35,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../console/dreams_1024x.vmt"
+		"image"			"replay/thumbnails/bg/dreams_1024x"
 		"scaleImage"	"1"
 	}
 

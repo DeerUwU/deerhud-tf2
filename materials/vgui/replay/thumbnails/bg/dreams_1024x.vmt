@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/misc/dreams_1024x"
+	"$baseTexture" "vgui/replay/thumbnails/bg/dreams_1024x"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
 	"$ignorez" 1
