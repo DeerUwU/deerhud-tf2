@@ -291,7 +291,7 @@ Scheme
 			"font"	"resource/fonts/VHS-Custom_v2.ttf"
 			"name"	"VHS-Custom"
 		}
-		"10"
+		"A"
 		{
 			"font"	"resource/fonts/deerhud_icons_v2.ttf"
 			"name"	"deerhud_icons"
