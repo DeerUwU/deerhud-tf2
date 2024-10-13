@@ -189,7 +189,7 @@ Scheme
 			"1"
 			{
 				"name" "Hack"
-				"tall" "12"
+				"tall" "16"
 				"weight" "900"
 				"antialias" "1"
 				"yres"			"480 1079"
@@ -197,7 +197,7 @@ Scheme
 			"2"
 			{
 				"name" "Hack" //.... (Font Type) Comic Sans MS
-				"tall" "18" //"10" //............. (Font Size)
+				"tall" "20" //"10" //............. (Font Size)
 				"weight" "900" //..................... (For adjusting bold, 900 is bold, 0 - 200 regular)
 				"antialias" "1"
 			}

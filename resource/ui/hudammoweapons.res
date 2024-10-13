@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"VHS60"	//HudFontGiantBold
+		"font"			"VHS40"	//HudFontGiantBold
 		"fgcolor"		"Deer_White"
 		"xpos"			"28"
 		"ypos"			"35"
@@ -51,7 +51,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"VHS60"
+		"font"			"VHS40"
 		"fgcolor"		"Deer_Primary"
 		"xpos"			"p-0.0033"
 		"ypos"			"p-0.005"
@@ -69,10 +69,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"VHS30"	//HudFontMediumSmall
+		"font"			"VHS24"	//HudFontMediumSmall
 		"fgcolor"		"Deer_White"
 		"xpos"			"120"
-		"ypos"			"52"
+		"ypos"			"51"
 		"zpos"			"9"
 		"wide"			"60"
 		"tall"			"32"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"VHS30"
+		"font"			"VHS24"
 		"fgcolor"		"Deer_Primary"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -102,7 +102,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"VHS60"
+		"font"			"VHS40"
 		"fgcolor"		"Deer_White"
 		"xpos"			"21"
 		"ypos"			"37"
@@ -119,7 +119,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"VHS60"
+		"font"			"VHS40"
 		"fgcolor"		"Deer_Primary"
 		"xpos"			"-2"
 		"ypos"			"-2"

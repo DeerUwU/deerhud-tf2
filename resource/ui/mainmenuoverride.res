@@ -1,6 +1,7 @@
-#base "vtfpreload.res"
-#base "mainmenuextras.res" //this is for the extras section
-#base "mainmenucustomization.res" //deerhud customization panel
+#base "base/vtfpreload.res"
+#base "base/mainmenuextras.res" //this is for the extras section
+#base "base/mainmenucustomization.res" //deerhud customization panel
+#base "base/mainmenufriendspanel.res" //friends panel
 "Resource/UI/MainMenuOverride.res"
 
 {
@@ -1166,131 +1167,7 @@
 			"visible"		"0"
 		}
 
-		"FriendsContainer"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"FriendsContainer"
-			"xpos"			"c140"
-			"ypos"			"135"
-			"zpos"			"5"
-			"wide"			"128"
-			"tall"			"205"
-			"visible"		"1"
-
-			"border"		"Deer_White_Black75"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"VHS14"
-				"labelText"		"#TF_Competitive_Friends"
-				"textAlignment"	"center"
-				"xpos"			"12"
-				"ypos"			"0"
-				"wide"			"100"
-				"tall"			"30"
-				
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"0"
-				"fgcolor_override"	"Deer_White"//"235 227 203 255"
-			}
-
-			"InnerShadow"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"InnerShadow"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-10"
-				"zpos"			"501"
-				"wide"			"f10"
-				"tall"			"110"
-				"visible"		"0"	
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-
-				"paintborder"	"1"
-				"border"		"InnerShadowBorder"
-			}
-
-			"SteamFriendsList"
-			{
-				"ControlName"	"CSteamFriendsListPanel"
-				"fieldname"		"SteamFriendsList"
-				"xpos"			"cs-0.55"
-				"ypos"			"rs1-4"
-				"zpos"			"500"
-				"wide"			"130"
-				"tall"			"175"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-
-				"columns_count"	"1"
-				"inset_x"		"10"
-				"inset_y"		"5"
-				"row_gap"		"2"
-				"column_gap"	"10"
-				"restrict_width"	"0"
-
-				"friendpanel_kv"
-				{
-					"wide"		"110"
-					"tall"		"20"
-				}
-
-				"ScrollBar"
-				{
-					"ControlName"	"ScrollBar"
-					"FieldName"		"ScrollBar"
-					"xpos"			"rs1-1"
-					"ypos"			"0"
-					"tall"			"f0"
-					"wide"			"5" // This gets slammed from client schme.  GG.
-					"zpos"			"1000"
-					"nobuttons"		"1"
-					"proportionaltoparent"	"1"
-
-					"Slider"
-					{
-						"fgcolor_override"	"Deer_Menu_Grey"
-					}
-			
-					"UpButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"UpButton"
-						"visible"		"0"
-					}
-			
-					"DownButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"DownButton"
-						"visible"		"0"
-					}
-				}
-			}
-
-			"BelowDarken"	//bg darker square
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"BelowDarken"
-				"xpos"			"cs-0.5"
-				"ypos"			"4"
-				"zpos"			"-10"
-				"wide"			"120"
-				"tall"			"20"
-				"visible"		"1"	
-				"PaintBackgroundType"	"2"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-
-				"bgcolor_override"	"Black"
-			}
-		}
+		
 
 		
 
@@ -1454,7 +1331,7 @@
 				"enabled"		"1"
 				
 				"textinsetx"	"30"
-				"textinsety"	"6"
+				"textinsety"	"2"
 				"use_proportional_insets" "1"
 				"font"			"VHS20"
 				"textAlignment"	"west"
@@ -1518,7 +1395,7 @@
 				"enabled"		"1"
 				
 				"textinsetx"	"30"
-				"textinsety"	"6"
+				"textinsety"	"2"
 				"use_proportional_insets" "1"
 				"font"			"VHS20"
 				"textAlignment"	"west"
@@ -1573,7 +1450,7 @@
 			"enabled"		"1"
 			
 			"textinsetx"	"30"
-			"textinsety"	"6"
+			"textinsety"	"2"
 			"use_proportional_insets" "1"
 			"font"			"VHS20"
 			"paintbackground"        "0"
@@ -1628,7 +1505,7 @@
 			"command"				"OpenOptionsDialog"
 			"labelText"				"Options"
 			"textinsetx"			"30"
-			"textinsety"			"6"
+			"textinsety"			"2"
 			"use_proportional_insets"	"1"
 			"textAlignment"			"west"
 			"font"					"VHS20"
@@ -1735,7 +1612,7 @@
 				"enabled"		"1"
 				
 				"textinsetx"	"30"
-				"textinsety"	"6"
+				"textinsety"	"2"
 				"use_proportional_insets" "1"
 				"font"			"VHS20"
 				"textAlignment"	"west"
@@ -1800,7 +1677,7 @@
 				"enabled"		"1"
 				
 				"textinsetx"	"30"
-				"textinsety"	"6"
+				"textinsety"	"2"
 				"use_proportional_insets" "1"
 				"font"			"VHS20"
 				"textAlignment"	"west"

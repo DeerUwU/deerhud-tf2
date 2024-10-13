@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"VHS60"
+		"font"			"VHS40"
 		"fgcolor"		"Deer_White"
 	}
 	
@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"		"center"	
-		"font"				"VHS60"
+		"font"				"VHS40"
 		"fgcolor"			"Deer_Primary"
 		"pin_to_sibling" 	"PlayerStatusHealthValue"
 	}

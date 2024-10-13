@@ -15,9 +15,11 @@
 		"mouseinputenabled"		"1"
 		"border"		"noborder"//"QuickplayBorder"
 
-		"log_font_small"			"HudFontSmall"
-		"log_font_medium"			"HudFontMediumSmallSecondary"
-		"log_font_large"			"HudFontMediumSecondary"
+
+		//CHAT LOG FONT SIZES
+		"log_font_small"			"VHS10"
+		"log_font_medium"			"VHS10"
+		"log_font_large"			"VHS10"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"
@@ -41,10 +43,11 @@
 		"tall"			"f20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"RoundedCorners"		"0"
+		"ignorescheme"	"1"
+		"font"			"VHS10" //this does nothing, chatlog fonts are at the top
 		
-		"bgcolor_override"	"0 0 0 50"
+		"bgcolor_override"	"0 0 0 50"  //does nothing?
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
