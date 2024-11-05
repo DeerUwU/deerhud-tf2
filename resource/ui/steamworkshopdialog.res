@@ -30,7 +30,7 @@
 			"font"			"VHS20"
 			"labeltext"		"Close"
 			"textinsetx"	"30"
-			"textinsety"	"6"
+			"textinsety"	"2"
 			
 			"proportionaltoparent"		"1"
 			"use_proportional_insets" 	"1"

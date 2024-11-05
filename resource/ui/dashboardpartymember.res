@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"scaleImage"	"1"
-	}
+	} 
 
 	"EmptyImage"
 	{
@@ -26,7 +26,8 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"scaleImage"	"1"
-		"image"			"class_portraits/silhouette_alpha"
+		"image"			"replay/thumbnails/misc/glyph_friends"
+		"drawcolor"		"0 0 0 255"
 		"mouseinputenabled"	"0"
 	}
 

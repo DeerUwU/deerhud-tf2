@@ -89,7 +89,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"40"
+			"wide"			"26"
 			"tall"			"f6"
 			
 			"pinCorner"		"3"
@@ -137,8 +137,8 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"40"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -148,18 +148,26 @@
 			"enabled"		"1"
 			
 			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
 
+			// "border"			"Deer_Grey_Filled"
+			// "paintBorder"		"0"
+			// "bgcolor_override"	"Deer_Menu_Medium"
+
 			"party_slot"	"0"
+
+			"pin_to_sibling"		"ToggleChatButton"
+			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
 
 		"PartySlot1"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"64"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -169,18 +177,26 @@
 			"enabled"		"1"
 			
 			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
 
+			// "border"			"Deer_Grey_Filled"
+			// "paintBorder"		"0"
+			// "bgcolor_override"	"Deer_Menu_Medium"
+
 			"party_slot"	"1"
+
+			"pin_to_sibling"		"PartySlot0"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 
 		"PartySlot2"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"88"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -190,18 +206,26 @@
 			"enabled"		"1"
 			
 			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
 
+			// "border"			"Deer_Grey_Filled"
+			// "paintBorder"		"0"
+			// "bgcolor_override"	"Deer_Menu_Medium"
+
 			"party_slot"	"2"
+
+			"pin_to_sibling"		"PartySlot1"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 
 		"PartySlot3"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"112"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -211,18 +235,26 @@
 			"enabled"		"1"
 			
 			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
 
+			// "border"			"Deer_Grey_Filled"
+			// "paintBorder"		"0"
+			// "bgcolor_override"	"Deer_Menu_Medium"
+
 			"party_slot"	"3"
+
+			"pin_to_sibling"		"PartySlot2"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 
 		"PartySlot4"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"136"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -232,18 +264,26 @@
 			"enabled"		"1"
 			
 			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
 
+			// "border"			"Deer_Grey_Filled"
+			// "paintBorder"		"0"
+			// "bgcolor_override"	"Deer_Menu_Medium"
+
 			"party_slot"	"4"
+
+			"pin_to_sibling"		"PartySlot3"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 
 		"PartySlot5"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"160"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -253,10 +293,18 @@
 			"enabled"		"1"
 			
 			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
 
+			// "border"			"Deer_Grey_Filled"
+			// "paintBorder"		"0"
+			// "bgcolor_override"	"Deer_Menu_Medium"
+
 			"party_slot"	"5"
+
+			"pin_to_sibling"		"PartySlot4"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 
 		"QueueContainer"
@@ -582,7 +630,7 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"30"
+			"wide"			"26"
 			"tall"			"f6"
 			
 			"pinCorner"		"3"
@@ -604,8 +652,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"192 28 0 255"
+			"defaultBgColor_override"	"108 16 0 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -638,7 +686,7 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"110"
+			"wide"			"26"
 			"tall"			"f6"
 			
 			"pinCorner"		"3"
@@ -650,20 +698,20 @@
 			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Disconnect"
+			"labeltext"		"" //#TF_Disconnect
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-			"textinsety"	"5"
+			"textinsety"	"2"
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"192 28 0 255"
+			"defaultBgColor_override"	"108 16 0 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -676,7 +724,7 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"6"
-				"ypos"			"8"
+				"ypos"			"rs1-5"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
@@ -684,7 +732,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"glyph_disconnect"
+				"image"			"replay/thumbnails/misc/glyph_disconnect"
 				"drawcolor_override" "TanLight"
 			}
 		}
@@ -696,7 +744,7 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"90"
+			"wide"			"26"
 			"tall"			"f6"
 			
 			"pinCorner"		"3"
@@ -708,12 +756,12 @@
 			
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_ResumeGame"
+			"labeltext"		"" //#MMenu_ResumeGame
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
+			"textinsety"	"2"
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
@@ -733,7 +781,7 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"6"
-				"ypos"			"8"
+				"ypos"			"rs1-5"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
@@ -753,7 +801,7 @@
 			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"115"
+			"wide"			"26"
 			"tall"			"f6"
 			
 			"pinCorner"		"3"
@@ -765,12 +813,12 @@
 			
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_FindAGame"
+			"labeltext"		"" //#MMenu_FindAGame
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
-			"textinsety"	"5"
+			"textinsety"	"2"
 			"textinsetx"	"25"
 			"use_proportional_insets"	"1"
 
@@ -790,7 +838,7 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"6"
-				"ypos"			"8"
+				"ypos"			"rs1-5"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
