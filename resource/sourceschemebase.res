@@ -1276,15 +1276,5 @@ Scheme
 		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
-		"12"
-		{
-			"font"	"resource/fonts/Hack-Regular.ttf"
-			"name"	"Hack"
-		}
-		"13"
-		{
-			"font"	"resource/fonts/VHS-Deer_v2.ttf"
-			"name"	"VHS-Deer"
-		}
 	}
 }
