@@ -363,7 +363,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"VHS16"
+			"font"			"VHS17"
 			"fgcolor"		"Deer_White"
 			"xpos"			"cs-0.5"
 			"ypos"			"11"
@@ -402,7 +402,7 @@
 
 		"max_size"	"19"
 
-		"6v6_gap"	"1"
+		"6v6_gap"	"0"
 		"12v12_gap"	"0"
 
 		"team1_grow_dir" "west"
@@ -459,7 +459,7 @@
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"cs-0.5"
-				"ypos"			"1"
+				"ypos"			"2"
 				"zpos"			"6"
 				"wide"			"19"
 				"tall"			"19"
@@ -484,50 +484,45 @@
 				"proportionaltoparent"	"1"
 			}
 			
-			//lets be honest no one looks at this anyways
-			
+
 			//----------------------------------------------------------
-			// "healthbar"
-			// {	
-				// "ControlName"			"ContinuousProgressBar"
-				// "fieldName"				"healthbar"
-				// "font"					"Default"																		
-				// "xpos"					"0"
-				// "ypos"					"0"
-				// "zpos"					"5"
-				// "wide"					"f0"
-				// "tall"					"2"				
-				// "autoResize"			"0"
-				// "pinCorner"				"0"
-				// "visible"				"1"
-				// "enabled"				"1"
-				// "textAlignment"			"Left"
-				// "dulltext"				"0"
-				// "brighttext"			"0"
-				// "bgcolor_override"	   "80 80 80 255"
-				// "proportionaltoparent"	"1"
-			// }
-			// "overhealbar"
-			// {	
-				// "ControlName"			"ContinuousProgressBar"
-				// "fieldName"				"overhealbar"
-				// "font"					"Default"																		
-				// "xpos"					"0"
-				// "ypos"					"0"
-				// "zpos"					"6"
-				// "wide"					"f0"
-				// "tall"					"2"				
-				// "autoResize"			"0"
-				// "pinCorner"				"0"
-				// "visible"				"1"
-				// "enabled"				"1"
-				// "textAlignment"			"Left"
-				// "dulltext"				"0"
-				// "brighttext"			"0"
-				// "bgcolor_override"	   "0 0 0 0"
-				// "fgcolor_override"	   "255 255 255 60"
-				// "proportionaltoparent"	"1"
-			// }
+			"healthbar"
+			{	
+				"ControlName"			"ContinuousProgressBar"
+				"fieldName"				"healthbar"
+				"font"					"Default"																		
+				"xpos"					"0"
+				"ypos"					"20"
+				"zpos"					"5"
+				"wide"					"f0"
+				"tall"					"2"				
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"textAlignment"			"Left"
+				"bgcolor_override"	   "80 80 80 255"
+				"proportionaltoparent"	"1"
+			}
+			"overhealbar"
+			{	
+				"ControlName"			"ContinuousProgressBar"
+				"fieldName"				"overhealbar"
+				"font"					"Default"																		
+				"xpos"					"0"
+				"ypos"					"20"
+				"zpos"					"6"
+				"wide"					"f0"
+				"tall"					"2"				
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"textAlignment"			"Left"
+				"bgcolor_override"	   "0 0 0 0"
+				"fgcolor_override"	   "255 255 255 60"
+				"proportionaltoparent"	"1"
+			}
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"

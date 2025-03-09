@@ -481,32 +481,32 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"12"
 				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"13"	[$WIN32]
 				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"20"
 				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -515,7 +515,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"24"
 				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -524,14 +524,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"VHS-Custom"//"Verdana"
+				"name"			"VHS-Deer"//"Verdana"
 				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"			"VHS-Custom"//"Arial"
+				"name"			"VHS-Deer"//"Arial"
 				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -561,7 +561,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -569,7 +569,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -577,7 +577,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -586,7 +586,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -595,7 +595,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -604,7 +604,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"VHS-Custom"//"Arial"
+				"name"		"VHS-Deer"//"Arial"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -616,7 +616,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -624,7 +624,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -632,7 +632,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -641,7 +641,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -650,7 +650,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -662,7 +662,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -670,7 +670,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"17"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -678,7 +678,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -687,7 +687,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -696,7 +696,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -705,14 +705,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"16"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"VHS-Custom"//"Arial"
+				"name"		"VHS-Deer"//"Arial"
 				"tall"		"16"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -736,7 +736,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -747,35 +747,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1200 10000"
@@ -785,7 +785,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -795,7 +795,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -805,7 +805,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -814,7 +814,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -823,7 +823,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -835,7 +835,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -848,7 +848,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -861,7 +861,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -873,7 +873,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -884,7 +884,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -895,7 +895,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -903,12 +903,12 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HudFontMediumSecondary"
+		"HudFontMediumSecondary" // right click context panels
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
-				"tall"		"24"
+				"name"		"VHS-Deer"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -918,7 +918,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -929,7 +929,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -940,7 +940,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -953,7 +953,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -966,7 +966,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -978,7 +978,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -989,7 +989,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1000,7 +1000,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1012,7 +1012,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1023,7 +1023,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1035,7 +1035,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1046,7 +1046,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1057,7 +1057,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1068,7 +1068,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1079,7 +1079,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1090,7 +1090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1101,7 +1101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1112,7 +1112,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1125,7 +1125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1200,7 +1200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1213,7 +1213,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1226,7 +1226,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1237,7 +1237,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1248,7 +1248,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -1261,7 +1261,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1273,7 +1273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1283,7 +1283,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1294,7 +1294,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1303,7 +1303,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1312,7 +1312,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1386,7 +1386,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "VHS-Custom"//"Verdana"
+				"name"  "VHS-Deer"//"Verdana"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1478,7 +1478,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1488,7 +1488,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1499,7 +1499,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1510,7 +1510,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -1524,7 +1524,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1539,7 +1539,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1554,7 +1554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1567,7 +1567,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1581,7 +1581,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -1592,7 +1592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -1605,7 +1605,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1618,7 +1618,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1630,7 +1630,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1642,7 +1642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1656,7 +1656,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1668,7 +1668,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1680,7 +1680,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1695,7 +1695,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1707,7 +1707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1717,7 +1717,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1727,7 +1727,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1736,7 +1736,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1745,7 +1745,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1757,7 +1757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1769,7 +1769,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1780,7 +1780,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1791,7 +1791,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1802,7 +1802,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1813,7 +1813,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1825,7 +1825,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1839,7 +1839,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1847,7 +1847,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1855,7 +1855,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1863,7 +1863,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1871,7 +1871,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1882,7 +1882,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1890,7 +1890,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1898,7 +1898,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1906,7 +1906,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1914,7 +1914,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1925,7 +1925,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1933,7 +1933,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1941,7 +1941,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1949,7 +1949,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1957,7 +1957,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1982,7 +1982,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1995,7 +1995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2007,7 +2007,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2020,7 +2020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"1"
@@ -2031,7 +2031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -2045,7 +2045,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -2058,7 +2058,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2068,7 +2068,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2078,7 +2078,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2106,7 +2106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2115,7 +2115,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2124,7 +2124,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -2134,7 +2134,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -2144,7 +2144,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -2154,7 +2154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2165,7 +2165,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2176,7 +2176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2197,7 +2197,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -2208,7 +2208,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2219,7 +2219,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2231,7 +2231,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2240,7 +2240,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2249,7 +2249,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2262,7 +2262,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2273,7 +2273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2284,7 +2284,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2295,7 +2295,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2306,7 +2306,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2317,7 +2317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2327,7 +2327,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2338,7 +2338,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2349,7 +2349,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2361,7 +2361,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2372,7 +2372,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2385,7 +2385,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2396,7 +2396,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2407,7 +2407,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2417,7 +2417,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2430,7 +2430,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2441,7 +2441,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2450,7 +2450,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2459,7 +2459,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2472,7 +2472,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2481,7 +2481,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2490,7 +2490,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2503,7 +2503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2515,7 +2515,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"20"
 				"antialias" "1"
 				"weight"	"500"
@@ -2526,7 +2526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2535,7 +2535,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2544,7 +2544,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2557,7 +2557,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2567,7 +2567,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2577,7 +2577,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2591,7 +2591,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2600,7 +2600,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2609,7 +2609,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2622,7 +2622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2634,7 +2634,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2646,7 +2646,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2658,7 +2658,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2669,7 +2669,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2680,7 +2680,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2708,7 +2708,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2716,7 +2716,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2724,7 +2724,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2733,7 +2733,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2742,7 +2742,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2754,7 +2754,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2765,7 +2765,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2773,7 +2773,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2781,7 +2781,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2790,7 +2790,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2799,7 +2799,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"//"Verdana"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2818,7 +2818,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2829,7 +2829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2840,7 +2840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2853,7 +2853,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2864,7 +2864,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2881,7 +2881,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2892,7 +2892,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2904,7 +2904,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2917,7 +2917,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2930,7 +2930,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2943,7 +2943,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2955,7 +2955,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2967,7 +2967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2979,7 +2979,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"30"
 				"weight"	"400"
 				"additive"	"0"
@@ -2992,7 +2992,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"20"
 				"weight"		"400"
 				"antialias"		"1"
@@ -3004,7 +3004,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"18"
 				"weight"		"600"
 				"antialias"		"1"
@@ -3016,7 +3016,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"15"
 				"weight"		"600"
 				"antialias"		"1"
@@ -3028,7 +3028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"20"
 				"weight"		"400"
 				"antialias"		"1"

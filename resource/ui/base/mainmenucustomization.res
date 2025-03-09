@@ -405,7 +405,7 @@
 				"ControlName"		"CExLabel"
 				"fieldName"			"scoreboard_blur_Label"
 				"font"				"VHS14"
-				"labelText"			"Scoreboard Blur:"
+				"labelText"			"Panel Blur:"
 				"fgcolor_override"	"Deer_White"
 				"textAlignment"		"center"
 				"xpos"			"0"

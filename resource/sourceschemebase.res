@@ -1,3 +1,5 @@
+#base "scheme/fonts.res" 
+
 ///////////////////////////////////////////////////////////
 // Tracker scheme resource file
 //
@@ -203,7 +205,7 @@ Scheme
 		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$X360]
 		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$X360]
 
-		"QuickListBGDeselected"		"AchievementsDarkGrey"
+		"QuickListBGDeselected"			"AchievementsDarkGrey"
 	 	"QuickListBGSelected"           "AchievementsLightGrey"
 	}
 
@@ -261,15 +263,15 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"VHS-Deer"
+				"tall"		"13"
+				"antialias"  "1"
 				"yres"		"480 1999"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"700"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"yres"		"2000 6000"
 			}
 		}
@@ -277,21 +279,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold" [$POSIX]
-				"tall"		"16"
-				"weight"	"1000"
-				"antialias" "1"
+				"name"		"VHS-Deer"
+				"tall"		"17"
+				"antialias" "0"
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"VHS-Deer"
 				"tall"		"16" 
-				"weight"	"500"
 				"underline" "1"
 				"antialias" "1"
 			}
@@ -300,15 +298,15 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"14"
+				"antialias"  "1"
 				"yres"		"480 1999"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"17"
-				"weight"	"700"
 				"yres"		"2000 6000"
 			}
 		}
@@ -316,22 +314,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"13"
-				"weight"	"0"
-				"dropshadow" "1"
-				"antialias" "1"
+				"name"			"VHS-Deer"
+				"tall"			"13"
+				"dropshadow" 	"1"
+				"antialias" 	"1"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"VHS-Deer"
 				"tall"		"12"
-				"weight"	"0"
 				"antialias" "1"
 			}
 		}
@@ -340,29 +334,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"18"
-				"weight"	"0"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"antialias" "1"
 			}
 		}
 		"UiBold"
 		{
-			"1"	[$WIN32]
+			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"12" [!$LINUX]
-				"tall"		"15" [$LINUX]
-				"weight"	"1000"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"weight"	"2000"
-				"outline"	"1"
+				"name"			"VHS-Deer"
+				"tall"			"15"
+				"antialias"  	"1"
 			}
 		}
 		"ChapterTitle"	[$X360]
@@ -390,45 +373,28 @@ Scheme
 		}
 		"MenuLarge"
 		{
-			"1"	[$OSX]
-			{
-				"name"		"Helvetica Bold"
-				"tall"		"20"
-				"antialias" "1"
-			}
+
 			"1"	[$LINUX]
 			{
-				"name"		"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"24"
-				"weight"	"600"
 				"antialias" "1"
 			}
 			"1"	[$WINDOWS]
 			{
-				"name"		"Verdana" 
-				"tall"		"16"
-				"weight"	"600"
+				"name"		"VHS-Deer" 
+				"tall"		"17"
 				"antialias" "1"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Verdana"
-				"tall"			"14"
-				"tall_hidef"	"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
 			}
 		}
 		"AchievementTitleFont"
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"20"
-				"weight"	"1200"
 				"antialias" "1"
-				"outline" "1"
+				"outline" 	"1"
 			}
 		}
 		
@@ -436,10 +402,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"1200"
-				"antialias" "1"
+				"name"		"VHS-Deer"
+				"tall"		"17"
+				"antialias" "0"
 				//"outline" "1"
 			}
 		}
@@ -449,21 +414,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"15"
 				"weight"	"1200"
 				"antialias" "1"
-				"outline" "1"
+				"outline" 	"1"
 				"yres"		"0 480"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"20"
 				"weight"	"1200"
 				"antialias" "1"
-				"outline" "1"
-				"yres"	 "481 10000"
+				"outline" 	"1"
+				"yres"	 	"481 10000"
 			}
 		}
 		
@@ -481,17 +446,57 @@ Scheme
 				"scaley_lodef"	"0.75"
 			}
 		}
+
 		"ConsoleText"
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$OSX]
-				"tall"		"11" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"10"
-				"weight"	"500"
+				"name"			"VHS-Deer-Mono"
+				"tall"			"17"
+				"yres"			"480 599"
+				"dropshadow"	"0"
+				"antialias"		"1"
+			}
+			"2"
+			{
+				"name"			"VHS-Deer-Mono"
+				"tall"			"17"
+				"weight"		"500"
+				"yres"			"600 767"
+				"dropshadow"	"0"
+				"antialias"		"0"
+			}
+			"3"
+			{
+				"name"			"VHS-Deer-Mono"
+				"tall"			"17"
+				"yres"			"768 1023"
+				"dropshadow"	"0"
+				"antialias"		"0"
+			}
+			"4" //up to 1080p
+			{
+				"name"			"VHS-Deer-Mono"
+				"tall"			"17"
+				"yres"			"1024 1199"
+				"dropshadow"	"0"
+				"antialias"		"0"
+			}
+			"5" //up to 1440p
+			{
+				"name"			"VHS-Deer-Mono"
+				"tall"			"25"
+				"yres"			"1200 2000"
+				"dropshadow"	"0"
+				"antialias"		"1"
+			}
+			"6" //over 1440p
+			{
+				"name"			"VHS-Deer-Mono"
+				"tall"			"34"
+				"yres"			"2000 10000"
+				"dropshadow"	"0"
+				"antialias"		"0"
 			}
 		}
 
@@ -597,11 +602,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Verdana" [$OSX]
-				"tall"		"11" [$POSIX]
-				"tall"		"10" [!$POSIX]
-				"weight"	"0"
+				"name"		 "VHS-Deer-Mono"
+				"tall"		"11"
+				"antialias"  "1"
 			}
 //			"1"
 //			{
@@ -615,12 +618,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Verdana" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"11" [$POSIX]
+				"name"		 "VHS-Deer-Mono"
+				"tall"		"11"
 				"tall"		"10"
-				"weight"	"0"
+				"antialias"  "1"
 				"dropshadow" "1"
 			}
 //			"1"
@@ -635,9 +636,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"16"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"weight"	"500"
 			}
 		}
@@ -645,9 +645,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Italic" [$OSX]
-				"tall"		"16"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"weight"	"500"
 				"italic"	"1"
 			}
@@ -657,20 +656,18 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"tall"		"16"
-				"weight"	"900"
+				"name"		"VHS-Deer" [$OSX]
+				"tall"		"17"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold Italic" [$OSX]
-				"tall"		"16"
-				"weight"	"900"
+				"name"		"VHS-Deer Bold"
+				"tall"		"17"
 				"italic"	"1"
+				"antialias"  "1"
 			}
 		}
 
@@ -728,8 +725,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"VHS-Deer"
 				"weight"		"2000"
 				"tall"			"20"
 				"antialias"		"1"
@@ -740,8 +736,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"VHS-Deer"
 				"weight"		"2000"
 				"tall"			"18"
 				"antialias"		"1"
@@ -752,12 +747,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"VHS-Deer"
 				"weight"		"1500"
-				"tall"			"16" [!$POSIX]
-				"tall"			"18" [$POSIX]
-				"antialias"		"1"
+				"tall"			"17"
+				"antialias"		"0"
 			}
 		}
 
@@ -765,11 +758,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"VHS-Deer"
 				"weight"		"1500"
-				"tall"			"16"
-				"antialias"		"1"
+				"tall"			"17"
+				"antialias"		"0"
 			}
 		}
 
@@ -778,12 +770,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"VHS-Deer"
 				"weight"		"1500"
-				"tall"			"14" [!$POSIX]
-				"tall"			"16" [$POSIX]
-				"antialias"		"1"
+				"tall"			"17"
+				"antialias"		"0"
 			}
 		}
 		
@@ -791,11 +781,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"VHS-Deer"
 				"weight"		"1500"
-				"tall"			"18" [!$POSIX]
-				"tall"			"19" [$POSIX]
+				"tall"			"19"
 				"antialias"		"1"
 			}
 		}
@@ -804,11 +792,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana" [$OSX]
+				"name"		"VHS-Deer"
 				"weight"		"1000"
-				"tall"			"14" [!$POSIX]
-				"tall"			"15" [$POSIX]
+				"tall"			"15"
 				"antialias"		"1"
 			}
 		}
@@ -818,13 +804,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
+				"name"		"VHS-Deer"
+				"tall"		"34"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 
@@ -1300,8 +1283,8 @@ Scheme
 		}
 		"13"
 		{
-			"font"	"resource/fonts/VHS-Custom_v2.ttf"
-			"name"	"VHS-Custom"
+			"font"	"resource/fonts/VHS-Deer_v2.ttf"
+			"name"	"VHS-Deer"
 		}
 	}
 }

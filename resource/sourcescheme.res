@@ -86,7 +86,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"Deer_Menu_Middle"//"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font				"VHS16"			//VGUI PANEL TITLE THING
+		FrameTitleBar.Font				"VHS17"			//VGUI PANEL TITLE THING
 		FrameTitleBar.TextColor			"Deer_Menu_White"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
 		
@@ -177,32 +177,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
-				"tall"		"18"
-				"weight"	"500"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"ConsoleText"
-		{
-			"1"
-			{
-				"name" "Hack"
-				"tall" "16"
-				"weight" "900"
-				"antialias" "1"
-				"yres"			"480 1079"
-			}
-			"2"
-			{
-				"name" "Hack" //.... (Font Type) Comic Sans MS
-				"tall" "20" //"10" //............. (Font Size)
-				"weight" "900" //..................... (For adjusting bold, 900 is bold, 0 - 200 regular)
-				"antialias" "1"
-			}
-			
-		}
+
 		
 		"MenuLarge"
 		{
@@ -216,11 +197,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
-				"tall"		"35"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 
@@ -230,10 +211,9 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Hack"
-				"tall" "12"
-				"weight" "900"
-				"antialias" "1"
+				"name" "VHS-Deer"
+				"tall" "17"
+				"antialias" "0"
 			}
 			// "1"
 			// {
@@ -285,60 +265,53 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"14"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"17"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"//"Verdana"
-				"tall"		"18"
-				"weight"	"900"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"24"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"//"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"24"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"VHS-Custom"//"Verdana"
-				"tall"		"16"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"VHS-Custom"//"Arial"
-				"tall"		"16"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
 			}
 		}
 		
@@ -385,66 +358,67 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lucida Console"
+				"name"		"VHS-Deer-Mono"
 				"tall"		"10"
-				"weight"	"0"
+				"antialias" "1"
 				"yres"		"480 1199"
 			}
 			"2"
 			{
-				"name"		"Lucida Console"
-				"tall"		"14"
-				"weight"	"0"
+				"name"		"VHS-Deer-Mono"
+				"tall"		"17"
 				"yres"		"1200 1999"
 			}
 			"3"
 			{
-				"name"		"Lucida Console"
-				"tall"		"20"
-				"weight"	"0"
-				"yres"		"2000 6000"
+				"name"		"VHS-Deer-Mono"
+				"tall"		"34"
+				"yres"		"2000 10000"
 			}
 		}
 		"DefaultFixedOutline" // cl_showfps this does create the side effect of the panel mostly being cut off but I think it's worth the tradeoff since now you can read it in the first place
 		{
-			"1"
+			"1" [!$LINUX]
 			{
-				"name"		"Lucida Console"
-				"tall"		"10"
-				"weight"	"0"
+				"name"		"VHS-Deer-Mono"
+				"tall"		"17"
 				"outline"	"1"
-				"yres"		"480 1199"
+				"yres"		"400 2000"
 			}
-			"2"
+			"2" [!$LINUX]
 			{
-				"name"		"Lucida Console"
-				"tall"		"14"
-				"weight"	"0"
+				"name"		"VHS-Deer-Mono"
+				"tall"		"34"
 				"outline"	"1"
-				"yres"		"1200 1999"
+				"yres"		"2000 10000"
 			}
-			"3"
+			"1" [$LINUX]
 			{
-				"name"		"Lucida Console"
-				"tall"		"20"
-				"weight"	"0"
+				"name"		"VHS-Deer-Mono"
+				"tall"		"34"
 				"outline"	"1"
-				"yres"		"2000 6000"
+				"yres"		"1079 1999"
+			}
+			"2" [$LINUX]
+			{
+				"name"		"VHS-Deer-Mono"
+				"tall"		"34"
+				"outline"	"1"
+				"yres"		"2000 10000"
 			}
 		}
 		"DefaultSmallDropShadow"	// top-right version code
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"yres"		"480 1999"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"VHS-Deer"
 				"tall"		"17"
-				"weight"	"700"
 				"yres"		"2000 6000"
 			}
 		}
@@ -452,60 +426,29 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lucida Console"
-				"tall"		"10"
-				"weight"	"0"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 				"dropshadow" "1"
-				"yres"		"480 1199"
+				// "yres"		"480 1199"
 			}
-			"2"
-			{
-				"name"		"Lucida Console"
-				"tall"		"14"
-				"weight"	"0"
-				"dropshadow" "1"
-				"yres"		"1200 1999"
-			}
-			"3"
-			{
-				"name"		"Lucida Console"
-				"tall"		"20"
-				"weight"	"0"
-				"dropshadow" "1"
-				"yres"		"2000 6000"
-			}
+
 		}
 		"UiBold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"VHS-Deer"
 				"tall"		"12"
-				"weight"	"1000"
-				"yres"		"480 1199"
+				"antialias" "1"
 			}
-			"2"
-			{
-				"name"		"Tahoma"
-				"tall"		"15"
-				"weight"	"1000"
-				"yres"		"1200 1999"
-			}
-			"3"
-			{
-				"name"		"Tahoma"
-				"tall"		"20"
-				"weight"	"1000"
-				"yres"		"2000 6000"
-			}
+
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"18"
-				"weight"	"0"
+				"name"		"VHS-Deer"
+				"tall"		"17"
 			}
 		}
 	}

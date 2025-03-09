@@ -4,45 +4,22 @@
 
 "Resource/UI/Scoreboard.res"
 {	
-	//the scoreboard stats have duplicate elements to make the text white
-	"scores"
-	{
-		"ControlName"	"CTFClientScoreBoardDialog"
-		"fieldName"		"scoreinfo"
-		"xpos"			"cs-0.5"
-		"ypos"			"31"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"medal_width"		"20"
-		"avatar_width"		"54"
-		"spacer"			"5" //width of columns
-		"name_width"		"118"
-		"status_width"		"15"
-		"nemesis_width"		"15"
-		"class_width"		"25"
-		"score_width"		"30"
-		"ping_width"		"30"
-		"killstreak_width"	"15"
-		"killstreak_image_width" "15"
-	}
-	"BlurBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BlurBG"
-		"image"			"replay/thumbnails/refract/refract_basic"
-		"wide"			"860"
-		"tall"			"338"
-		"ypos"			"87"
-		"scaleImage"	"1"
-		"zpos"			"-200"
-	}
-	"DarkBG"
+	BlurBG
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"darkBG"
+		"fieldName"		"BlurBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-10000"
+		"wide"			"f0"
+		"tall"			"480"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/shaders/blur"
+	}
+		"DarkBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"DarkBG"
 		"fillcolor"		"0 0 0 196"
 		"wide"			"f0"
 		"tall"			"338"
@@ -50,13 +27,39 @@
 		"scaleImage"	"1"
 		"zpos"			"-200"
 	}
+	//the scoreboard stats have duplicate elements to make the text white
+	"scores"
+	{
+		"ControlName"		"CTFClientScoreBoardDialog"
+		"fieldName"			"scoreinfo"
+		"xpos"				"cs-0.5"
+		"ypos"				"31"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"medal_width"			"28"
+		"medal_column_width" 	"20"
+		"avatar_width"			"26"
+		"spacer"				"2"
+		"name_width"			"300"
+		"nemesis_width"			"20"
+		"class_width"			"20"
+		"score_width"			"25"
+		"ping_width"			"20"
+		"killstreak_width"		"15"
+		"killstreak_image_width" "10"
+	}
+
+
 	
 	
 	"MainBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"78"
 		"zpos"			"-1"
 		"wide"			"640"
@@ -82,19 +85,20 @@
 		"tall"			"42"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"			"Deer_Grey_Filled"
+		"border"				"Deer_Grey_Filled"
 		"proportionaltoparent"	"1"
-		"scaleImage"		"1"
+		"scaleImage"			"1"
 	}
 
+	// score underline
 	"BlueScoreBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"0"
+		"xpos"			"c-320"
 		"ypos"			"83"
 		"zpos"			"3"
-		"wide"			"290"
+		"wide"			"312"
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
@@ -105,14 +109,16 @@
 			"visible"		"0"
 		}
 	}
+	
+	// score underline
 	"RedScoreBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"rs1"
+		"xpos"			"c7"
 		"ypos"			"83"
 		"zpos"			"3"
-		"wide"			"290"
+		"wide"			"314"
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
@@ -133,7 +139,7 @@
 		"fgcolor"		"Deer_White"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"	"east"
-		"xpos"			"175"
+		"xpos"			"c-150"
 		"ypos"			"41" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -175,7 +181,7 @@
 		"fgcolor"		"Deer_White"
 		"labelText"		"%redteamscore%"
 		"textAlignment"	"west"
-		"xpos"			"368"
+		"xpos"			"c50"
 		"ypos"			"41" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -213,15 +219,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"VHS16"
+		"font"			"VHS17"
 		"fgcolor"		"Deer_White"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"	"west"
-		"xpos"			"80"
-		"ypos"			"70"
+		"xpos"			"cs-0.5"
+		"ypos"			"67"
 		"zpos"			"4"
-		"wide"			"160"
-		"tall"			"15"
+		"wide"			"630"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		if_mvm
@@ -233,15 +239,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"VHS16"
+		"font"			"VHS17"
 		"fgcolor"		"Deer_White"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"	"east"
-		"xpos"			"401"
-		"ypos"			"70"
+		"xpos"			"cs-0.5"
+		"ypos"			"67"
 		"zpos"			"4"
-		"wide"			"160"
-		"tall"			"15"
+		"wide"			"630"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		if_mvm
@@ -268,7 +274,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TimerBG"
-		"xpos"			"280"
+		"xpos"			"cs-0.5"
 		"ypos"			"30"
 		"zpos"			"-1"
 		"wide"			"80"
@@ -285,7 +291,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ServerTimeLeftInsetBG"
-		"xpos"			"286"
+		"xpos"			"cs-0.5"
 		"ypos"			"24"
 		"zpos"			"1"
 		"wide"			"68"
@@ -302,7 +308,7 @@
 		"fgcolor"		"Deer_White"
 		"labelText"		"Server Time" //#Scoreboard_TimeLeftLabel
 		"textAlignment"	"center"
-		"xpos"			"284"
+		"xpos"			"cs-0.5"
 		"ypos"			"34"
 		"zpos"			"2"
 		"wide"			"72"
@@ -321,7 +327,7 @@
 		"font"			"VHS10"
 		"labelText"		"%servertime%"
 		"textAlignment"	"center"
-		"xpos"			"284"
+		"xpos"			"cs-0.5"
 		"ypos"			"54"
 		"zpos"			"2"
 		"wide"			"72"
@@ -342,7 +348,7 @@
 		"font"			"VHS14"
 		"labelText"		"%servertime%"
 		"textAlignment"	"center"
-		"xpos"			"284"
+		"xpos"			"cs-0.5"
 		"ypos"			"48"
 		"zpos"			"2"
 		"wide"			"72"
@@ -363,7 +369,7 @@
 		"font"			"VHS10"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"east"
-		"xpos"			"305"
+		"xpos"			"cs-0.5"
 		"ypos"			"72"
 		"wide"			"300"
 		"tall"			"20"
@@ -378,7 +384,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"5"
+		"xpos"			"c-315"
 		"ypos"			"87"
 		"zpos"			"20"
 		"wide"			"310"
@@ -402,7 +408,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"325"
+		"xpos"			"c5"
 		"ypos"			"87"
 		"zpos"			"20"
 		"wide"			"310"
@@ -421,25 +427,7 @@
 		}
 	}
 
-	"VerticalLine"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"319"
-		"ypos"			"70"
-		"zpos"			"2"
-		"wide"			"2"
-		"tall"			"292"
-		"visible"		"0"
-		"enabled"		"1"
-			
-		"fillcolor"		"0 0 0 96"
-		"PaintBackgroundType"	"0"
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
+
 	"Spectators"
 	{
 		"ControlName"		"CExLabel"
@@ -472,9 +460,9 @@
 	}							
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"4"
+		"xpos"			"cs-0.5"
 		"ypos"			"375"
 		"zpos"			"-2"
 		"wide"			"633"
@@ -688,7 +676,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerNameBG"
-		"xpos"			"105"
+		"xpos"			"cs-0.5"
 		"ypos"			"r40"
 		"zpos"			"-1"
 		"wide"			"485"
@@ -699,15 +687,15 @@
 	}
 	"PlayerNameLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"VHS16"
+		"font"			"VHS17"
 		"labelText"		"%playername%"
 		"textAlignment"	"west"
-		"xpos"			"115"
-		"ypos"			"r36"
+		"xpos"			"cs-0.5"
+		"ypos"			"r34"
 		"zpos"			"3"
-		"wide"			"300"
+		"wide"			"470"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -719,26 +707,25 @@
 		"font"			"VHS10"
 		"labelText"		"%server%"
 		"textAlignment"	"east"
-		"xpos"			"315"
+		"xpos"			"cs-0.5"
 		"ypos"			"r36"
 		"zpos"			"3"
-		"wide"			"265"
+		"wide"			"470"
 		"tall"			"12"
 		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor"		"Deer_Primary"
 	}
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"mapname"
+		"fieldName"		"MapName"
 		"font"			"VHS10"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
- 		"xpos"			"315"
+ 		"xpos"			"cs-0.5"
 		"ypos"			"r25"
 		"zpos"			"3"
-		"wide"			"265"
+		"wide"			"470"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
@@ -761,9 +748,9 @@
 	}
 	"PlayerScoreLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"font"		"Jua20"
+		"font"			"Jua20"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
 		"xpos"			"440"
@@ -779,7 +766,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"375"
 		"zpos"			"3"
 		"wide"			"600"
@@ -983,9 +970,9 @@
 	
 	"LocalPlayerStatsPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"375"
 		"zpos"			"3"
 		"wide"			"660"

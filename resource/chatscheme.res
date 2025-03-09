@@ -82,7 +82,7 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.Font				"VHS16"		[$WIN32]
+		FrameTitleBar.Font				"VHS17"		[$WIN32]
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
@@ -176,10 +176,10 @@ Scheme
 		WizardSubPanel.BgColor		"Blank"
 
 		// scheme-specific colors
-		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
+		MainMenu.TextColor			"White"
+		MainMenu.ArmedTextColor		"200 200 200 255"
 		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"16"	[$WIN32]
+		MainMenu.MenuItemHeight		"16"
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
@@ -189,7 +189,6 @@ Scheme
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Deer_Primary"
-		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
 		TFColors.ChatTextYellow		"Deer_White" //regular chat color
@@ -216,7 +215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -224,7 +223,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -232,7 +231,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -241,7 +240,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -250,7 +249,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -259,7 +258,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"VHS-Custom"
+				"name"		"VHS-Deer"
 				"tall"		"32"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -378,57 +377,52 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VHS-Custom"
-				"tall"		"12"
-				"weight"	"500"
-				"yres"		"480 599"
+				"name"			"VHS-Deer"
+				"tall"			"17"
+				"yres"			"480 599"
 				"dropshadow"	"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
-				"name"		"VHS-Custom"
-				"tall"		"14"
-				"weight"	"500"
-				"yres"		"600 767"
+				"name"			"VHS-Deer"
+				"tall"			"17"
+				"weight"		"500"
+				"yres"			"600 767"
 				"dropshadow"	"0"
 				"antialias"		"1"
 			}
 			"3"
 			{
-				"name"		"VHS-Custom"
-				"tall"		"15"
-				"weight"	"500"
-				"yres"		"768 1023"
+				"name"			"VHS-Deer"
+				"tall"			"17"
+				"yres"			"768 1023"
 				"dropshadow"	"0"
 				"antialias"		"1"
 			}
-			"4"
+			"4" //up to 1080p
 			{
-				"name"		"VHS-Custom"
-				"tall"		"17"
-				"weight"	"500"
-				"yres"		"1024 1199"
+				"name"			"VHS-Deer"
+				"tall"			"17"
+				"yres"			"1024 1199"
+				"dropshadow"	"0"
+				"antialias"		"0"
+			}
+			"5" //up to 1440p
+			{
+				"name"			"VHS-Deer"
+				"tall"			"25"
+				"yres"			"1200 2000"
 				"dropshadow"	"0"
 				"antialias"		"1"
 			}
-			"5"
+			"6" //over 1440p
 			{
-				"name"		"VHS-Custom"
-				"tall"		"22"
-				"weight"	"500"
-				"yres"		"1200 2000"
+				"name"			"VHS-Deer"
+				"tall"			"34"
+				"yres"			"2000 10000"
 				"dropshadow"	"0"
-				"antialias"		"1"
-			}
-			"6"
-			{
-				"name"		"VHS-Custom"
-				"tall"		"34"
-				"weight"	"500"
-				"yres"		"2000 10000"
-				"dropshadow"	"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 

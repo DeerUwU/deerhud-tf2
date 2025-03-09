@@ -85,6 +85,6 @@
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
-		"font"					"VHS16"
+		"font"					"VHS17"
 	}
 }

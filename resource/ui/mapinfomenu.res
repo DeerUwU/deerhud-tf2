@@ -1,15 +1,27 @@
 "Resource/UI/MapInfoMenu.res"
 {
 
-	// "darkBG"
-	// {
-		// "ControlName"	"ImagePanel"
-		// "fieldName"		"darkBG"
-		// "fillcolor"		"0 0 0 196"
-		// "wide"			"f0"
-		// "tall"			"480"
-		// "scaleImage"	"1"
-	// }
+	BlurBG
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlurBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-10000"
+		"wide"			"f0"
+		"tall"			"480"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/shaders/blur_dark"
+	}
+	"darkBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"darkBG"
+		"fillcolor"		"0 0 0 196"
+		"wide"			"f0"
+		"tall"			"480"
+		"scaleImage"	"1"
+	}
 	
 	
 	"mapinfo"

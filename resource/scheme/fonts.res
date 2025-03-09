@@ -20,7 +20,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"8"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -30,7 +30,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"9"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -40,7 +40,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"10"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -50,7 +50,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"10"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -60,7 +60,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"11"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -70,7 +70,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"12"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -80,29 +80,29 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"14"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
 			}
 		}
-		VHS16
+		VHS17
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
-				"tall"			"16"
-				"antialias"		"1"
+				"name"			"VHS-Deer"
+				"tall"			"17"
+				"antialias"		"0"
 				"range"			"0x0000 0x00FF"
 			}
 		}
-		VHS16_OL
+		VHS17_OL
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
-				"tall"			"16"
-				"antialias"		"1"
+				"name"			"VHS-Deer"
+				"tall"			"17"
+				"antialias"		"0"
 				"outline"		"1"
 				//"dropshadow"	"1"
 				"range"			"0x0000 0x00FF"
@@ -112,7 +112,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"20"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -122,7 +122,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"20"
 				"antialias"		"1"
 				"outline"		"1"
@@ -134,7 +134,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"24"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -144,7 +144,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"40"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -152,7 +152,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"60"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -161,7 +161,7 @@ Scheme
 			
 			"3"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"30"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -171,7 +171,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"40"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -181,7 +181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"50"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -191,7 +191,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"62"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -199,7 +199,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"86"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -207,7 +207,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"60"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -217,7 +217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"70"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -225,7 +225,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"82"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -234,7 +234,7 @@ Scheme
 			
 			"3"
 			{
-				"name"			"VHS-Custom"
+				"name"			"VHS-Deer"
 				"tall"			"80"
 				"antialias"		"1"
 				"range"			"0x0000 0x00FF"
@@ -281,17 +281,22 @@ Scheme
 	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
-		"8"
+		"A"
 		{
-			"font"	"resource/fonts/Hack-Regular.ttf"
+			"font"	"resource/fonts/hack-regular.ttf"
 			"name"	"Hack"
 		}
-		"9"
+		"B"
 		{
-			"font"	"resource/fonts/VHS-Custom_v2.ttf"
-			"name"	"VHS-Custom"
+			"font"	"resource/fonts/vhs-deer.ttf"
+			"name"	"VHS-Deer"
 		}
-		"A"
+		"C"
+		{
+			"font"	"resource/fonts/vhs-deer-mono.ttf"
+			"name"	"VHS-Deer-Mono"
+		}
+		"D"
 		{
 			"font"	"resource/fonts/deerhud_icons_v2.ttf"
 			"name"	"deerhud_icons"

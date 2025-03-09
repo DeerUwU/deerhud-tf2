@@ -25,7 +25,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
-		"font"			"VHS16"
+		"font"			"VHS17"
 		"xpos"			"80"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -43,7 +43,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
-		"font"			"VHS16"
+		"font"			"VHS17"
 		"xpos"			"9999"
 		"ypos"			"35"
 		"zpos"			"1"

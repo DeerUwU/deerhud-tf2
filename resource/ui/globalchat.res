@@ -17,9 +17,9 @@
 
 
 		//CHAT LOG FONT SIZES
-		"log_font_small"			"VHS10"
-		"log_font_medium"			"VHS10"
-		"log_font_large"			"VHS10"
+		"log_font_small"			"VHS8"
+		"log_font_medium"			"VHS8"
+		"log_font_large"			"VHS8"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"

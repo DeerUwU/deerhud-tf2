@@ -96,7 +96,7 @@
 		"labelText"		"%button_token%"
 		"textinsetx"	"4"
 		"use_proportional_insets" "1"
-		"font"			"VHS16"
+		"font"			"VHS17"
 		"textAlignment"	"north-east"
 		"command"		"%button_command%"
 		"proportionaltoparent" "1"

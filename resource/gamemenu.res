@@ -171,6 +171,16 @@
 		"tooltip" 		"clears decals (bullet holes, bloodstains etc)"
 	}
 
+
+
+	"MainMenuShader"
+	{
+		"label"			" "
+		"command"		" "
+		"OnlyInGame"	"1"
+		"subimage" 		"replay/thumbnails/shaders/blur"
+		"tooltip" 		""
+	}
 	
 	
 	"PreloadPanel" //small optimization

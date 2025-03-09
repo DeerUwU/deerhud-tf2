@@ -9,7 +9,7 @@
 		"PositiveColor"			"0 255 136 255"
 		"NegativeColor"			"255 46 125 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"VHS16_OL"
-		"delta_item_font_big"	"VHS16_OL"	//when scoped in
+		"delta_item_font"		"VHS17_OL"
+		"delta_item_font_big"	"VHS17_OL"	//when scoped in
 	}
 }

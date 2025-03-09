@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"				"VHS16"
+		"font"				"VHS17"
 		"fgcolor_override"	"Deer_Primary"
 	}
 	"BuyBackLabel"

@@ -1,5 +1,17 @@
 "Resource/UI/TextWindow.res"
 {
+	BlurBG
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlurBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-10000"
+		"wide"			"f0"
+		"tall"			"480"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/shaders/blur_dark"
+	}
 	"darkBG"
 	{
 		"ControlName"	"ImagePanel"

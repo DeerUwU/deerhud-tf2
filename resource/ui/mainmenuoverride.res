@@ -77,21 +77,50 @@
 			}		
 		}
 		
-	
-		"BlurBG"
+
+		"MainMenuShader"
 		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"BlurBG"
-			"image"			"replay/thumbnails/refract/refract_basic"
-			"wide"			"860"
-			"tall"			"480"
-			"scaleImage"	"1"
-			"alpha"			"255"
-			"zpos"			"-2000"
-			"visible"		"0"
-			"tileImage"		"1"
-			"mouseinputenabled" "0"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MainMenuShader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-9999"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+
+		"proportionaltoparent"  "1"
+
+		SubButton 
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+
+			"labelText"		""
+
+			"paintbackground"		"0"
+			"paintborder"			"0"
+			"proportionaltoparent"	"1"
+
+			SubImage
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"          "f0"
+				"tall"          "f0"
+				"scaleimage"    "1"
+				"visible"		"1"
+				"image" 		"replay/thumbnails/shaders/blur"
+
+				"proportionaltoparent"  "1"
+			}
 		}
+	}
 		
 		"MainMenuBG"
 		{
