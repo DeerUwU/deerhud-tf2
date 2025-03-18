@@ -4,3 +4,5 @@ backpack screen.
 
 don't like pink as the main accent color? go into resource/scheme/colors.res and change the RGBA
 values for Deer_Primary and Deer_Primary_Dark.
+
+if you only want to use a specific menu background, comment out the other menu backgrounds using // in deerhud-tf-main/scripts/chapterbackgrounds.txt and menubackgrounds.txt.
