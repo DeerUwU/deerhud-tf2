@@ -8,4 +8,5 @@
   values for Deer_Primary and Deer_Primary_Dark.
 
 - BACKGROUNDS -
-  if you only want to use a specific menu background, comment out the other menu backgrounds using // in deerhud-tf-main/scripts/chapterbackgrounds.txt and menubackgrounds.txt.
+  if you only want to use a specific menu background, comment out the other menu backgrounds using // 
+  in deerhud-tf-main/scripts/chapterbackgrounds.txt and menubackgrounds.txt.
