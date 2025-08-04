@@ -81,7 +81,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"46"
 		"zpos"			"1"
-		"wide"			"641"
+		"wide"			"640"
 		"tall"			"42"
 		"visible"		"1"
 		"enabled"		"1"
@@ -127,7 +127,8 @@
 		"scaleImage"		"1"
 		if_mvm
 		{
-			"visible"		"0"
+			"xpos"			"c-320"
+			"wide"			"640"
 		}
 	}
 								
@@ -1559,17 +1560,19 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
 	"MvMScoreboard"
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
+		"xpos"				"cs-0.5"
 		"ypos"				"0"
 		"zpos"				"10"
-		"wide"				"f0"
+		"wide"				"640"
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
+		"proportionaltoparent"	"1"
 		
 		"verbose"			"1"
 		

@@ -95,13 +95,14 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"35"
+		"xpos"			"cs-0.5"
 		"ypos"			"89"
 		"wide"			"530"
 		"tall"			"150"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"proportionaltoparent"	"1"
 		
 		"autoresize"	"3"
 		"linespacing"	"22"
@@ -112,11 +113,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"230"
-		"wide"			"f0"
+		"wide"			"633"
 		"tall"			"205"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
 		
 		"CreditStatsBackground" //dont use
 		{
