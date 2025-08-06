@@ -202,4 +202,33 @@
 		"enabled"		"0"
 		"font"			"MenuSmallFont"
 	}
+
+
+	"ContinueHotkey1"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueHotkey1"
+		"xpos"			"9999"
+		
+		"labelText"		"&ENTER"
+		"Command"		"okay"
+	}	
+	"ContinueHotkey2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueHotkey2"
+		"xpos"			"9999"
+		
+		"labelText"		"&SPACE"
+		"Command"		"okay"
+	}	
+	"ContinueHotkey3"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueHotkey3"
+		"xpos"			"9999"
+		
+		"labelText"		"&E"
+		"Command"		"okay"
+	}	
 }

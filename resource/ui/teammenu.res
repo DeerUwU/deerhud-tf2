@@ -55,7 +55,6 @@
 		"autoResize"	"3"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		
 	}
 
@@ -68,10 +67,8 @@
 		"wide"			"90"
 		"tall"			"24"
 		"visible"		"0"
-		"enabled"		"0"
 		"labelText"		""
 		"textAlignment"	"west"
-				"brighttext"	"1"
 	}
 	"teambutton0"
 	{
@@ -122,21 +119,17 @@
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
-		"enabled"			"1"
 		"tabPosition"		"4"
 		"labelText"			"Team RED"	//&4
 		"textAlignment"		"south-west"
-		"dulltext"			"0"
-				"paintborder"		"0"
+		"paintborder"		"0"
 		"command"			"jointeam red"
 		"team"				"2"		// team red
-		//"associated_model"	"reddoor"	
 		"paintbackground"	"0"
-		"hover"				"2.0"
 		
 		"font"				"VHS30"
 		
-		"fgcolor"	"Deer_Team_RED"
+		"fgcolor"					"Deer_Team_RED"
 		"defaultFgColor_override"	"Deer_Team_RED"
 		"armedFgColor_override" 	"Deer_Team_RED_high"
 		
@@ -159,16 +152,14 @@
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
-		"enabled"			"1"
 		"tabPosition"		"1"
 		"labelText"			"Random"	//&1
 		"textAlignment"		"center"	//south-west
-		"dulltext"			"0"
-				"paintborder"		"0"
+		"paintborder"		"0"
 		"command"			"jointeam auto"
 		"associated_model"	"team_random"
 		
-		"font"				"VHS30"
+		"font"					"VHS30"
 		"fgcolor"				"Deer_White"
 		"armedFgColor_override" "Deer_Primary"
 		
@@ -433,5 +424,57 @@
 		"image"			"../HUD/arrow_big_down"
 		"scaleImage"	"1"	
 	}
+
+
+
+	"TeamBluHotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"TeamBluHotkey"
+		"xpos"			"9999"
+		
+		"labelText"		"&1"
+		"Command"		"jointeam blue"
+	}	
+	"TeamRedHotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"TeamRedHotkey"
+		"xpos"			"9999"
+		
+		"labelText"		"&2"
+		"Command"		"jointeam red"
+	}	
+	"TeamRandomHotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"TeamRandomHotkey"
+		"xpos"			"9999"
+		
+		"labelText"		"&3"
+		"Command"		"jointeam auto"
+		"default"		"1" // automatic option if you press space
+	}	
+	"TeamSpectateHotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"TeamSpectateHotkey"
+		"xpos"			"9999"
+		
+		"labelText"		"&4"
+		"Command"		"jointeam spectate"
+	}	
+	
+	"CancelHotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelHotkey"
+		"xpos"			"9999"
+		
+		"labelText"		"&Q"
+		"Command"		"cancelmenu"
+
+		"sound_depressed"	"ui/ui_cancel.wav"
+	}	
 }
 

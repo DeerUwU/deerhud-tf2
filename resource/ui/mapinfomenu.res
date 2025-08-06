@@ -217,4 +217,31 @@
 		"font"			"MenuSmallFont"
 	}
 
+	"ContinueHotkey1"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueHotkey1"
+		"xpos"			"9999"
+		
+		"labelText"		"&ENTER"
+		"Command"		"continue"
+	}	
+	"ContinueHotkey2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueHotkey2"
+		"xpos"			"9999"
+		
+		"labelText"		"&SPACE"
+		"Command"		"continue"
+	}	
+	"ContinueHotkey3"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueHotkey3"
+		"xpos"			"9999"
+		
+		"labelText"		"&E"
+		"Command"		"continue"
+	}	
 }

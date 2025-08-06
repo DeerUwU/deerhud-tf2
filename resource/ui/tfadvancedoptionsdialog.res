@@ -15,14 +15,13 @@
 	// }
 	"TFAdvancedOptionsDialog"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"TFAdvancedOptionsDialog"
-		"xpos"		"c-250"
-		"ypos"		"90"
-		"wide"		"500"
-		"tall"		"350"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"TFAdvancedOptionsDialog"
+		"xpos"					"c-250"
+		"ypos"					"90"
+		"wide"					"500"
+		"tall"					"350"
+		"visible"				"1"
 		//"bgcolor_override"		"46 43 42 255"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
@@ -33,7 +32,7 @@
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
-		"slider_h"			"25"
+		"slider_h"			"30"
 	}
 	"TitleLabel"
 	{
@@ -55,15 +54,14 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-120"
+		"xpos"			"cs-1-5"
 		"ypos"			"310"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"30"
 		
 		"pinCorner"		"3"
 		"visible"		"1"
-		"enabled"		"1"
 		
 		"labelText"		"#Cancel"
 		"font"			"VHS20"
@@ -71,9 +69,9 @@
 
 		"Command"		"Close"
 		
-		"proportionaltoparent" "1"
-		"paintbackground"        "0"
-		"paintborder"            "1"
+		"proportionaltoparent" 		"1"
+		"paintbackground"        	"0"
+		"paintborder"            	"1"
 			
 		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -90,15 +88,14 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"OkButton"
-		"xpos"			"c20"
+		"xpos"			"c5"
 		"ypos"			"310"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"30"
 		
 		"pinCorner"		"3"
 		"visible"		"1"
-		"enabled"		"1"
 		
 		"labelText"		"#GameUI_Ok"
 		"font"			"VHS20"
@@ -106,16 +103,16 @@
 
 		"Command"		"Ok"
 		
-		"proportionaltoparent" "1"
-		"paintbackground"        "0"
-		"paintborder"            "1"
+		"proportionaltoparent" 		"1"
+		"paintbackground"        	"0"
+		"paintborder"            	"1"
 			
-		"sound_armed"		"UI/buttonrollover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_armed"				"UI/buttonrollover.wav"
+		"sound_depressed"			"UI/buttonclick.wav"
 			
-		"border_default"	"Deer_Button"
-		"border_armed"		"Deer_Button_Pressed"
-		"border_depressed"	"Deer_Button_Pressed"
+		"border_default"			"Deer_Button"
+		"border_armed"				"Deer_Button_Pressed"
+		"border_depressed"			"Deer_Button_Pressed"
 		
 		"defaultFgColor_override"		"TanDarker"
 		"armedFgColor_override"			"Deer_White"
@@ -125,15 +122,15 @@
 	"PanelListPanel"
 	{
 		"ControlName"		"CPanelListPanel"
-		"fieldName"		"PanelListPanel"
-		"xpos"		"10"
-		"ypos"		"40"
-		"wide"		"480"
-		"tall"		"260"
+		"fieldName"			"PanelListPanel"
+		"xpos"				"10"
+		"ypos"				"40"
+		"wide"				"480"
+		"tall"				"260"
 		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"tabPosition"		"0"
 		"bgcolor_override"	"0 0 0 100"
 	}

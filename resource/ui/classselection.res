@@ -999,5 +999,35 @@
 				"scaleImage"	"1"
 			}				
 		}
+	}	
+
+	"CancelHotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelHotkey"
+		"xpos"			"9999"
+		
+		"labelText"		"&Q"
+		"Command"		"cancelmenu"
+
+		"sound_depressed"	"ui/ui_cancel.wav"
 	}		
+	"RandomHotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"RandomHotkey"
+		"xpos"			"9999"
+		
+		"labelText"		"&R"
+		"Command"		"select 12"
+	}	
+	"LoadoutHotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"LoadoutHotkey"
+		"xpos"			"9999"
+		
+		"labelText"		"&E"
+		"Command"		"openloadout"
+	}	
 }
