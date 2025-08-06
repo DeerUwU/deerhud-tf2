@@ -1,4 +1,4 @@
-"chapters"
+"chapters" // main menu bg
 {
 	1	"red_night_bg"
 	2	"deer_cherryblossom"

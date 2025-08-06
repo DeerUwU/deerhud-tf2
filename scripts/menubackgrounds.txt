@@ -1,4 +1,4 @@
-"Images" //loading screens
+"Images" // startup loading screen
 {
 	"normal"
 	{

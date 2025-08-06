@@ -53,26 +53,61 @@
 			"show_name"		"0"
 		}
 
+		"Title"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"Title"
+			"xpos"		"10"
+			"ypos"		"47"
+			"zpos"		"0"
+			"wide"		"f0"
+			"tall"		"20"
+			"visible"		"0"
+			"enabled"		"0"
+			"proportionaltoparent"	"1"
+			"labeltext"		"#TF_Casual_MapSelection"
+			"textAlignment"	"north-west"
+			"font"			"HudFontMediumSmallBold"
+		
+			"mouseinputenabled"	"0"
+		}
+
+		"SelectedCount"
+		{
+			"ControlName"			"Label"
+			"fieldName"				"SelectedCount"
+			"xpos"					"0"
+			"ypos"					"17"
+			"zpos"					"0"
+			"wide"					"f0"
+			"tall"					"20"
+			"proportionaltoparent"	"1"
+			"labeltext"				"%selected_maps_count%"
+			"textAlignment"			"center"
+			"font"					"VHS10"
+			"fgcolor_override"		"Deer_Primary"
+		
+			"mouseinputenabled"	"1"
+		}
+
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"0"
-			"ypos"			"40"
+			"xpos"			"cs-1-2"
+			"ypos"			"38"
 			"zpos"			"100"
-			"wide"			"p0.5"
+			"wide"			"p0.45"
 			"tall"			"15"
 			
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"Command"		"restore_search_criteria"
-			"actionsignallevel"	"2"
+			"visible"				"1"
+			"labelText"				""
+			"font"					"HudFontSmallBold"
+			"textAlignment"			"center"
+			"Command"				"restore_search_criteria"
+			"actionsignallevel"		"2"
 			"proportionaltoparent"	"1"
-			"paintbackground"	"0"
+			"paintbackground"		"0"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_armed"		"UI/buttonrollover.wav"		
@@ -103,31 +138,30 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"rs1"
-			"ypos"			"40"
+			"xpos"			"c2"
+			"ypos"			"38"
 			"zpos"			"100"
-			"wide"			"p0.5"
+			"wide"			"p0.45"
 			"tall"			"15"
 			
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"Command"		"save_search_criteria"
+			"visible"				"1"
+			"labelText"				""
+			"font"					"HudFontSmallBold"
+			"textAlignment"			"center"
+			"Command"				"save_search_criteria"
 			
-			"actionsignallevel"	"2"
+			"actionsignallevel"		"2"
 			"proportionaltoparent"	"1"
-			"paintbackground"	"0"
+			"paintbackground"		"0"
 			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_armed"		"UI/buttonrollover.wav"		
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_armed"			"UI/buttonrollover.wav"		
 
-			"border_default"	"Deer_Grey_Filled"
-			"border_armed"		"Deer_Pink_Filled"
+			"border_default"		"Deer_Grey_Filled"
+			"border_armed"			"Deer_Pink_Filled"
 			
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"		"255 255 255 255"
+			"image_armedcolor"		"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -145,42 +179,7 @@
 			}
 		}
 
-		"Title"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"Title"
-			"xpos"		"10"
-			"ypos"		"47"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
-			"visible"		"0"
-			"enabled"		"0"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Casual_MapSelection"
-			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
 		
-			"mouseinputenabled"	"0"
-		}
-
-		"SelectedCount"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"SelectedCount"
-			"xpos"		"0"
-			"ypos"		"20"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
-			"proportionaltoparent"	"1"
-			"labeltext"			"%selected_maps_count%"
-			"textAlignment"		"center"
-			"font"				"VHS10"
-			"fgcolor_override"	"Deer_Primary"
-		
-			"mouseinputenabled"	"1"
-		}
 
 		"PlayListDropShadow"
 		{
@@ -191,7 +190,7 @@
 			"zpos"			"101"
 			"wide"			"f15"
 			"tall"			"f65"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"

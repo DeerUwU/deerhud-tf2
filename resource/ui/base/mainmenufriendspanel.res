@@ -112,10 +112,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"FriendsContainer"
 			"xpos"			"0"
-			"ypos"			"30"
+			"ypos"			"28"
 			"zpos"			"1"
-			"wide"			"128"
-			"tall"			"f30"
+			"wide"			"132"
+			"tall"			"f31"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 

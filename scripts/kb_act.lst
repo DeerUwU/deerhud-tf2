@@ -14,8 +14,6 @@
 "dh_toggle_viewmodel"			"Toggle Viewmodel"
 "hud_reloadscheme"				"Reload Hud"
 "snd_restart"					"Restart Sound"
-"+dh_fakezoom"					"Fake Zoom (idk why you would want this)"
-"dh_voicetoggle"				"Use Voice Toggle"
 "+left"							"Rotate Left"
 "+right"						"Rotate Right"
 

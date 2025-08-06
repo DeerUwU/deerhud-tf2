@@ -2,6 +2,10 @@
 #base "base/mainmenuextras.res" //this is for the extras section
 #base "base/mainmenucustomization.res" //deerhud customization panel
 #base "base/mainmenufriendspanel.res" //friends panel
+
+#base "../../cfg/#deerhud_custom.txt"		//windows
+#base "../../../../cfg/#deerhud_custom.txt"	//linux
+
 "Resource/UI/MainMenuOverride.res"
 
 {
@@ -215,11 +219,11 @@
 			"wide"				"256"
 			"tall"				"64"
 			"visible"			"1"
-			"enabled"			"1"
 			"scaleImage"		"1"
 			"inactiveimage"		"replay/thumbnails/logo/deerhud_new_3"
 			"activeimage"		"replay/thumbnails/logo/deerhud_new_3"
 			"mouseinputenabled"	"1"
+			"paintBackground"	"0"
 			
 			"sound_depressed"	"mus_singvoice.wav"
 		}
@@ -1788,10 +1792,91 @@
 				"border_armed"		"Deer_Button_Pressed"
 				"border_depressed"	"Deer_Button_Pressed"
 				
-				"defaultFgColor_override"		"TanDarker"//"TanDarker"
+				"defaultFgColor_override"		"TanDarker"
 				"armedFgColor_override"			"Deer_White"
 				"depressedFgColor_override"		"Deer_White"
 
+			}
+		}
+
+		"ValveRcWarning"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"ValveRcWarning"
+			"xpos"			"10"
+			"ypos"			"cs-0.5"
+			"zpos"			"98"
+			"wide"			"270"
+			"tall"			"160"
+			"proportionaltoparent"	"1"
+			"border"		"Deer_White_Red"
+
+			"Title"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"Title"
+				"font"			"vhs20"
+				"fgcolor"		"Deer_Primary"
+				"labelText"		"Hud Setup Warning"
+				"textAlignment"	"center"
+				"xpos"			"0"
+				"ypos"			"6"
+				"zpos"			"2"
+				"wide"			"f10"
+				"tall"			"25"
+
+				"proportionaltoparent"	"1"
+			}
+			"Description"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"Description"
+				"font"					"vhs12"
+				"fgcolor"				"Deer_White"
+				"labelText"				"If you can see this warning, it means one or more mods are conflicting with this hud's Valve.rc file, preventing it from executing config files. to fix it, please press the button below and restart the game."
+				"textAlignment"			"west"
+				"auto_tall_tocontents"	"1"
+				"wrap"					"1"
+				"xpos"					"cs-0.5"
+				"ypos"					"29"
+				"zpos"					"2"
+				"wide"					"f18"
+
+				"visible"		"1"
+
+				"proportionaltoparent"	"1"
+			}
+
+
+			"FixButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"FixButton"
+				"font"			"VHS17"
+				"fgcolor"		"deer_primary"
+				"labelText"		"Fix Initialization"
+				"textAlignment"	"center"
+				"xpos"			"cs-0.5"
+				"ypos"			"rs1-10"
+				"wide"			"150"
+				"tall"			"25"
+
+				"paintbackground"		"0"
+				"paintborder"			"1"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"		"2"
+				"command"				"engine exec deerhud_initialize; exec deerhud_required; full_reload"
+
+				"sound_armed"			"UI/buttonrollover.wav"
+				"sound_depressed"		"UI/buttonclick.wav"
+
+				"defaultFgColor_override"		"TanDarker"
+				"armedFgColor_override"			"Deer_White"
+				"depressedFgColor_override"		"Deer_White"
+
+				"border_default"				"Deer_Button"
+				"border_armed"					"Deer_Button_Hover"
+				"border_pressed"				"Deer_Button_Pressed"
 			}
 		}
 		
@@ -1800,23 +1885,23 @@
 		"icon_generator"
 		{
 			"ControlName"		"CEmbeddedItemModelPanel"
-			"fieldName"		"icon_generator"
+			"fieldName"			"icon_generator"
 
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"		
-			"wide"			"300"
-			"tall"			"300"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"1"		
+			"wide"				"300"
+			"tall"				"300"
 			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
 			"useparentbg"		"1"
 		
-			"inset_eq_x"	"2"
-			"inset_eq_y"	"2"
+			"inset_eq_x"		"2"
+			"inset_eq_y"		"2"
 
-			"fov"			"54"
+			"fov"				"54"
 			"start_framed"		"1"
 
 			"disable_manipulation"	"1"

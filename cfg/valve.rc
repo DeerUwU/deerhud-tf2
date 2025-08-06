@@ -5,10 +5,7 @@ exec config.cfg
 // stuff command line statements
 stuffcmds
 
-
-exec required.cfg
-
-
+// initializing hud elements for customization
 alias deerhud_initial "exec deerhud_initialize"
 exec #deerhud_initial.txt
 deerhud_initial
@@ -16,3 +13,6 @@ deerhud_initial
 
 //run all the alias commands
 exec deerhud.cfg
+
+// run settings to ensure the hud looks how its meant to look
+exec deerhud_required.cfg

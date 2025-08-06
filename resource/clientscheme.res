@@ -483,15 +483,13 @@ Scheme
 			{
 				"name"		"VHS-Deer"
 				"tall"		"12"
-				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
 				"name"		"VHS-Deer"
-				"tall"		"13"	[$WIN32]
-				"weight"	"700"
+				"tall"		"13"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
@@ -499,7 +497,6 @@ Scheme
 			{
 				"name"		"VHS-Deer"
 				"tall"		"14"
-				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
 				"antialias"	"1"
@@ -508,33 +505,29 @@ Scheme
 			{
 				"name"		"VHS-Deer"
 				"tall"		"20"
-				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"VHS-Deer"
 				"tall"		"24"
-				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"			"VHS-Deer"//"Verdana"
-				"tall"			"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"name"		"VHS-Deer"
+				"tall"		"12"
+				"range" 	"0x0000 0x00FF"
 			}
 			"7"
 			{
-				"name"			"VHS-Deer"//"Arial"
-				"tall"			"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"name"		"VHS-Deer"
+				"tall"		"12"
+				"range" 	"0x0000 0x00FF"
 			}
 
 			
@@ -553,8 +546,8 @@ Scheme
 			{
 				"name"		"Arial"
 				"tall"		"11"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"800"
 			}
 		}
 		"DefaultSmall"
@@ -565,7 +558,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -573,7 +566,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -581,7 +574,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -590,7 +583,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -599,15 +592,15 @@ Scheme
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"VHS-Deer"//"Arial"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"0"
 			}
 		}
 
@@ -620,7 +613,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -628,7 +621,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -636,7 +629,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -645,7 +638,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -654,7 +647,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}

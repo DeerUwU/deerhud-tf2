@@ -1,4 +1,4 @@
-if you're playing on 4:3, go into #resolutions/4;3 and copy the folder "resource" into the 
+if you're playing on 4:3, go into #resolutions/4x3 and copy the folder "resource" into the 
 root folder where it should prompt you to overwrite files. this fixes the loadout and
 backpack screen.
 

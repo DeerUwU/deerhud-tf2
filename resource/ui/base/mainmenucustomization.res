@@ -170,7 +170,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_hudplayerclass_default;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_hudplayerclass_default;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -197,7 +197,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_hudplayerclass_neither;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_hudplayerclass_neither;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -226,7 +226,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_hudplayerclass_nodeer;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_hudplayerclass_nodeer;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -254,7 +254,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_hudplayerclass_noicon;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_hudplayerclass_noicon;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -304,7 +304,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_chatpos_topleft;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_chatpos_topleft;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -331,7 +331,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_chatpos_topright;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_chatpos_topright;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -360,7 +360,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_chatpos_bottomleft;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_chatpos_bottomleft;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -388,7 +388,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_chatpos_bottomright;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_chatpos_bottomright;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -439,7 +439,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_blur_on;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_blur_on;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -466,7 +466,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_blur_off;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_blur_off;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -517,7 +517,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine mat_hdr_level 0; dh_viewmodel_75;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; mat_hdr_level 0; dh_viewmodel_75;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -544,7 +544,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine mat_hdr_level 0; dh_viewmodel_50;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; exec transparent_viewmodels; dh_viewmodel_50;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -573,7 +573,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine mat_hdr_level 0; dh_viewmodel_25;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; exec transparent_viewmodels; dh_viewmodel_25;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -602,7 +602,7 @@
 				"armedbgcolor_override"		"Deer_Menu_Middle"
 				"depressedBgColor_override"	"Deer_Menu_Medium"
 				
-				"command"			"engine dh_viewmodel_0;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
+				"command"			"engine exec deerhud; dh_viewmodel_0;		exec deerhud_save;exec deerhud_generate; hud_reloadscheme"
 				
 				"sound_armed"		"UI/buttonrollover.wav"
 				"sound_depressed"	"UI/buttonclick.wav"

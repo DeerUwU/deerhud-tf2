@@ -346,12 +346,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"			"Arial"
 				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [$OSX]
-				"antialias"		"1" [!$OSX]
+				"tall"			"14"
+				"antialias"		"1"
 			}
 		}
 		"DefaultFixed"

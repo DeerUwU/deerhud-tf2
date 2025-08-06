@@ -16,62 +16,62 @@
 	
 	
 	"CloseButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-25"
+		"zpos"			"21"
+		"wide"			"120"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"font"			"VHS20"
+		"labeltext"		"Close"
+		"textinsetx"	"30"
+		"textinsety"	"2"
+		
+		"proportionaltoparent"		"1"
+		"use_proportional_insets" 	"1"
+		
+		"paintbackground"        "0"
+		"paintborder"            "1"
+		"textAlignment"	"west"
+
+		"command"		"cancel"
+		// "actionsignallevel"	"3"
+		
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+			
+		"border_default"	"Deer_Button"
+		"border_armed"		"Deer_Button_Pressed"
+		"border_depressed"	"Deer_Button_Pressed"
+		
+		"defaultFgColor_override"		"TanDarker"
+		"armedFgColor_override"			"Deer_White"
+		"depressedFgColor_override"		"Deer_White"
+		
+		"image_drawcolor"	"46 43 42 255" //tandarker
+		"image_armedcolor"	"255 255 255 255"
+		
+
+		"SubImage"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"CloseButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-25"
-			"zpos"			"21"
-			"wide"			"120"
-			"tall"			"30"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"8"
+			"ypos"			"8"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			
-			"font"			"VHS20"
-			"labeltext"		"Close"
-			"textinsetx"	"30"
-			"textinsety"	"2"
-			
-			"proportionaltoparent"		"1"
-			"use_proportional_insets" 	"1"
-			
-			"paintbackground"        "0"
-			"paintborder"            "1"
-			"textAlignment"	"west"
-
-			"command"		"cancel"
-			// "actionsignallevel"	"3"
-			
-			"sound_armed"		"UI/buttonrollover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
-				
-			"border_default"	"Deer_Button"
-			"border_armed"		"Deer_Button_Pressed"
-			"border_depressed"	"Deer_Button_Pressed"
-			
-			"defaultFgColor_override"		"TanDarker"
-			"armedFgColor_override"			"Deer_White"
-			"depressedFgColor_override"		"Deer_White"
-			
-			"image_drawcolor"	"46 43 42 255" //tandarker
-			"image_armedcolor"	"255 255 255 255"
-			
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"8"
-				"zpos"			"1"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/misc/tf_logo"
-			}		
-		}
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/misc/tf_logo"
+		}		
+	}
 
 	"Container"
 	{
@@ -132,17 +132,16 @@
 			"font"				"VHS12"
 			"labelText"			"> Toggle VC"
 			"textAlignment"		"west"
-			"xpos"			"cs-0.5"
-			"ypos"			"50"
-			"wide"			"160"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
+			"xpos"				"cs-0.5"
+			"ypos"				"50"
+			"wide"				"160"
+			"tall"				"20"
+			"visible"			"1"
 			
-			"proportionaltoparent"		"1"
+			"proportionaltoparent"	"1"
 			"stay_armed_on_click"	"1"
 			"actionsignallevel"		"3"
-			"command"				"engine dh_toggle_vc"
+			"command"				"engine toggle voice_enable"
 			
 			"paintbackground"		"1"
 			"armedbgcolor_override"		"Deer_Menu_Middle"
@@ -160,18 +159,17 @@
 			"font"				"VHS12"
 			"labelText"			"> Toggle Viewmodel"
 			"textAlignment"		"west"
-			"xpos"			"0"
-			"ypos"			"-25"
-			"wide"			"160"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
+			"xpos"				"0"
+			"ypos"				"-25"
+			"wide"				"160"
+			"tall"				"20"
+			"visible"			"1"
 			
 			"stay_armed_on_click"	"1"
 			"actionsignallevel"		"3"
 			"command"				"engine toggle r_drawviewmodel"
 			
-			"paintbackground"		"1"
+			"paintbackground"			"1"
 			"armedbgcolor_override"		"Deer_Menu_Middle"
 			"depressedBgColor_override"	"Deer_Menu_Medium"
 			
@@ -189,17 +187,16 @@
 			"labelText"			"> Toggle FP use Worldmodel"
 			"tooltip"			"requires a respawn"
 			"textAlignment"		"west"
-			"xpos"			"0"
-			"ypos"			"-25"
-			"wide"			"160"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
+			"xpos"				"0"
+			"ypos"				"-25"
+			"wide"				"160"
+			"tall"				"20"
+			"visible"			"1"
 			
 			"stay_armed_on_click"	"1"
 			"actionsignallevel"		"3"
 			
-			"paintbackground"		"1"
+			"paintbackground"			"1"
 			"armedbgcolor_override"		"Deer_Menu_Middle"
 			"depressedBgColor_override"	"Deer_Menu_Medium"
 			
@@ -219,12 +216,11 @@
 			"labelText"			"> Toggle MatchHud"
 			"tooltip"			"playerlist at the top"
 			"textAlignment"		"west"
-			"xpos"			"0"
-			"ypos"			"-45"
-			"wide"			"160"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
+			"xpos"				"0"
+			"ypos"				"-45"
+			"wide"				"160"
+			"tall"				"20"
+			"visible"			"1"
 			
 			"stay_armed_on_click"	"1"
 			"actionsignallevel"		"3"
@@ -252,12 +248,11 @@
 			"labelText"			"Viewmodel FOV"
 			"fgcolor_override"	"Deer_White"
 			"textAlignment"		"center"
-			"xpos"			"0"
-			"ypos"			"175"
-			"wide"			"f0"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
+			"xpos"				"0"
+			"ypos"				"175"
+			"wide"				"f0"
+			"tall"				"20"
+			"visible"			"1"
 			"proportionaltoparent"	"1"
 		}
 		"slider_modelFOV"
@@ -269,7 +264,6 @@
 			"wide"			"150"
 			"tall"			"20"
 			"visible"		"1"
-			"enabled"		"1"
 			
 			"cvar_name"		"viewmodel_fov"
 			"minvalue"		"40"

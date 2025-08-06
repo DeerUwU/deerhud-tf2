@@ -15,17 +15,20 @@
 		"tall"			"480"
 		"scaleimage"	"1"
 		"image"			"replay/thumbnails/shaders/blur"
+		////"visible"	"1"
 	}
-		"DarkBG"
+	"DarkBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"DarkBG"
-		"fillcolor"		"0 0 0 196"
-		"wide"			"f0"
-		"tall"			"338"
+		"xpos"			"cs-0.5"
 		"ypos"			"87"
-		"scaleImage"	"1"
 		"zpos"			"-200"
+		"wide"			"640"
+		"tall"			"338"
+
+		"fillcolor"		"0 0 0 196"
+		"visible"		"1"
 	}
 	//the scoreboard stats have duplicate elements to make the text white
 	"scores"
@@ -65,7 +68,6 @@
 		"wide"			"640"
 		"tall"			"350"
 		"visible"		"1"
-		"enabled"		"1"
 		"border"		"Deer_White_Black50"
 	}	
 	"Classimage"
